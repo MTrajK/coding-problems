@@ -3,10 +3,12 @@
 My solutions for 100+ different coding/algorithmic problems. \
 All solutions are written in [Python](https://www.python.org/) (more precisely, [Python 3](https://docs.python.org/3)), using the [Built-in Functions](https://docs.python.org/3/library/functions.html) and few modules from the [Python Standard Library](https://docs.python.org/3/library/) like [math](https://docs.python.org/3/library/math.html), [collections](https://docs.python.org/3/library/collections.html), and [heapq](https://docs.python.org/3/library/heapq.html) (so, to execute these solutions there is no need from installing any external packages). \
 These problems are from sites like [LeetCode](https://leetcode.com/), [Daily Coding Problem](https://www.dailycodingproblem.com/), [Geeks For Geeks](https://www.geeksforgeeks.org/), etc (and some local Macedonian sites like [CodeFu](https://codefu.mk/) and [Mendo](https://mendo.mk/Welcome.do)).\
-Also in this readme you can find resources for learning algorithms: [Tutorials (Courses & Videos)](#Tutorials), [Books](#Books), [Training Sites](#Training).  
+Also in this readme you can find many resources for learning algorithms: [Tutorials (Courses & Videos)](#Tutorials), [Books](#Books), [Training Sites](#Training).  
 
 
 ## Categories
+
+Each solution/problem in this repo belongs to one of these categories:
 
 1. [Lists](/)
 2. [Strings](/)
