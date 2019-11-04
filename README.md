@@ -1,7 +1,12 @@
 # Coding Problems
 
-My solutions for 100+ different coding/algorithmic problems. \
-All solutions are written in [Python](https://www.python.org/) (more precisely, [Python 3](https://docs.python.org/3)), using the [Built-in Functions](https://docs.python.org/3/library/functions.html) and few modules from the [Python Standard Library](https://docs.python.org/3/library/) like [math](https://docs.python.org/3/library/math.html), [collections](https://docs.python.org/3/library/collections.html), and [heapq](https://docs.python.org/3/library/heapq.html) (so, to execute these solutions there is no need from installing any external packages). \
+My solutions for more than 100 different coding/algorithmic problems. \
+All solutions are written in [Python](https://www.python.org/) (more precisely, [Python 3](https://docs.python.org/3)), using the [Built-in Functions](https://docs.python.org/3/library/functions.html) and few modules from the [Python Standard Library](https://docs.python.org/3/library/) like:
+- [math](https://docs.python.org/3/library/math.html) (used for constants like math.pi, math.inf and functions like math.ceil, math.floor, math.gcd, math.log, math.pow, math.sqrt, etc) 
+- [collections](https://docs.python.org/3/library/collections.html) (used for [collections.deque](https://docs.python.org/3/library/collections.html#collections.deque) when there is a need for [Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)) or [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)) data structures)
+- [heapq](https://docs.python.org/3/library/heapq.html) (used when there is a need for [Priority Queue](https://en.wikipedia.org/wiki/Priority_queue) data structure).
+
+So, to execute these solutions there is no need from installing any external packages. \
 These problems are from sites like [LeetCode](https://leetcode.com/), [Daily Coding Problem](https://www.dailycodingproblem.com/), [Geeks For Geeks](https://www.geeksforgeeks.org/), etc (and some local Macedonian sites like [CodeFu](https://codefu.mk/) and [Mendo](https://mendo.mk/Welcome.do)).\
 Also in this readme you can find many resources for learning algorithms: [Tutorials (Courses & Videos)](#Tutorials), [Books](#Books), [Training Sites](#Training).  
 
