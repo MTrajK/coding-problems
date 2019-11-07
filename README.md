@@ -7,6 +7,7 @@ All solutions are written in [Python](https://www.python.org/) (more precisely, 
 - [heapq](https://docs.python.org/3/library/heapq.html) (used when there is a need for [Priority Queue](https://en.wikipedia.org/wiki/Priority_queue) data structure).
 
 So, to execute these solutions there is no need from installing any external packages. \
+Coding style and name conventions are described in this file [PEP8](https://www.python.org/dev/peps/pep-0008). \
 These problems are from sites like [LeetCode](https://leetcode.com/) (you can find more than 30 sites like this in the [Training Sites](#Training) section).\
 Also in this README you can find many resources for learning algorithms: [Tutorials (Courses & Videos)](#Tutorials), [Books](#Books), [Training Sites](#Training), [Other Resources](#Other).  
 
@@ -15,13 +16,13 @@ Also in this README you can find many resources for learning algorithms: [Tutori
 
 Each solution/problem in this repo belongs to one of these categories:
 
-1. [Lists](/)
-2. [Strings](/)
+1. [Strings](/)
+2. [Lists](/)
 3. [Linked Lists](/)
 4. [Trees](/)
-5. [Graphs](/)
+5. [Dynamic Programming](/)
 6. [Backtracking](/)
-7. [Dynamic Programming](/)
+7. [Graphs](/)
 8. [Math](/)
 9. [Other](/)
 
@@ -36,8 +37,8 @@ Problem name
 
 Problem explanation
 
-Sample input: XXX
-Sample output: XXX
+Input: XXX
+Output: XXX
 Output explanation: XXX
 
 =========================================
@@ -53,22 +54,25 @@ Solution 2 explanation
 ############
 # Solution #
 ############
-def name_of_function(params):
+def name_of_problem(params):
     # description of code
     pass
 
 ##############
 # Solution 2 #
 ##############
-def name_of_function_2(params):
+def name_of_problem_2(params):
     # description of code
     pass
 
 ###########
 # Testing #
 ###########
-print(name_of_function('example') == 'result')
-print(name_of_function_2('example2') == 'result2')
+# result = 'result'
+print(name_of_problem('example'))
+
+# result = 'result2'
+print(name_of_problem_2('example2'))
 ```
 
 ## Tutorials
