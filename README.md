@@ -1,14 +1,14 @@
 # Coding Problems
 
-My solutions for more than 100 different coding/algorithmic problems. \
+My solutions for many various coding/algorithmic problems (this repo will be updated with new solutions from time to time). \
 All solutions are written in [Python](https://www.python.org/) (more precisely, [Python 3](https://docs.python.org/3)), using the [Built-in Functions](https://docs.python.org/3/library/functions.html) and few modules from the [Python Standard Library](https://docs.python.org/3/library/) like:
 - [math](https://docs.python.org/3/library/math.html) (used for constants like math.pi, math.inf and functions like math.ceil, math.floor, math.gcd, math.log, math.pow, math.sqrt, etc) 
 - [collections](https://docs.python.org/3/library/collections.html) (used for [collections.deque](https://docs.python.org/3/library/collections.html#collections.deque) when there is a need for [Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)) or [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)) data structures)
 - [heapq](https://docs.python.org/3/library/heapq.html) (used when there is a need for [Priority Queue](https://en.wikipedia.org/wiki/Priority_queue) data structure).
 
 So, to execute these solutions there is no need from installing any external packages. \
-These problems are from sites like [LeetCode](https://leetcode.com/), [Daily Coding Problem](https://www.dailycodingproblem.com/), [Geeks For Geeks](https://www.geeksforgeeks.org/), etc (and some local Macedonian sites like [CodeFu](https://codefu.mk/) and [Mendo](https://mendo.mk/Welcome.do)).\
-Also in this readme you can find many resources for learning algorithms: [Tutorials (Courses & Videos)](#Tutorials), [Books](#Books), [Training Sites](#Training).  
+These problems are from sites like [LeetCode](https://leetcode.com/) (you can find more than 30 sites like this in the [Training Sites](#Training) section).\
+Also in this README you can find many resources for learning algorithms: [Tutorials (Courses & Videos)](#Tutorials), [Books](#Books), [Training Sites](#Training), [Other Resources](#Other).  
 
 
 ## Categories
@@ -67,8 +67,8 @@ def name_of_function_2(params):
 ###########
 # Testing #
 ###########
-print(name_of_function('example'))
-print(name_of_function_2('example'))
+print(name_of_function('example') == 'result')
+print(name_of_function_2('example2') == 'result2')
 ```
 
 ## Tutorials
@@ -99,12 +99,20 @@ Collection of free tutorials from one of the best CS universities.
 Several books that have made an impression on me:
 
 1. [Grokking Algorithms by Aditya Bhargava](https://www.goodreads.com/book/show/22847284-grokking-algorithms-an-illustrated-guide-for-programmers-and-other-curio) - The best book for complete beginners in algorithms! I wish this book existed when I started learning algorithms.
-2. [Algorithms by Robert Sedgewick & Kevin Wayne](https://www.goodreads.com/book/show/10803540-algorithms)
-3. [Introduction to Algorithms by Thomas H. Cormen](https://www.goodreads.com/book/show/6752187-introduction-to-algorithms)
+2. [Introduction to Algorithms by Thomas H. Cormen](https://www.goodreads.com/book/show/6752187-introduction-to-algorithms)
+3. [Algorithms by Robert Sedgewick & Kevin Wayne](https://www.goodreads.com/book/show/10803540-algorithms)
+4. [The Algorithm Design Manual by Steven Skiena](https://www.goodreads.com/book/show/425208.The_Algorithm_Design_Manual)
+
+## Other
+
+1. [Geeks For Geeks](https://www.geeksforgeeks.org/) - The site which all interested in algorithms (no matter if beginners or experts) should know!
+2. [The Algorithms - Python](https://github.com/TheAlgorithms/Python) - Great GitHub repo with many algorithms written in Python.
+3. [KhanAcademy - Algorithms](https://www.khanacademy.org/computing/computer-science/algorithms) - Good explanations for some basic algorithms.
 
 ## Training
 
-If the sites mentioned in the intro are not enough and you need more problems like these, you can find much more on these platforms:
+If the problems from [LeetCode](https://leetcode.com/) are not enough and you need more problems like those, you can find much more on these platforms:
+
 - [HackerRank](http://hackerrank.com/)
 - [CodeChef](http://codechef.com/)
 - [HackerEarth](http://hackerearth.com/)
@@ -112,6 +120,7 @@ If the sites mentioned in the intro are not enough and you need more problems li
 - [Topcoder](http://topcoder.com/)
 - [Project Euler](https://projecteuler.net/)
 - [Codility](https://codility.com/)
+- [Daily Coding Problem](https://www.dailycodingproblem.com/)
 - [CoderByte](https://coderbyte.com/)
 - [CodingBat](http://codingbat.com/)
 - [CodeAbbey](http://codeabbey.com/)
@@ -123,6 +132,8 @@ If the sites mentioned in the intro are not enough and you need more problems li
 - [LintCode](http://www.lintcode.com/en/)
 - [DevPost](https://devpost.com/)
 - [USA CO](http://www.usaco.org/)
+- [CodeFu](https://codefu.mk/)
+- [Mendo](https://mendo.mk/Welcome.do)
 - [Kattis](http://www.kattis.com/)
 - [AlgoExpert](https://www.algoexpert.io/)
 - [Brilliant](http://brilliant.org/)
