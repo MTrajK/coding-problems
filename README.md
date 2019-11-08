@@ -68,10 +68,12 @@ def name_of_problem_2(params):
 ###########
 # Testing #
 ###########
-# result = 'result'
+# Test 1
+# correct result => 'result'
 print(name_of_problem('example'))
 
-# result = 'result2'
+# Test 2
+# correct result => 'result2'
 print(name_of_problem_2('example2'))
 ```
 

@@ -1,7 +1,7 @@
 '''
-Reverse words in sentence
+Reverse string
 
-Reverse words in a given string, in constant space and linear time complexity.
+Reverse string, in constant space and linear time complexity.
 
 Input: 'i like this program very much' - In Python this should be a list (the string operations are slow/linear time)
 Output: 'hcum yrev margorp siht ekil i'
@@ -40,11 +40,11 @@ def reverse_sentence(sentence):
 # Test 1
 s = ['i', ' ', 'l', 'i', 'k', 'e', ' ', 't', 'h', 'i', 's', ' ', 'p', 'r', 'o', 'g', 'r', 'a', 'm', ' ', 'v', 'e', 'r', 'y', ' ', 'm', 'u', 'c', 'h']
 reverse_sentence(s)
-# correct result = ['h', 'c', 'u', 'm', ' ', 'y', 'r', 'e', 'v', ' ', 'm', 'a', 'r', 'g', 'o', 'r', 'p', ' ', 's', 'i', 'h', 't', ' ', 'e', 'k', 'i', 'l', ' ', 'i']
+# correct result => ['h', 'c', 'u', 'm', ' ', 'y', 'r', 'e', 'v', ' ', 'm', 'a', 'r', 'g', 'o', 'r', 'p', ' ', 's', 'i', 'h', 't', ' ', 'e', 'k', 'i', 'l', ' ', 'i']
 print(s)
 
 # Test 2
 s = ['h', 'o', 'w', ' ', 'a', 'r', 'e', ' ', 'y', 'o', 'u']
 reverse_sentence(s)
-# correct result = ['u', 'o', 'y', ' ', 'e', 'r', 'a', ' ', 'w', 'o', 'h']
+# correct result => ['u', 'o', 'y', ' ', 'e', 'r', 'a', ' ', 'w', 'o', 'h']
 print(s)
