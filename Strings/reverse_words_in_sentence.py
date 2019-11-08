@@ -59,11 +59,11 @@ def reverse_word(sentence, start, end):
 # Test 1
 s = ['i', ' ', 'l', 'i', 'k', 'e', ' ', 't', 'h', 'i', 's', ' ', 'p', 'r', 'o', 'g', 'r', 'a', 'm', ' ', 'v', 'e', 'r', 'y', ' ', 'm', 'u', 'c', 'h']
 reverse_words_in_sentence(s)
-# correct result => ['m', 'u', 'c', 'h', ' ', 'v', 'e', 'r', 'y', ' ', 'p', 'r', 'o', 'g', 'r', 'a', 'm', ' ', 't', 'h', 'i', 's', ' ', 'l', 'i', 'k', 'e', ' ', 'i']
+# Correct result => ['m', 'u', 'c', 'h', ' ', 'v', 'e', 'r', 'y', ' ', 'p', 'r', 'o', 'g', 'r', 'a', 'm', ' ', 't', 'h', 'i', 's', ' ', 'l', 'i', 'k', 'e', ' ', 'i']
 print(s)
 
 # Test 2
 s = ['h', 'o', 'w', ' ', 'a', 'r', 'e', ' ', 'y', 'o', 'u']
 reverse_words_in_sentence(s)
-# correct result => ['y', 'o', 'u', ' ', 'a', 'r', 'e', ' ', 'h', 'o', 'w']
+# Correct result => ['y', 'o', 'u', ' ', 'a', 'r', 'e', ' ', 'h', 'o', 'w']
 print(s)

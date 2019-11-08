@@ -54,9 +54,9 @@ def longest_substring_with_distinct_characters(s, k):
 ###########
 
 # Test 1
-# correct result => 3
+# Correct result => 3
 print(longest_substring_with_distinct_characters('abcba', 2))
 
 # Test 2
-# correct result => 8
+# Correct result => 8
 print(longest_substring_with_distinct_characters('abcbcbcbba', 2))

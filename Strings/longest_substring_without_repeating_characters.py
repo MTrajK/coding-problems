@@ -47,9 +47,9 @@ def length_of_longest_substring(s):
 ###########
 
 # Test 1
-# correct result => 3
+# Correct result => 3
 print(length_of_longest_substring('abcabcbb'))
 
 # Test 2
-# correct result => 1
+# Correct result => 1
 print(length_of_longest_substring('bbbbb'))

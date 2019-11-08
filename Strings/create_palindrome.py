@@ -13,7 +13,7 @@ Input: 'google'
 Output: 'elgoogle'
 
 =========================================
-Solution explanation
+Search from front and back and find the longest/biggest palindrome which starts from front or ends in back.
 	Time Complexity: 	O(N)    , The solution looks like O(N^2) but that's not possible
 	Space Complexity: 	O(R)    , R = length of the new word (you need to the old string and allocate memory for that)
 '''
@@ -73,9 +73,9 @@ def create_palindrome(string):
 ###########
 
 # Test 1
-# correct result => 'ecarace'
+# Correct result => 'ecarace'
 print(create_palindrome('race'))
 
 # Test 2
-# correct result => 'elgoogle'
+# Correct result => 'elgoogle'
 print(create_palindrome('google'))

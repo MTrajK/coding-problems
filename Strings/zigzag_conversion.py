@@ -53,10 +53,10 @@ def convert(s, num_rows):
 ###########
 
 # Test 1
-# correct result => 'PAHNAPLSIIGYIR'
+# Correct result => 'PAHNAPLSIIGYIR'
 print(convert('PAYPALISHIRING', 3))
 
 # Test 2
-# correct result => 'PINALSIGYAHRPI'
+# Correct result => 'PINALSIGYAHRPI'
 print(convert('PAYPALISHIRING', 4))
 

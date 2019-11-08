@@ -91,5 +91,5 @@ def anagram_indicies(s, word):
 # Testing #
 ###########
 
-# correct result => [0, 3, 4]
+# Correct result => [0, 3, 4]
 print(anagram_indicies('abxaba', 'ab'))
