@@ -22,7 +22,6 @@ Iterate LL and add values on same position (just like adding real numbers).
 # Solution #
 ############
 
-# Definition for singly-linked list.
 class ListNode:
     def __init__(self, x, n = None):
         self.val = x
