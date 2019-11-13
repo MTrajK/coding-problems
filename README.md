@@ -54,6 +54,7 @@ Solution 2 explanation
 ############
 # Solution #
 ############
+
 def name_of_problem(params):
     # description of code
     pass
@@ -61,13 +62,16 @@ def name_of_problem(params):
 ##############
 # Solution 2 #
 ##############
+
 def name_of_problem_2(params):
     # description of code
     pass
 
+
 ###########
 # Testing #
 ###########
+
 # Test 1
 # Correct result => 'result'
 print(name_of_problem('example'))
