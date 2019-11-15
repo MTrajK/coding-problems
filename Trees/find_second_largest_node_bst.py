@@ -6,8 +6,8 @@ Given the root to a binary search tree, find the second largest node in the tree
 =========================================
 There are 4 possible cases (see the details in the code). 
 Only 1 branch is searched to the end (leaf), not the whole tree.
-	Time Complexity: 	O(LogN)      , if balanced bst, worst case if all elements are in the right branch O(N)
-	Space Complexity: 	O(1)
+	Time Complexity: 	O(LogN)      , this is if the tree is balanced (balanced bst), but the worst case will be if all elements are in the one (the right) branch O(N)
+	Space Complexity: 	O(LogN)      , -||- but this is because of the recursion stack (LogN elements will be in the recursion stack till the leaf is reached)
 '''
 
 

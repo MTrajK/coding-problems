@@ -13,7 +13,7 @@ Output: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
 Make a tree (DFS way/backtracking), for each next digit take the last digit, go up and down 
 (example: 123, last digit is 3, so next digit should be 2 or 4).
     Time Complexity:    O(9 * 2^(NumOfDigits(N) - 1))
-    Space Complexity:   O(1)
+    Space Complexity:   O(1)        , recursion stack will have depth 9 (but this can be considered as constant)
 '''
 
 
@@ -39,11 +39,11 @@ def jumping_num(num, x, result):
     last_digit = num % 10
     next_num = num * 10
 
-    # go down
+    # decrease the last digit by one
     if last_digit != 0:
         jumping_num(next_num + last_digit - 1, x, result)
     
-    # go up
+    # increase the last digit by one
     if last_digit != 9:
         jumping_num(next_num + last_digit + 1, x, result)
     
