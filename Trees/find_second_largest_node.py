@@ -6,7 +6,7 @@ Given the root to a tree (not bst), find the second largest node in the tree.
 =========================================
 Traverse tree and compare the current value with the saved 2 values.
 	Time Complexity: 	O(N)
-	Space Complexity: 	O(LogN)        , because of the recursion stack (but this is if the tree is balanced), worst case O(N) if the tree is one branch.
+	Space Complexity: 	O(N)        , because of the recursion stack (but this is the tree is one branch), O(LogN) if the tree is balanced.
 '''
 
 

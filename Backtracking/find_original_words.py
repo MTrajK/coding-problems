@@ -1,14 +1,15 @@
 '''
-Find Original Words
+Word Break
 
-Given a dictionary of words and a string made up of those words (no spaces), return the original sentence in a list. If there is more than one possible reconstruction, return any of them. 
+Given a dictionary of words and a string made up of those words (no spaces), return the original sentence in a list. 
+If there is more than one possible reconstruction, return solution with less words. 
 If there is no possible reconstruction, then return null.
 
 Input: sentence = 'thequickbrownfox', words = ['quick', 'brown', 'the', 'fox']
 Output: ['the', 'quick', 'brown', 'fox']
 
 Input: sentence = 'bedbathandbeyond', words = ['bed', 'bath', 'bedbath', 'and', 'beyond']
-Output: ['bed', 'bath', 'and', 'beyond] or ['bedbath', 'and', 'beyond']
+Output: ['bedbath', 'and', 'beyond'] (['bed', 'bath', 'and', 'beyond] has more words)y 
 
 =========================================
 Backtracking, iterate the sentence construct a substring and check if that substring exist in the set of words.
@@ -22,6 +23,8 @@ If the end is reached but the last word doesn't exist in the words, go back 1 wo
 # Solution #
 ############
 
+from collections import deque
+
 def find_words(sentence, words):
     all_words = set()
     
@@ -32,7 +35,7 @@ def find_words(sentence, words):
     n = len(sentence)
     i = 0
     subsentence = ''
-    result = []
+    result = deque()
 
     # go letter by letter and save the new letter in subsentence
     while (i < n) or (len(subsentence) != 0):
@@ -44,7 +47,7 @@ def find_words(sentence, words):
             if len(result) == 0:
                 return None
             subsentence = result[-1]
-            del result[-1]
+            result.pop()
 
         # add the new letter into subsentence and remove it from the sentence
         subsentence += sentence[i]
@@ -55,7 +58,7 @@ def find_words(sentence, words):
             result.append(subsentence)
             subsentence = ''
     
-    return result
+    return list(result)
 
 
 ###########
@@ -77,3 +80,7 @@ print(find_words('bedbathandbeyond', ['bed', 'bath', 'bedbath', 'bathand', 'beyo
 # Test 4
 # Correct result => None ('beyo' doesn't exist)
 print(find_words('bedbathandbeyo', ['bed', 'bath', 'bedbath', 'bathand', 'beyond']))
+
+# Test 5
+# Correct result => ['314', '15926535897', '9323', '8462643383279']
+print(find_words('3141592653589793238462643383279', ['314', '49', '9001', '15926535897', '14', '9323', '8462643383279', '4', '793']))

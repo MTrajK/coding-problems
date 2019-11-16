@@ -15,7 +15,7 @@ Visit all nodes and check if the values are inside the boundaries.
 When visiting the left child use the value of the parent node like an upper boundary.
 When visiting the right child use the value of the parent node like a lower boundary.
 	Time Complexity: 	O(N)
-	Space Complexity: 	O(N) - (recursion is used, this complexity is because of stack)
+	Space Complexity: 	O(N)        , because of the recursion stack (but this is the tree is one branch), O(LogN) if the tree is balanced.
 '''
 
 ############
