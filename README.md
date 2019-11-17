@@ -104,7 +104,7 @@ Collection of free courses from one of the best CS universities.
 4. Harvard University (YouTube)
     - [Advanced algorithms - CS224](https://www.youtube.com/playlist?list=PL2SOU6wwxB0uP4rJgf5ayhHWgw7akUWSf)
 
-5. Berkley
+5. UC Berkeley
     - [Data Structures - CS61B](https://inst.eecs.berkeley.edu/~cs61b/archives.html)
     - [Efficient Algorithms and Intractable Problems - CS170](https://cs170.org/)
 
