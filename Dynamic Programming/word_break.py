@@ -17,6 +17,7 @@ Optimized dynamic programming solution (more simpler solutions can be found here
     Space Complexity:   O(N+W)  , W = number of words
 Bonus solution: Backtracking, iterate the sentence construct a substring and check if that substring exist in the set of words.
 If the end is reached but the last word doesn't exist in the words, go back 1 word from the result (backtracking).
+* But this solution doesn't give the result with the least number of words (gives the first found result)
 	Time Complexity: 	O(?)    , (worst case, about O(W! * N), for example sentence='aaaaaac', words=['a','aa','aaa','aaaa','aaaaa', 'aaaaaa'])
 	Space Complexity: 	O(W)
 '''

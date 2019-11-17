@@ -9,7 +9,7 @@ All solutions are written in [Python](https://www.python.org/) (more precisely, 
 So, to execute these solutions there is no need from installing any external packages. \
 Coding style and name conventions are described in this file [PEP8](https://www.python.org/dev/peps/pep-0008). \
 These problems are from sites like [LeetCode](https://leetcode.com/) (you can find more than 30 sites like this in the [Training Sites](#Training) section).\
-Also in this README you can find many resources for learning algorithms: [Tutorials (Courses & Videos)](#Tutorials), [Books](#Books), [Training Sites](#Training), [Other Resources](#Other).  
+Also in this README you can find many resources for learning algorithms: [Courses](#Courses), [Books](#Books), [Training Sites](#Training), [Other Resources](#Other).  
 
 
 ## Categories
@@ -81,9 +81,9 @@ print(name_of_problem('example'))
 print(name_of_problem_2('example2'))
 ```
 
-## Tutorials
+## Courses
 
-Collection of free tutorials from one of the best CS universities.
+Collection of free courses from one of the best CS universities.
 
 1. Princeton University (Coursera)
     - [Algorithms Part 1](https://www.coursera.org/learn/algorithms-part1)
@@ -97,12 +97,16 @@ Collection of free tutorials from one of the best CS universities.
 
 3. MIT University (YouTube)
     - [Introduction to algorithms 2005](https://www.youtube.com/playlist?list=PL8B24C31197EC371C)
-    - [Introduction to algorithms 2011](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-    - [Design and analysis of algorithms](https://www.youtube.com/playlist?list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
-    - [Advanced Data Structures](https://www.youtube.com/playlist?list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
+    - [Introduction to algorithms 2011 - 6.006](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [Design and analysis of algorithms - 6.046J](https://www.youtube.com/playlist?list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+    - [Advanced Data Structures - 6.851](https://www.youtube.com/playlist?list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
 
 4. Harvard University (YouTube)
-    - [Advanced algorithms](https://www.youtube.com/playlist?list=PL2SOU6wwxB0uP4rJgf5ayhHWgw7akUWSf)
+    - [Advanced algorithms - CS224](https://www.youtube.com/playlist?list=PL2SOU6wwxB0uP4rJgf5ayhHWgw7akUWSf)
+
+5. Berkley
+    - [Data Structures - CS61B](https://inst.eecs.berkeley.edu/~cs61b/archives.html)
+    - [Efficient Algorithms and Intractable Problems - CS170](https://cs170.org/)
 
 ## Books
 
@@ -118,6 +122,9 @@ Several books that have made an impression on me:
 1. [Geeks For Geeks](https://www.geeksforgeeks.org/) - The site which all interested in algorithms (no matter if beginners or experts) should know!
 2. [The Algorithms - Python](https://github.com/TheAlgorithms/Python) - Great GitHub repo with many algorithms written in Python.
 3. [KhanAcademy - Algorithms](https://www.khanacademy.org/computing/computer-science/algorithms) - Good explanations for some basic algorithms.
+4. HackerRank - YouTube tutorials
+    - [Algorithms](https://www.youtube.com/playlist?list=PLI1t_8YX-ApvMthLj56t1Rf-Buio5Y8KL)
+    - [Data Structures](https://www.youtube.com/playlist?list=PLI1t_8YX-Apv-UiRlnZwqqrRT8D1RhriX)
 
 ## Training
 
