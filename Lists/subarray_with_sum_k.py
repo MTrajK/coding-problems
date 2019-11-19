@@ -11,7 +11,7 @@ Output: 1, 5
 =========================================
 Adjust the start and end index, in each step increase start or end idx.
 If sum is bigger than K, remove element from the start idx from the sum.
-Else add element from the end idx to the sum
+Else add element from the end idx to the sum.
     Time Complexity:    O(N)
     Space Complexity:   O(1)
 '''
