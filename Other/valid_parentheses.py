@@ -33,13 +33,13 @@ def is_valid(string):
         if char in closing:
             if len(stack) == 0:
                 return False
-                
+
             last = stack.pop()
             if last != closing[char]:
                 return False
         else:
             stack.append(char)
-    
+
     return True
 
 

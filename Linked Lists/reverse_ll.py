@@ -32,14 +32,14 @@ def reverse_ll(ll):
     while ll is not None:
         # save the current node
         current = ll
-        # go to the next node        
+        # go to the next node
         ll = ll.next
 
         # change the pointer of the current node to point to the previous node
         current.next = prev_node
         # save the current node for the next iteration 
         prev_node = current
-        
+
     return prev_node
 
 ##############
@@ -54,7 +54,7 @@ def reverse(node, prev_node):
         # the end of the ll is reached, return the previous node
         # that'll be the first node in the reversed ll
         return prev_node
-    
+
     # send node.next as current node and node as previous node in the next step
     result = reverse(node.next, node)
     # change the pointer of the current node to point to the previous node

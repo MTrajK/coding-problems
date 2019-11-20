@@ -16,8 +16,8 @@ Output explanation: Your function can return either index number 1 where the pea
 
 =========================================
 Binary search (more description in the code).
-	Time Complexity: 	O(LogN)
-	Space Complexity: 	O(1)
+    Time Complexity:    O(LogN)
+    Space Complexity:   O(1)
 '''
 
 
@@ -32,12 +32,12 @@ def find_peak_element(nums):
     while l < r:
         mid = (l + r) // 2
         if nums[mid] > nums[mid + 1]:
-        	# go left if the current value is smaller than the next one
-        	# in this moment you're sure that there is a peak element left from this one 
+            # go left if the current value is smaller than the next one
+            # in this moment you're sure that there is a peak element left from this one 
             r = mid
         else:
-        	# go right if the current value is smaller than the next one
-        	# if the l comes to the end and all elements were in ascending order, then the last one is peak (because nums[n] is negative infinity)
+            # go right if the current value is smaller than the next one
+            # if the l comes to the end and all elements were in ascending order, then the last one is peak (because nums[n] is negative infinity)
             l = mid + 1
 
     return l

@@ -11,14 +11,14 @@ Output: [4, 5, 6, 1, 2, 3]
 
 =========================================
 The first solution is a simple one, split the array in two parts and swap those parts.
-	Time Complexity: 	O(N)
-	Space Complexity: 	O(N)
+    Time Complexity:    O(N)
+    Space Complexity:   O(N)
 For the second one we need to compute GCD, to decide how many different sets are there.
 And after that shift all elements in that set for one position in right/left. 
 (elements in a set are not neighboring elements)
 (A Juggling Algorithm, https://www.geeksforgeeks.org/array-rotation/)
-	Time Complexity: 	O(N)
-	Space Complexity: 	O(1)
+    Time Complexity:    O(N)
+    Space Complexity:   O(1)
 '''
 
 
@@ -33,7 +33,7 @@ def rotate_array_1(arr, k, right = True):
     # going right for K places is same like going left for N-K places
     if right:
         k = n - k
-    
+
     # the shortest way to swap 2 parts of the array
     return arr[k:] + arr[:k]
 
@@ -49,7 +49,7 @@ def rotate_array_2(arr, k, right = True):
     # going right for K places is same like going left for N-K places
     if not right:
         k = n - k
-    
+
     # different sets
     sets = gcd(n, k)
     # elements in each set
@@ -68,7 +68,7 @@ def rotate_array_2(arr, k, right = True):
             temp = curr
             curr = arr[idx]
             arr[idx] = temp
-        
+
         i += 1
 
     return arr

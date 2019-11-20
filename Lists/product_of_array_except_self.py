@@ -16,8 +16,8 @@ Output: [24,12,8,6]
 =========================================
 2 iterations, one from front and the second from back. 
 Make the products as this: from 0 to i-1 and from i-1 to N-1, and in the end only multiply these 2 products.
-	Time Complexity: 	O(N)
-	Space Complexity: 	O(N)    , According to the desciption O(1), the result array is not couted as extra space.
+    Time Complexity:    O(N)
+    Space Complexity:   O(N)    , According to the desciption O(1), the result array is not couted as extra space.
 '''
 
 
@@ -29,26 +29,26 @@ def product_except_self(nums):
     n = len(nums)
     if n == 0:
         return []
-    
+
     mult = 1
     res = [1]
     i = 0
-    
+
     # all products from right to left
     while i < n - 1:
         mult *= nums[i]
         res.append(mult)
         i += 1
-    
+
     mult = 1
     i = n - 2
-    
+
     # all products from left to right
     while i >= 0:
         mult *= nums[i + 1]
         res[i] *= mult
         i -= 1
-        
+
     return res
 
 

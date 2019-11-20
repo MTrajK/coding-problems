@@ -14,8 +14,8 @@ Output explanation: 1 -> 3 -> 7
 
 =========================================
 Traverse the tree and in each node compare the left and right subbranch sum, and take the bigger one.
-	Time Complexity: 	O(N)
-	Space Complexity: 	O(N)        , because of the recursion stack (but this is the tree is one branch), O(LogN) if the tree is balanced.
+    Time Complexity:    O(N)
+    Space Complexity:   O(N)        , because of the recursion stack (but this is the tree is one branch), O(LogN) if the tree is balanced.
 '''
 
 
@@ -40,7 +40,7 @@ def max_branch_sum(node):
 
     # return the bigger sum
     return max(left_max_sum, right_max_sum)
-    
+
 
 ###########
 # Testing #

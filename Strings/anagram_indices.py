@@ -12,8 +12,8 @@ Output explanation: For example, given that word is 'ab', and S is 'abxaba', ret
 Create a structure for counting the ferquency of letters (the structure is a simple dictionary).
 Similar to sliding window solution, add letters into the structure from the front of sliding window
 and remove from the back of sliding window.
-	Time Complexity: 	O(N)
-	Space Complexity: 	O(W)    , W = length of Word
+    Time Complexity:    O(N)
+    Space Complexity:   O(W)    , W = length of Word
 
 Solution 2: this can be solved using Rabin–Karp algorithm (small modification of this algorithm).
 But both solutions have same time & space complexity.
@@ -27,17 +27,17 @@ But both solutions have same time & space complexity.
 class LettersCounter:
     def __init__(self):
         self.__letters = {}
-    
+
     def __create_if_not_exist(self, letter):
         ''' helper method for creating a new field for the letter '''
         if letter not in self.__letters:
             self.__letters[letter] = 0
-    
+
     def __delete_if_zero_letters(self, letter):
         ''' helper deleting a letter from dictionary '''
         if self.__letters[letter] == 0:
             del self.__letters[letter]
-    
+
     def add_letter(self, letter):
         ''' increment the number of letters '''
         self.__create_if_not_exist(letter)
@@ -63,7 +63,7 @@ def anagram_indices(s, word):
         return res
 
     counter = LettersCounter()
-    
+
     # add all letters from the original word
     for letter in word:
         counter.add_letter(letter)
@@ -74,7 +74,7 @@ def anagram_indices(s, word):
 
     if counter.is_empty():
         res.append(0)
-    
+
     for i in range(w, n):
         # continue with the same logic, add letters from front and remove from the current index
         counter.add_letter(s[i - w])

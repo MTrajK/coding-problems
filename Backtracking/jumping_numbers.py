@@ -27,13 +27,13 @@ def jumping_numbers(x):
     # take all 9 possible starting combinations
     for i in range(1, 10):
         jumping_num(i, x, result)
-    
+
     return result
 
 def jumping_num(num, x, result):
     if num > x:
         return
-    
+
     result.append(num)
 
     last_digit = num % 10
@@ -42,11 +42,11 @@ def jumping_num(num, x, result):
     # decrease the last digit by one
     if last_digit != 0:
         jumping_num(next_num + last_digit - 1, x, result)
-    
+
     # increase the last digit by one
     if last_digit != 9:
         jumping_num(next_num + last_digit + 1, x, result)
-    
+
 
 ###########
 # Testing #

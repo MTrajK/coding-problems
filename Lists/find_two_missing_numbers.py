@@ -18,8 +18,8 @@ But in the end we'll need quadratic formula to find those values.
 b1,2 = (diff_sum +- sqrt(2*diff_squared_sum - diff_sum^2)) / 2
 Sum formula = N*(N+1)/2
 Squared sum formula = N*(N+1)*(2*N+1)/6
-	Time Complexity: 	O(N)
-	Space Complexity: 	O(1)
+    Time Complexity:    O(N)
+    Space Complexity:   O(1)
 
 Note: this idea also could be used when more than 2 numbers are missing, 
 but you'll need more computations/equations, because you'll have K unknowns.
@@ -38,7 +38,7 @@ def missing_numbers(nums):
     for i in nums:
         s += i
         s_2 += i * i
-    
+
     n = len(nums) + 2
 
     # using formulas, compute the sums of the sequence
@@ -48,7 +48,7 @@ def missing_numbers(nums):
     # difference of sums
     d = f_s - s
     d_2 = f_s_2 - s_2
-    
+
     # using quadratic formula find the values
     r = int(math.sqrt(2 * d_2 - d * d))
 

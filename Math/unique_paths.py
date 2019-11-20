@@ -20,12 +20,12 @@ Much faster and doesn't use extra space.
 def unique_paths_dp(n, m):
     # all values at i=0 should be 1 (the rest are not important, they'll be computed later)
     dp = [[1 for j in range(m)] for i in range(n)]
-    
+
     # calculate only inner values
     for i in range(1, n):
         for j in range(1, m):
             dp[i][j] = dp[i][j - 1] + dp[i - 1][j]
-    
+
     return dp[n-1][m-1]
 
 
@@ -44,7 +44,7 @@ def unique_paths(n, m):
         comb *= lvl
         comb /= i
         lvl -= 1
-    
+
     return int(comb + 0.001) # 0.001 just in case because of overflow
 
 

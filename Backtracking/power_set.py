@@ -10,8 +10,8 @@ Output: {{}, {1}, {2}, {3}, {1, 2}, {1, 3}, {2, 3}, {1, 2, 3}}
 
 =========================================
 Simple recursive combinations algorithm.
-	Time Complexity: 	O(Sum(C(I, N)))     , sum of all combinations between 0 and N = C(0, N) + C(1, N) + ... + C(N, N)
-	Space Complexity: 	O(Sum(C(I, N)))     , this is for the result array, if we print the number then the space complexity will be O(1)
+    Time Complexity:    O(Sum(C(I, N)))     , sum of all combinations between 0 and N = C(0, N) + C(1, N) + ... + C(N, N)
+    Space Complexity:   O(Sum(C(I, N)))     , this is for the result array, if we print the number then the space complexity will be O(1)
 '''
 
 
@@ -27,10 +27,10 @@ def power_set(arr):
 def combinations(arr, taken, pos):
     result = []
     result.append([arr[i] for i in taken]) # create the current combination
-    
+
     if len(arr) == pos:
         return result
-    
+
     n = len(arr)
     # start from the last position (don't need duplicates)
     for i in range(pos, n):

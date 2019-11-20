@@ -13,8 +13,8 @@ Output: 'uoy era woh'
 Reverse the whole sentence by swapping pair letters in-place (first with last, second with second from the end, etc).
 In Python, the string manipulation operations are too slow (string is immutable), because of that we need to convert the string into array.
 In C/C++, the Space complexity will be O(1).
-	Time Complexity: 	O(N)
-	Space Complexity: 	O(N)
+    Time Complexity:    O(N)
+    Space Complexity:   O(N)
 '''
 
 

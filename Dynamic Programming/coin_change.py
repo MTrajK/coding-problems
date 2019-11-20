@@ -34,7 +34,7 @@ def coin_change_1(coins, amount):
     max_value = amount + 1  # use this instead of math.inf
     dp = [max_value for i in range(max_value)]
     dp[0] = 0
-    
+
     for i in range(1, max_value):
         for c in coins:
             if c <= i:
@@ -60,7 +60,7 @@ def coin_change_2(coins, amount):
     max_coin = min(max_value, max(coins) + 1)
     dp = [max_value for i in range(max_coin)]
     dp[0] = 0
-    
+
     for i in range(1, max_value):
         i_mod = i % max_coin
         dp[i_mod] = max_value # reset current position

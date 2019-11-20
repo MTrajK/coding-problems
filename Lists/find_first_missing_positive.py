@@ -25,7 +25,7 @@ Play with indicies and mark them, a marked index means that the number equals to
 
 def find_first_missing(a):
     n = len(a)
-    
+
     # eliminate all zeros and all negative numbers
     for i in range(n):
         if a[i] < 1:
@@ -41,12 +41,12 @@ def find_first_missing(a):
         if val > 0:
             # mark element as found for the first time
             a[idx] = -val
-    
+
     # find the first non-negative position
     for i in range(n):
         if a[i] > 0:
             return i + 1
-    
+
     return n + 1
 
 

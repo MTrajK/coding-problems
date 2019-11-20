@@ -39,12 +39,12 @@ def add_two_numbers(l1, l2):
         if l1 is not None:
             v1 = l1.val
             l1 = l1.next
-        
+
         v2 = 0
         if l2 is not None:
             v2 = l2.val
             l2 = l2.next
-            
+
         total = transfer + v1 + v2
         transfer = total // 10
 
@@ -53,7 +53,7 @@ def add_two_numbers(l1, l2):
             pointer.next = ListNode(None)
         pointer = pointer.next
         pointer.val = total % 10
-        
+
     return start.next
 
 

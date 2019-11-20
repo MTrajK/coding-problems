@@ -15,8 +15,8 @@ Output explanation: We can hold 3 units in the first index, 2 in the second, and
 
 =========================================
 First search for the max wall from front, after that correct the left water starting from the back side
-	Time Complexity: 	O(N)
-	Space Complexity: 	O(1)
+    Time Complexity:    O(N)
+    Space Complexity:   O(1)
 '''
 
 
@@ -49,7 +49,7 @@ def trapped_water(elevation_map):
             back_max_height = elevation_map[i]
 
         water -= max_height - back_max_height
-    
+
     return water
 
 

@@ -17,9 +17,9 @@ Optimized dynamic programming solution (more simpler solutions can be found here
     Space Complexity:   O(N+W)  , W = number of words
 Bonus solution: Backtracking, iterate the sentence construct a substring and check if that substring exist in the set of words.
 If the end is reached but the last word doesn't exist in the words, go back 1 word from the result (backtracking).
-* But this solution doesn't give the result with the least number of words (gives the first found result)
-	Time Complexity: 	O(?)    , (worst case, about O(W! * N), for example sentence='aaaaaac', words=['a','aa','aaa','aaaa','aaaaa', 'aaaaaa'])
-	Space Complexity: 	O(W)
+* But this solution doesn't give the result with the smallest number of words (gives the first found result)
+    Time Complexity:    O(?)    , (worst case, about O(W! * N), for example sentence='aaaaaac', words=['a','aa','aaa','aaaa','aaaaa', 'aaaaaa'])
+    Space Complexity:   O(W)
 '''
 
 
@@ -53,17 +53,17 @@ def word_break(sentence, words):
             # break this loop if the subsentence created with this matched index is bigger than the biggest word 
             if matched_index < i - max_word:
                 break
-            
+
             subsentence = sentence[matched_index: i]
             # save this result if this subsentence exist in the words and number of words that forms sentence is smaller
             if (subsentence in dic) and (dp[matched_index] + 1 < dp[i]):
                 dp[i] = dp[matched_index] + 1
                 dw[i] = dic[subsentence]
                 matched = True
-        
+
         if matched:
             matched_indices.append(i)
-    
+
     # the sentence can't be composed from the given words
     if dp[n] == math.inf:
         return None
@@ -88,11 +88,11 @@ from collections import deque
 
 def word_break_backtracking(sentence, words):
     all_words = set()
-    
+
     # create a set from all words
     for i in range(len(words)):
         all_words.add(words[i])
-    
+
     n = len(sentence)
     i = 0
     subsentence = ''
@@ -118,7 +118,7 @@ def word_break_backtracking(sentence, words):
         if subsentence in all_words:
             result.append(subsentence)
             subsentence = ''
-    
+
     return list(result)
 
 

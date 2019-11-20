@@ -11,8 +11,8 @@ Output explanation: 5999, 1 operation to transform 8 to 9, 3 operations to trans
 
 =========================================
 Dynamic programming solution.
-	Time Complexity: 	O(N)    , O(N * 10 * 10) = O(100 N) = O(N)
-	Space Complexity: 	O(1)    , O(10 * 10) = O(100) = O(1)
+    Time Complexity:    O(N)    , O(N * 10 * 10) = O(100 N) = O(N)
+    Space Complexity:   O(1)    , O(10 * 10) = O(100) = O(1)
 '''
 
 
@@ -33,7 +33,7 @@ def operations(number):
             # find the min value for the previous digit and add it to the current value
             curr_dp[j] += min(prev_dp[0 : j + 1])
         prev_dp = curr_dp
-    
+
     # min value from the last digit
     min_dist = min(prev_dp)
 

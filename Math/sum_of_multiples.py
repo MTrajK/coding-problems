@@ -10,8 +10,8 @@ Don't need iteration to solve this problem, you need to find only how many divis
 Example - 3 + 6 + 9 ... + N = (1 + 2 + 3 + ... N // 3) * 3
 Sum(K)*N = 1*N + 2*N + ... + (K-1)*N + K*N
 Use sum formula - (N * (N + 1))/2
-	Time Complexity: 	O(1)
-	Space Complexity: 	O(1)
+    Time Complexity:    O(1)
+    Space Complexity:   O(1)
 '''
 
 ############
@@ -22,7 +22,7 @@ def sum_of_multiples_below(a, b, total):
     total -= 1
     # sum of dividens of A + sum of dividens of B - sum of common dividens (because they're added twice)
     return sum_of_dividends(total, a) + sum_of_dividends(total, b) - sum_of_dividends(total, a * b)
-    
+
 def sum_of_dividends(total, divisor):
     n = total // divisor
     return (n * (n + 1) // 2) * divisor

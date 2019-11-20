@@ -26,17 +26,17 @@ Middle rows have 2 times more elements than the first and last row.
 def convert(s, num_rows):
     if num_rows == 1:
         return s
-    
+
     n = len(s)
     res = ''
     cycle = 2 * (num_rows - 1)
-    
+
     for i in range(0, num_rows):
         steps = cycle - 2 * i
         if (i == 0) or (i == num_rows - 1):
             # if first or last row, make a whole cycle
             steps = cycle
-            
+
         j = i
         while j < n:
             res += s[j]
@@ -44,7 +44,7 @@ def convert(s, num_rows):
             if (i > 0) and (i < num_rows - 1):
                 # change the steps if not first or last row
                 steps = cycle - steps
-    
+
     return res
 
 

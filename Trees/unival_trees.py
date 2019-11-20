@@ -16,8 +16,8 @@ Output: 5
 
 =========================================
 Simple tree traversal solution.
-	Time Complexity: 	O(N)
-	Space Complexity: 	O(1)
+    Time Complexity:    O(N)
+    Space Complexity:   O(1)
 '''
 
 
@@ -26,10 +26,10 @@ Simple tree traversal solution.
 ############
 
 class TreeNode:
-	def __init__(self, val, left=None, right=None):
-	    self.val = val
-	    self.left = left
-	    self.right = right
+    def __init__(self, val, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
 
 def count_unival_trees(tree):
     if tree is None:
@@ -49,14 +49,14 @@ def total_unival_trees(node):
         unival_trees += left_result[0]
         is_left_unival_tree = left_result[1]
         left_value = node.left.val
-    
+
     # count right unival trees and save the value
     if node.right is not None:
         right_result = total_unival_trees(node.right)
         unival_trees += right_result[0]
         is_right_unival_tree = right_result[1]
         right_value = node.right.val
-    
+
     # check if this root is an unival tree
     is_this_unival_tree = is_left_unival_tree and is_right_unival_tree and (left_value == right_value)
     unival_trees += is_this_unival_tree

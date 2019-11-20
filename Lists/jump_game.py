@@ -27,16 +27,16 @@ def can_jump(nums):
     n = len(nums)
     if n == 0:
         return False
-    
+
     last = 0
     for i in range(n):
         # if this field isn't reachable return False
         if last < i:
             return False
-        
+
         max_jump = i + nums[i]
         last = max(last, max_jump)
-        
+
         # if the jump is greater or equal to the last element return True
         if last >= n - 1:
             return True

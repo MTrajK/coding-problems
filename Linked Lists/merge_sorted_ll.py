@@ -31,15 +31,15 @@ def merge_two_sorted_ll(l1, l2):
         else:
             pointer.next = l2
             l2 = l2.next
-        
+
         pointer = pointer.next
-        
+
     if l1 is not None:
         pointer.next = l1
 
     if l2 is not None:
         pointer.next = l2
-    
+
     return result.next
 
 

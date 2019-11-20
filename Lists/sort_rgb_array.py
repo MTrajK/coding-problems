@@ -37,7 +37,7 @@ def sort_rgb_array(arr):
             arr[i] = arr[r]
             arr[r] = temp
             r += 1
-        
+
         # move pointer
         if r > g:
             g = r
@@ -59,7 +59,7 @@ def sort_rgb_array(arr):
             arr[i] = arr[b]
             arr[b] = temp
             b += 1
-        
+
     return arr
 
 
@@ -77,11 +77,11 @@ def sort_rgb_array_2(arr):
     # count colors
     for c in arr:
         rgb[c] += 1
-    
+
     # adjust the intervals
     rgb['G'] += rgb['R']
     rgb['B'] += rgb['G']
-    
+
     # assign colors
     for i in range(len(arr)):
         if i < rgb['R']:
@@ -90,7 +90,7 @@ def sort_rgb_array_2(arr):
             arr[i] = 'G'
         else:
             arr[i] = 'B'
-    
+
     return arr
 
 

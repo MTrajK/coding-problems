@@ -8,8 +8,8 @@ Output: [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
 
 =========================================
 Reverse the whole array by swapping pair letters in-place (first with last, second with second from the end, etc).
-	Time Complexity: 	O(N)
-	Space Complexity: 	O(1)
+    Time Complexity:    O(N)
+    Space Complexity:   O(1)
 '''
 
 

@@ -5,8 +5,8 @@ Merge k sorted linked lists and return it as one sorted list. Analyze and descri
 
 =========================================
 Using Priority Queue (heap) in each step chose the smallest element from the lists and add it to the result list.
-	Time Complexity: 	O(N * LogK)  , LogK is for adding and deleting from Priority queue
-	Space Complexity: 	O(N)
+    Time Complexity: 	O(N * LogK)  , LogK is for adding and deleting from Priority queue
+    Space Complexity: 	O(N)
 Using Divide and Conquer, similar to Merge sort.
     Time Complexity:    O(N * LogK)
     Space Complexity:   O(1)  , (using the same old list)
@@ -55,7 +55,7 @@ def merge_k_lists_1(lists):
     for node in lists:
         if node is not None:
             heap.push(PQNode(node))
-    
+
     result = ListNode(-1)
     pointer = result
 
@@ -63,16 +63,16 @@ def merge_k_lists_1(lists):
         # in each step remove the min list from the heap
         el = heap.pop()
         node = el.node
-        
+
         # add the min list to the result
         pointer.next = node
         pointer = pointer.next
-        
+
         node = node.next
         if node is not None:
             # take the next node from the min list and add it in the heap
             heap.push(PQNode(node))
-        
+
     return result.next
 
 
@@ -96,7 +96,7 @@ def merge_k_lists_2(lists):
             lists[i] = merge_2_lists(lists[i], lists[i + step])
             # go to the next pair
             i += 2 * step
-        
+
         # double the step
         step *= 2
 
@@ -113,13 +113,13 @@ def merge_2_lists(l1, l2):
         else:
             pointer.next = l2
             l2 = l2.next
-        
+
         pointer = pointer.next
-        
+
     if l1 is not None:
         pointer.next = l1
 
     if l2 is not None:
         pointer.next = l2
-    
+
     return result.next

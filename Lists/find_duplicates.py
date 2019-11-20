@@ -8,8 +8,8 @@ Note: solve it in one iteration.
 =========================================
 Each value has its own position/index in the array, 
 mark the value on that position as negative when the element is found for the first time.
-	Time Complexity: 	O(N)
-	Space Complexity: 	O(D)    , array (in this case set) to save all duplicates    
+    Time Complexity:    O(N)
+    Space Complexity:   O(D)    , array (in this case set) to save all duplicates    
 '''
 
 
@@ -31,7 +31,7 @@ def find_duplicates(a):
         else:
             # this element is a duplicate
             duplicates.add(idx + 1)
-    
+
     return duplicates
 
 

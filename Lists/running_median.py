@@ -37,13 +37,13 @@ class PriorityQueue:
         if not self.isMin:
             el = -el
         heappush(self.data, el)
-    
+
     def pop(self):
         el = heappop(self.data)
         if not self.isMin:
             el = -el
         return el
-    
+
     def peek(self):
         el = self.data[0]
         if not self.isMin:

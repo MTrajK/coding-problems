@@ -10,8 +10,8 @@ Output: 49
 
 =========================================
 Playing with pointers from both sides, eliminate smaller heights and search for a bigger height.
-	Time Complexity: 	O(N)
-	Space Complexity: 	O(1)
+    Time Complexity:    O(N)
+    Space Complexity:   O(1)
 '''
 
 
@@ -23,14 +23,14 @@ def max_area(height):
     l = 0
     r = len(height) - 1
     max_height = 0
-    
+
     while l < r:
         left = height[l]
         right = height[r]
-        
+
         current_height = min(left, right) * (r - l)
         max_height = max(max_height, current_height)
-        
+
         # take the smaller side and search for a bigger height on that side
         if left < right:
             while (l < r) and (left >= height[l]):
@@ -38,7 +38,7 @@ def max_area(height):
         else:
             while (l < r) and (right >= height[r]):
                 r -= 1
-                
+
     return max_height
 
 

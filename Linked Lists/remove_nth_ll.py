@@ -32,20 +32,20 @@ def remove_nth_from_end_1(head, n):
 
     first = helper
     second = helper
-    
+
     # count to N with the first pointer
     for i in range(n + 1):
         first = first.next
-        
+
     # go (Length - N) elements with first pointer
     # and in that way the second pointer will be Nth from the end
     while first != None:
         first = first.next
         second = second.next
-        
+
     # remove the element (change the next pointer from the previous element)
     second.next = second.next.next
-    
+
     return helper.next
 
 
@@ -62,11 +62,11 @@ def remove_nth_from_end_2(head, n):
 def remove_recursively(pointer, n):
     if pointer is None:
         return (0, None)
-    
+
     # go to the end and count how many are there
     result = remove_recursively(pointer.next, n)
-    
+
     if result[0] == n:
         pointer.next = result[1]
-    
+
     return (result[0] + 1, pointer.next)

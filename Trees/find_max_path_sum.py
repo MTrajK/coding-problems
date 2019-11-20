@@ -23,8 +23,8 @@ Output explanation: 2 -> 3 -> 5
 
 =========================================
 Traverse the tree and in each node compare create a new path where the left and right max subpaths are merging in the current node.
-	Time Complexity: 	O(N)
-	Space Complexity: 	O(N)        , because of the recursion stack (but this is the tree is one branch), O(LogN) if the tree is balanced.
+    Time Complexity:    O(N)
+    Space Complexity:   O(N)        , because of the recursion stack (but this is the tree is one branch), O(LogN) if the tree is balanced.
 '''
 
 
@@ -58,7 +58,7 @@ def find_max_path_sum(node):
     max_subpath = max(left_result[1] + node.val, right_result[1] + node.val, node.val, 0)
 
     return (max_path, max_subpath)
-    
+
 
 ###########
 # Testing #

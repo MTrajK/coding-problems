@@ -22,14 +22,14 @@ def find_pairs(arr, K):
     complements = set()
     # set to save all unique complements that form a pair 
     pair_complements = set()
-    
+
     for el in arr:
         c = K - el
 
         # if complement exists, then a pair is found
         if c in complements:
             pair_complements.add(c)
-        
+
         # save this number as complement
         complements.add(el)
 
@@ -37,7 +37,7 @@ def find_pairs(arr, K):
     pairs = []
     for c in pair_complements:
         pairs.append((c, K - c))
-   
+
     return pairs
 
 

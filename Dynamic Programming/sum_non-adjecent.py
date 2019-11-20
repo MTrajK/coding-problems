@@ -14,8 +14,8 @@ Output explanation: We pick 5 and 5.
 
 =========================================
 Dynamic programming solution, but don't need the whole DP array, only the last 3 sums (DPs) are needed.
-	Time Complexity: 	O(N)
-	Space Complexity: 	O(1)
+    Time Complexity:    O(N)
+    Space Complexity:   O(1)
 '''
 
 
@@ -27,17 +27,17 @@ def sum_non_adjacent(arr):
     n = len(arr)
     # from the dp matrix you only need the last 3 sums
     sums = [0, 0, 0]
-    
+
     # TODO: refactor these if-elses, those are to skip using of DP matrix
     if n == 0:
         return 0
 
     # if negative or zero, the sum will be 0
     sums[0] = max(arr[0], 0)
-    
+
     if n == 1:
         return sums[0]
-    
+
     sums[1] = arr[1]
     # if the second number is negative or zero, then jump it
     if sums[1] <= 0:
@@ -56,17 +56,17 @@ def sum_non_adjacent(arr):
     # THE SOLUTION
     for i in range(3, n):
         temp = 0
-        
+
         if arr[i] > 0:
             # take this number, because it's positive and the sum will be bigger
             temp = max(sums[0], sums[1]) + arr[i]
         else:
             # don't take this number, because the sum will be same or smaller
             temp = max(sums)
-        
+
         # remove the first sum
         sums = sums[1:] + [temp]
-    
+
     # return the max sum
     return max(sums)
 

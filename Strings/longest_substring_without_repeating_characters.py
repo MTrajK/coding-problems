@@ -14,8 +14,8 @@ Output explanation: The answer is 'b', with the length of 1.
 =========================================
 Simple string iteration, use hashset to save unique characters.
 If the current character exists in the set then move the left index till the one
-	Time Complexity: 	O(N)
-	Space Complexity: 	O(N)
+    Time Complexity:    O(N)
+    Space Complexity:   O(N)
 '''
 
 
@@ -28,17 +28,17 @@ def length_of_longest_substring(s):
     max_length = 0
     left = 0
     n = len(s)
-    
+
     for i in range(n):
         while s[i] in unique_chars:
             # remove till the current char is unique
             unique_chars.remove(s[left])
             left += 1
-        
+
         # in this moment you're sure that the current char is unique
         unique_chars.add(s[i])
         max_length = max(max_length, i - left + 1)
-        
+
     return max_length
 
 

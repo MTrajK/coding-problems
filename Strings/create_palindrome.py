@@ -14,8 +14,8 @@ Output: 'elgoogle'
 
 =========================================
 Search from front and back and find the longest/biggest palindrome which starts from front or ends in back.
-	Time Complexity: 	O(N)    , The solution looks like O(N^2) but that's not possible
-	Space Complexity: 	O(R)    , R = length of the new word (you need to the old string and allocate memory for that)
+    Time Complexity:    O(N)    , The solution looks like O(N^2) but that's not possible
+    Space Complexity:   O(R)    , R = length of the new word (you need to the old string and allocate memory for that)
 '''
 
 
@@ -39,7 +39,7 @@ def create_palindrome(string):
                 break
             front += 1
             back -= 1
-        
+
         if found:
             max_left_palindrome = i + 1
             break
@@ -57,7 +57,7 @@ def create_palindrome(string):
                 break
             front += 1
             back -= 1
-        
+
         if found:
             max_right_palindrome = n - i
             break

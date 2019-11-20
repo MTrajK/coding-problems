@@ -7,8 +7,8 @@ i.e. no two queens share the same row, column, or diagonal.
 
 =========================================
 Backtracking solution.
-	Time Complexity: 	O(N!) (but I think it's much faster!)
-	Space Complexity: 	O(N)
+    Time Complexity:    O(N!) (but I think it's much faster!)
+    Space Complexity:   O(N)
 * There are much faster solutions, like O(N^2)
 '''
 
@@ -29,7 +29,7 @@ def backtracking(columns, order):
 
     if len(order) == n:
         return 1
-    
+
     total = 0
 
     for i in range(n):

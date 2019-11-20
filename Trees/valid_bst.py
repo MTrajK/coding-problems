@@ -14,8 +14,8 @@ Output: True
 Visit all nodes and check if the values are inside the boundaries. 
 When visiting the left child use the value of the parent node like an upper boundary.
 When visiting the right child use the value of the parent node like a lower boundary.
-	Time Complexity: 	O(N)
-	Space Complexity: 	O(N)        , because of the recursion stack (but this is the tree is one branch), O(LogN) if the tree is balanced.
+    Time Complexity:    O(N)
+    Space Complexity:   O(N)        , because of the recursion stack (but this is the tree is one branch), O(LogN) if the tree is balanced.
 '''
 
 ############
@@ -25,30 +25,30 @@ When visiting the right child use the value of the parent node like a lower boun
 import math
 
 class TreeNode:
-	def __init__(self, val, left=None, right=None):
-		self.val = val
-		self.left = left
-		self.right = right
+    def __init__(self, val, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
 
 def is_valid_bst(root):
-	return is_valid_sub_bst(root, -math.inf, math.inf)
-	
+    return is_valid_sub_bst(root, -math.inf, math.inf)
+
 def is_valid_sub_bst(node, lower, upper):
-	if node is None:
-		return True
-	
-	if (node.val <= lower) or (node.val >= upper):
-		return False
-	
-	# check left
-	if not is_valid_sub_bst(node.left, lower, node.val):
-		return False
-	
-	# check right
-	if not is_valid_sub_bst(node.right, node.val, upper):
-		return False
-	
-	return True
+    if node is None:
+        return True
+
+    if (node.val <= lower) or (node.val >= upper):
+        return False
+
+    # check left
+    if not is_valid_sub_bst(node.left, lower, node.val):
+        return False
+
+    # check right
+    if not is_valid_sub_bst(node.right, node.val, upper):
+        return False
+
+    return True
 
 
 ###########

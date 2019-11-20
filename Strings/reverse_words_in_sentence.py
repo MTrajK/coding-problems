@@ -15,8 +15,8 @@ after all words are reversed, reverse the whole sentence (in place, by swapping 
 and the first word will be last and will be in the original form.
 In Python, the string manipulation operations are too slow (string is immutable), because of that we need to convert the string into array.
 In C/C++, the Space complexity will be O(1).
-	Time Complexity: 	O(N)
-	Space Complexity: 	O(N)
+    Time Complexity:    O(N)
+    Space Complexity:   O(N)
 '''
 
 

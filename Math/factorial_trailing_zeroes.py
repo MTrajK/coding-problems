@@ -32,11 +32,11 @@ def trailing_zeroes(n):
     # so count just how many 5s are in that range
     res = 0
     k = 5
-    
+
     # find all powers of 5
     # 25 has 2 5s, 125 has 3 5s, etc
     while k <= n:
         res += n // k
         k *= 5
-    
+
     return res

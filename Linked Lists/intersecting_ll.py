@@ -37,7 +37,7 @@ def find_intersecting_node(ll1, ll2):
     while (temp2 is not None):
         count2 += 1
         temp2 = temp2.next
-  
+
     # move only one of the lls for the difference
     m = min(count1, count2)
 

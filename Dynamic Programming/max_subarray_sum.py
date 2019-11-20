@@ -11,8 +11,8 @@ Output explanation: [4, -1, -2, 1, 5]
 Need only one iteration, in each step add the current element to the current sum. 
 When the sum is equal or less than 0, reset the sum to 0 and continue with adding. (we care only about the positive sums)
 After each addition, check if the current sum is greater than the max sum. (Called Kadane's algorithm)
-	Time Complexity: 	O(N)
-	Space Complexity: 	O(1)
+    Time Complexity:    O(N)
+    Space Complexity:   O(1)
 '''
 
 

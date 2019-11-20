@@ -11,8 +11,8 @@ Output: '4A3B2C1D2A'
 
 =========================================
 Simple solution, just iterate the string and count.
-	Time Complexity: 	O(N)
-	Space Complexity: 	O(1)
+    Time Complexity:    O(N)
+    Space Complexity:   O(1)
 '''
 
 
@@ -36,7 +36,7 @@ def encoding(word):
             res += str(length) + letter
             letter = word[i]
             length = 1
-    
+
     res += str(length) + letter
 
     return res

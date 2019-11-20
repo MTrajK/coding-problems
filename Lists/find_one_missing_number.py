@@ -12,8 +12,8 @@ Searching for 1 unknown, math problem.
 Use the sum formula for the first N numbers to compute the whole sum of the sequence.
 After that sum all elements from the array, and when you subtract those 2 numbers, you'll get the missing number.
 Sum formula = N*(N+1)/2
-	Time Complexity: 	O(N)
-	Space Complexity: 	O(1)
+    Time Complexity:    O(N)
+    Space Complexity:   O(1)
 '''
 
 ############

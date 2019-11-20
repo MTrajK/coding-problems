@@ -12,7 +12,7 @@ But don't search the whole array with combinations (colors), save only the small
 (in this case we're sure that the previous house doesn't have the same color).
     Time Complexity:    O(N * K)
     Space Complexity:   O(1)
-'''    
+'''
 
 ############
 # Solution #
@@ -41,14 +41,14 @@ def min_cost_coloring(dp):
                 dp[i][j] += prev_min[0][0]
             else:
                 dp[i][j] += prev_min[1][0]
-            
+
             # save the current result if smaller than the current 2
             if curr_min[0][0] > dp[i][j]:
                 curr_min[1] = curr_min[0]
                 curr_min[0] = (dp[i][j], j)
             elif curr_min[1][0] > dp[i][j]:
                 curr_min[1] = (dp[i][j], j)
-        
+
         prev_min = curr_min
 
     # return the min cost of the last house
