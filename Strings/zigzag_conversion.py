@@ -59,4 +59,3 @@ print(convert('PAYPALISHIRING', 3))
 # Test 2
 # Correct result => 'PINALSIGYAHRPI'
 print(convert('PAYPALISHIRING', 4))
-

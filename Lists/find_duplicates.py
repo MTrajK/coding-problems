@@ -1,15 +1,15 @@
 '''
 Find duplicates
 
-Find all duplicates in an array where all elements are positive (>0) 
+Find all duplicates in an array where all elements are positive (>0)
 and the biggest element in the array could be equal to the length of array.
 Note: solve it in one iteration.
 
 =========================================
-Each value has its own position/index in the array, 
+Each value has its own position/index in the array,
 mark the value on that position as negative when the element is found for the first time.
     Time Complexity:    O(N)
-    Space Complexity:   O(D)    , array (in this case set) to save all duplicates    
+    Space Complexity:   O(D)    , array (in this case set) to save all duplicates
 '''
 
 

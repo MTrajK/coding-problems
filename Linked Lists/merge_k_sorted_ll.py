@@ -46,7 +46,7 @@ class MyHeap:
         return heapq.heappop(self.data)
 
     def is_empty(self):
-        return len(self.data) == 0   
+        return len(self.data) == 0
 
 def merge_k_lists_1(lists):
     heap = MyHeap()
@@ -85,7 +85,7 @@ def merge_k_lists_2(lists):
     if n == 0:
         return None
 
-    # the step tells with which linked list should be merged the current linked list 
+    # the step tells with which linked list should be merged the current linked list
     step = 1
 
     # divide and conquer without recursion

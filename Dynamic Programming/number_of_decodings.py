@@ -6,7 +6,7 @@ For example, the message "111" would give 3, since it could be decoded as "aaa",
 All of the messages are decodable!
 
 =========================================
-The easiest solution is Brute-Force (building a tree and making all combinations), 
+The easiest solution is Brute-Force (building a tree and making all combinations),
 and in the worst case there will be Fibbionaci(N) combinations, so the worst Time Complexity will be O(Fib(N))
 
 Dynamic programming solution.

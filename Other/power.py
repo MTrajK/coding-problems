@@ -1,7 +1,7 @@
 '''
 Power
 
-Implement pow (a^b , a**b) method 
+Implement pow (a^b , a**b) method
 
 =========================================
 Using divide and conquer approach.

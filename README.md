@@ -2,14 +2,14 @@
 
 My solutions for many various coding/algorithmic problems (this repo will be updated with new solutions from time to time). \
 All solutions are written in [Python](https://www.python.org/) (more precisely, [Python 3](https://docs.python.org/3)), using the [Built-in Functions](https://docs.python.org/3/library/functions.html) and few modules from the [Python Standard Library](https://docs.python.org/3/library/) like:
-- [math](https://docs.python.org/3/library/math.html) (used for constants like math.pi, math.inf and functions like math.ceil, math.floor, math.gcd, math.log, math.pow, math.sqrt, etc) 
+- [math](https://docs.python.org/3/library/math.html) (used for constants like math.pi, math.inf and functions like math.ceil, math.floor, math.gcd, math.log, math.pow, math.sqrt, etc)
 - [collections](https://docs.python.org/3/library/collections.html) (used for [collections.deque](https://docs.python.org/3/library/collections.html#collections.deque) when there is a need for [Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)) or [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)) data structures)
 - [heapq](https://docs.python.org/3/library/heapq.html) (used when there is a need for [Priority Queue](https://en.wikipedia.org/wiki/Priority_queue) data structure).
 
 So, to execute these solutions there is no need from installing any external packages. \
 Coding style and name conventions are described in this file [PEP8](https://www.python.org/dev/peps/pep-0008). \
 These problems are from sites like [LeetCode](https://leetcode.com/) (you can find more than 30 sites like this in the [Training Sites](#Training) section).\
-Also in this README you can find many resources for learning algorithms: [Courses](#Courses), [Books](#Books), [Training Sites](#Training), [Other Resources](#Other).  
+Also in this README you can find many resources for learning algorithms: [Courses](#Courses), [Books](#Books), [Training Sites](#Training), [Other Resources](#Other).
 
 
 ## Categories
@@ -43,12 +43,12 @@ Output explanation: XXX
 
 =========================================
 Solution explanation
-	Time Complexity: 	O(X)
-	Space Complexity: 	O(X)
+    Time Complexity:    O(X)
+    Space Complexity:   O(X)
 Solution 2 explanation
 (some of the problems are solved in more than one way)
-	Time Complexity: 	O(X)
-	Space Complexity: 	O(X)
+    Time Complexity:    O(X)
+    Space Complexity:   O(X)
 '''
 
 ############

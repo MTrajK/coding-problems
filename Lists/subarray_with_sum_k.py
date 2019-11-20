@@ -1,8 +1,8 @@
 '''
 Subarray with given sum
 
-Given an unsorted array A of size N of non-negative integers, find a continuous sub-array 
-which adds to a given number. Find starting and ending positions(1 indexing) of first such 
+Given an unsorted array A of size N of non-negative integers, find a continuous sub-array
+which adds to a given number. Find starting and ending positions(1 indexing) of first such
 occuring subarray from the left if sum equals to subarray, else print -1.
 
 Input: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 15

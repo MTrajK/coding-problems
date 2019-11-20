@@ -1,8 +1,8 @@
 '''
 Find the missing number in a sequence
 
-Find the only missing integer in a sequence, 
-all numbers are integers and they're smaller or equal to N+1 (N is length of the array). 
+Find the only missing integer in a sequence,
+all numbers are integers and they're smaller or equal to N+1 (N is length of the array).
 
 Input: [2, 1, 4]
 Output: 3
@@ -23,7 +23,7 @@ Sum formula = N*(N+1)/2
 def missing_number(nums):
     s = sum(nums)
     n = len(nums) + 1
-    # sum formula (sum of the first n numbers) = (N*(N+1))/2 
+    # sum formula (sum of the first n numbers) = (N*(N+1))/2
     return n * (n + 1) // 2 - s
 
 

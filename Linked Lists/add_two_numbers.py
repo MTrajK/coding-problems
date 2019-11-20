@@ -1,8 +1,8 @@
 '''
 Add two numbers
 
-You are given two non-empty linked lists representing two non-negative integers. 
-The digits are stored in reverse order and each of their nodes contain a single digit. 
+You are given two non-empty linked lists representing two non-negative integers.
+The digits are stored in reverse order and each of their nodes contain a single digit.
 Add the two numbers and return it as a linked list.
 
 You may assume the two numbers do not contain any leading zero, except the number 0 itself.
@@ -73,7 +73,7 @@ while res != None:
 print(st)
 
 # Test 2
-# Correct result => 8 -> 9 -> 0 -> 0 -> 1 
+# Correct result => 8 -> 9 -> 0 -> 0 -> 1
 l1 = ListNode(9, ListNode(9, ListNode(9, ListNode(9))))
 l2 = ListNode(9, ListNode(9))
 res = add_two_numbers(l1, l2)

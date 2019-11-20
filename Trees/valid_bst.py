@@ -1,7 +1,7 @@
 '''
 Valid binary search tree
 
-Check if a given tree is a valid binary search tree. 
+Check if a given tree is a valid binary search tree.
 
 Input:  5
        / \
@@ -11,7 +11,7 @@ Input:  5
 Output: True
 
 =========================================
-Visit all nodes and check if the values are inside the boundaries. 
+Visit all nodes and check if the values are inside the boundaries.
 When visiting the left child use the value of the parent node like an upper boundary.
 When visiting the right child use the value of the parent node like a lower boundary.
     Time Complexity:    O(N)

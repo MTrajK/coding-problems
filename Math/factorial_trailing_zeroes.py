@@ -25,7 +25,7 @@ Find how many 5s are in range 0-N (more explanation in the solution).
 ############
 
 def trailing_zeroes(n):
-    # 0s are produced when 2 and 5 are multiplied 
+    # 0s are produced when 2 and 5 are multiplied
     # because 2 * 5 = 10
     # so you'll need to count how many 2s and 5s are there
     # 2s are always more than 5s

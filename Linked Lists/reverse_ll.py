@@ -37,7 +37,7 @@ def reverse_ll(ll):
 
         # change the pointer of the current node to point to the previous node
         current.next = prev_node
-        # save the current node for the next iteration 
+        # save the current node for the next iteration
         prev_node = current
 
     return prev_node

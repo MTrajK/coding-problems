@@ -14,7 +14,7 @@ The first solution is a simple one, split the array in two parts and swap those 
     Time Complexity:    O(N)
     Space Complexity:   O(N)
 For the second one we need to compute GCD, to decide how many different sets are there.
-And after that shift all elements in that set for one position in right/left. 
+And after that shift all elements in that set for one position in right/left.
 (elements in a set are not neighboring elements)
 (A Juggling Algorithm, https://www.geeksforgeeks.org/array-rotation/)
     Time Complexity:    O(N)

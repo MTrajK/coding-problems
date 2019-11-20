@@ -1,8 +1,8 @@
 '''
 Find two missing numbers in a sequence
 
-Find two missing numbers in a sequence, 
-all numbers are integers and they're smaller or equal to N+2 (N is length of the array). 
+Find two missing numbers in a sequence,
+all numbers are integers and they're smaller or equal to N+2 (N is length of the array).
 
 Input: [2, 1, 4]
 Output: [3, 5]
@@ -21,7 +21,7 @@ Squared sum formula = N*(N+1)*(2*N+1)/6
     Time Complexity:    O(N)
     Space Complexity:   O(1)
 
-Note: this idea also could be used when more than 2 numbers are missing, 
+Note: this idea also could be used when more than 2 numbers are missing,
 but you'll need more computations/equations, because you'll have K unknowns.
 '''
 

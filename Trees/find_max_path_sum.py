@@ -52,9 +52,9 @@ def find_max_path_sum(node):
 
     # create a new path by merging the max left and right subpaths
     current_path = left_result[1] + node.val + right_result[1]
-    # find the max path till now, comparing the new path, max path from the left and right subtree 
+    # find the max path till now, comparing the new path, max path from the left and right subtree
     max_path = max(left_result[0], current_path, right_result[0])
-    # find the max subpath, min value for a subpath sum is 0 
+    # find the max subpath, min value for a subpath sum is 0
     max_subpath = max(left_result[1] + node.val, right_result[1] + node.val, node.val, 0)
 
     return (max_path, max_subpath)

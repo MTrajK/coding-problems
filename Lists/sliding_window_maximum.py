@@ -11,7 +11,7 @@ For example, given array = [10, 5, 2, 7, 8, 7] and k = 3, we should get: [10, 7,
 8 = max(7, 8, 7)
 
 =========================================
-Sliding window solution using deque or linked lists 
+Sliding window solution using deque or linked lists
 (only needs to be able to remove from both sides and to add on both sides in constant time).
     Time Complexity:    O(N)
     Space Complexity:   O(K)
@@ -34,7 +34,7 @@ def max_el_subarrays(arr, k):
 
     # starting sliding window
     for i in range(min(k, n)):
-        # start from the end and remove all previous indicies 
+        # start from the end and remove all previous indicies
         # which have smaller values than the current one
         # using this logic, we're sure that there is no smaller element (in the previous added indicies, the whole deque) than the last added
         while (deq) and (arr[i] >= arr[deq[-1]]):

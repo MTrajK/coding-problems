@@ -1,8 +1,8 @@
 '''
-Climbing Staircase 
+Climbing Staircase
 
-There exists a staircase with N steps, and you can climb up either X different steps at a time. 
-Given N, write a function that returns the number of unique ways you can climb the staircase. 
+There exists a staircase with N steps, and you can climb up either X different steps at a time.
+Given N, write a function that returns the number of unique ways you can climb the staircase.
 The order of the steps matters.
 
 Input: steps = [1, 2], height = 4

@@ -1,7 +1,7 @@
 '''
 Find max branch sum
 
-Wrie a function that takes a binary tree and returns its max branch (branch is "root to leaf path") sum. 
+Wrie a function that takes a binary tree and returns its max branch (branch is "root to leaf path") sum.
 
 Input:
         1

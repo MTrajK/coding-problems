@@ -1,14 +1,14 @@
 '''
 Swap the frst and the last word
 
-Given an string, you need to swap the first and last word in linear time. 
+Given an string, you need to swap the first and last word in linear time.
 Everything between should stay in same order.
 
 Sample input: 'i like this program very much'
 Sample output: 'much like this program very i'
 
 =========================================
-Reverse the whole string, after that reverse only first and only last word, 
+Reverse the whole string, after that reverse only first and only last word,
 in the end reverse everything between first and last word. (using IN-PLACE reversing)
 In Python, the string manipulation operations are too slow (string is immutable), because of that we need to convert the string into array.
 In C/C++, the Space complexity will be O(1).

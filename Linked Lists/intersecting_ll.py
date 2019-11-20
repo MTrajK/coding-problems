@@ -7,7 +7,7 @@ In this example, assume nodes with the same value are the exact same node object
 For example, given A = 3 -> 7 -> 8 -> 10 and B = 99 -> 1 -> 8 -> 10, return the node with value 8.
 
 =========================================
-Find the longer linked list and move the pointer (now both list will have same number of elements). 
+Find the longer linked list and move the pointer (now both list will have same number of elements).
 After that move both pointers from the both lists and compare elements.
     Time Complexity:    O(N + M)
     Space Complexity:   O(1)

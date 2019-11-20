@@ -4,7 +4,7 @@ Find second largest node in bst
 Given the root to a binary search tree, find the second largest node in the tree.
 
 =========================================
-There are 4 possible cases (see the details in the code). 
+There are 4 possible cases (see the details in the code).
 Only 1 branch is searched to the end (leaf), not the whole tree.
     Time Complexity:    O(N)        , this is the worst case when all elements are in one (the right) branch O(N), O(LogN) if the tree is balanced (balanced bst)
     Space Complexity:   O(N)        , because of the recursion stack (but this is the tree is one branch), O(LogN) if the tree is balanced.
@@ -41,7 +41,7 @@ def find_second_largest(node, visited_left):
     if visited_left:
         return node
 
-    # go to the left subtree 
+    # go to the left subtree
     # the current node is bigger than all nodes in the left subtree, search for the biggest one there
     if node.left is not None:
         return find_second_largest(node.left, True)

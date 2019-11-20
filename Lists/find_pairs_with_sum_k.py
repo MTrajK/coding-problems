@@ -20,7 +20,7 @@ Save numbers as complements in a hashset and for each number search for the pair
 def find_pairs(arr, K):
     # set to save all complements
     complements = set()
-    # set to save all unique complements that form a pair 
+    # set to save all unique complements that form a pair
     pair_complements = set()
 
     for el in arr:

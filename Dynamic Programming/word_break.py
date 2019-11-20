@@ -1,8 +1,8 @@
 '''
 Word Break (Find the original words)
 
-Given a dictionary of words and a string made up of those words (no spaces), return the original sentence in a list. 
-If there is more than one possible reconstruction, return solution with less words. 
+Given a dictionary of words and a string made up of those words (no spaces), return the original sentence in a list.
+If there is more than one possible reconstruction, return solution with less words.
 If there is no possible reconstruction, then return null.
 
 Input: sentence = 'thequickbrownfox', words = ['quick', 'brown', 'the', 'fox']
@@ -50,7 +50,7 @@ def word_break(sentence, words):
         # start from the back of the matched_indices list (from the bigger numbers)
         for j in range(len(matched_indices) - 1, -1, -1):
             matched_index = matched_indices[j]
-            # break this loop if the subsentence created with this matched index is bigger than the biggest word 
+            # break this loop if the subsentence created with this matched index is bigger than the biggest word
             if matched_index < i - max_word:
                 break
 

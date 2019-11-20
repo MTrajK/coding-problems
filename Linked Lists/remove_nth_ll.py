@@ -9,7 +9,7 @@ Output: 1->2->3->5
 =========================================
 Playing with pointers solution
     Time Complexity:    O(N)
-    Space Complexity:   O(1) 
+    Space Complexity:   O(1)
 Recursive solution
     Time Complexity:    O(N)
     Space Complexity:   O(N)  (Because of the stack of recursive callings)
