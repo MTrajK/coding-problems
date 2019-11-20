@@ -23,7 +23,7 @@ class ListNode:
         self.val = x
         self.next = n
 
-def findIntersectingNode(ll1, ll2):
+def find_intersecting_node(ll1, ll2):
     # count how many nodes contains the first ll
     count1 = 0
     temp1 = ll1
@@ -73,4 +73,4 @@ def findIntersectingNode(ll1, ll2):
 # Correct result => 8
 in1 = ListNode(3, ListNode(7, ListNode(8, ListNode(10))))
 in2 = ListNode(1, ListNode(8, ListNode(10)))
-print(findIntersectingNode(in1, in2).val)
+print(find_intersecting_node(in1, in2).val)

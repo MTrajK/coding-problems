@@ -11,8 +11,8 @@ For example, given array = [10, 5, 2, 7, 8, 7] and k = 3, we should get: [10, 7,
 8 = max(7, 8, 7)
 
 =========================================
-Sliding window solution using deque or linked lists (only need to be able to remove from both sides and to add on both side in constant time)
-https://www.geeksforgeeks.org/sliding-window-maximum-maximum-of-all-subarrays-of-size-k/
+Sliding window solution using deque or linked lists 
+(only needs to be able to remove from both sides and to add on both sides in constant time).
     Time Complexity:    O(N)
     Space Complexity:   O(K)
 '''
@@ -24,7 +24,6 @@ https://www.geeksforgeeks.org/sliding-window-maximum-maximum-of-all-subarrays-of
 
 from collections import deque
 
-# using sliding window
 def max_el_subarrays(arr, k):
     n = len(arr)
     if n == 0:

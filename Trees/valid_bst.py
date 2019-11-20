@@ -57,7 +57,7 @@ def is_valid_sub_bst(node, lower, upper):
 
 # Test 1
 '''
-	5
+    5
    / \
   1   4
      / \
@@ -69,7 +69,7 @@ print(is_valid_bst(root))
 
 # Test 2
 '''
-	5
+    5
    / \
   1   6
      / \
@@ -81,7 +81,7 @@ print(is_valid_bst(root))
 
 # Test 3
 '''
-	5
+    5
    / \
   1   6
      / \
@@ -93,7 +93,7 @@ print(is_valid_bst(root))
 
 # Test 4
 '''
-	5
+    5
    / \
   1   7
      / \

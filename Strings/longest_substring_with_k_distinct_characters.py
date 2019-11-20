@@ -28,8 +28,8 @@ def longest_substring_with_distinct_characters(s, k):
             letters[s[i]] += 1
             length += 1
         else:
-            # if this letter doesn't exist then remove all discent letters from the front
-            # so the count of discent letters will be k-1
+            # if this letter doesn't exist then remove all distinct letters from the front
+            # so the count of distinct letters will be k-1
             while len(letters) == k:
                 firstLetter = s[i - length]
                 letters[firstLetter] -= 1 # decrease the counter

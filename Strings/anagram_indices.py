@@ -1,5 +1,5 @@
 '''
-Anagram indicies
+Anagram indices
 
 Given a word and a string S, find all starting indices in S which are anagrams of word.
 (An anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once)
@@ -54,7 +54,7 @@ class LettersCounter:
         return len(self.__letters) == 0
 
 
-def anagram_indicies(s, word):
+def anagram_indices(s, word):
     n = len(s)
     w = len(word)
     res = []
@@ -92,4 +92,4 @@ def anagram_indicies(s, word):
 ###########
 
 # Correct result => [0, 3, 4]
-print(anagram_indicies('abxaba', 'ab'))
+print(anagram_indices('abxaba', 'ab'))

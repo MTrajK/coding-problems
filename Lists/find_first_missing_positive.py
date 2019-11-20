@@ -61,12 +61,12 @@ print(find_first_missing(test))
 
 # Test 2
 # Correct result => 2
-test = [3, 4, -1, 1]        # 2
+test = [3, 4, -1, 1]
 print(find_first_missing(test))
 
 # Test 3
 # Correct result => 3
-test = [1, 2, 0]            # 3
+test = [1, 2, 0]
 print(find_first_missing(test))
 
 # Test 4

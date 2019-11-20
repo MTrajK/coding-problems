@@ -1,18 +1,20 @@
 '''
 Reverse string
 
-Reverse string, in constant space and linear time complexity.
+Reverse string, in linear time complexity.
 
-Input: 'i like this program very much' - In Python this should be a list (the string operations are slow/linear time)
+Input: 'i like this program very much'
 Output: 'hcum yrev margorp siht ekil i'
 
 Input: 'how are you'
 Output: 'uoy era woh'
 
 =========================================
-Reverse the whole sentence by swapping pair letters in place (first with last, second with second from the end, etc).
+Reverse the whole sentence by swapping pair letters in-place (first with last, second with second from the end, etc).
+In Python, the string manipulation operations are too slow (string is immutable), because of that we need to convert the string into array.
+In C/C++, the Space complexity will be O(1).
 	Time Complexity: 	O(N)
-	Space Complexity: 	O(1)
+	Space Complexity: 	O(N)
 '''
 
 
@@ -21,16 +23,24 @@ Reverse the whole sentence by swapping pair letters in place (first with last, s
 ############
 
 def reverse_sentence(sentence):
+    arr = [c for c in sentence]
     start = 0
-    end = len(sentence)
-    
-    for i in range((end - start) // 2):
-        local_start = start + i
-        local_end = end - i - 1
-        # swap each char with the pair from the other part of the string
-        temp = sentence[local_start]
-        sentence[local_start] = sentence[local_end]
-        sentence[local_end] = temp
+    end = len(arr) - 1
+
+    while start < end:
+        # reverse the array from the start index to the end index by
+        # swaping each char with the pair from the other part of the array
+        swap(arr, start, end)
+        start += 1
+        end -= 1
+
+    return ''.join(arr)
+
+def swap(arr, i, j):
+    # swapping two elements from a same array
+    temp = arr[i]
+    arr[i] = arr[j]
+    arr[j] = temp
 
 
 ###########
@@ -38,13 +48,9 @@ def reverse_sentence(sentence):
 ###########
 
 # Test 1
-s = ['i', ' ', 'l', 'i', 'k', 'e', ' ', 't', 'h', 'i', 's', ' ', 'p', 'r', 'o', 'g', 'r', 'a', 'm', ' ', 'v', 'e', 'r', 'y', ' ', 'm', 'u', 'c', 'h']
-reverse_sentence(s)
-# Correct result => ['h', 'c', 'u', 'm', ' ', 'y', 'r', 'e', 'v', ' ', 'm', 'a', 'r', 'g', 'o', 'r', 'p', ' ', 's', 'i', 'h', 't', ' ', 'e', 'k', 'i', 'l', ' ', 'i']
-print(s)
+# Correct result => 'hcum yrev margorp siht ekil i'
+print(reverse_sentence('i like this program very much'))
 
 # Test 2
-s = ['h', 'o', 'w', ' ', 'a', 'r', 'e', ' ', 'y', 'o', 'u']
-reverse_sentence(s)
-# Correct result => ['u', 'o', 'y', ' ', 'e', 'r', 'a', ' ', 'w', 'o', 'h']
-print(s)
+# Correct result => 'uoy era woh'
+print(reverse_sentence('how are you'))

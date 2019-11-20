@@ -56,7 +56,7 @@ def coin_change_2(coins, amount):
     if len(coins) == 0:
         return -1
 
-    max_value = amount + 1  # use this instead of math.inf
+    max_value = amount + 1
     max_coin = min(max_value, max(coins) + 1)
     dp = [max_value for i in range(max_coin)]
     dp[0] = 0

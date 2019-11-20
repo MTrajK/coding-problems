@@ -28,7 +28,7 @@ def create_palindrome(string):
 
     # find the biggest left palindrome, which starts from the first letter
     max_left_palindrome = 1
-    for i in reversed(range(1, n)):
+    for i in range(n - 1, 0, -1): # same as reversed(range(1, n))
         front = 0
         back = i
         found = True

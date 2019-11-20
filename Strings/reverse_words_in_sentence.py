@@ -1,9 +1,9 @@
 '''
 Reverse words in sentence
 
-Reverse words in a given string, in constant space and linear time complexity.
+Reverse words in a given string, in linear time complexity.
 
-Input: 'i like this program very much' - In Python this should be a list (the string operations are slow/linear time)
+Input: 'i like this program very much'
 Output: 'much very program this like i'
 
 Input: 'how are you'
@@ -11,11 +11,12 @@ Output: 'you are how'
 
 =========================================
 First, find each word and reverse it (in place, by swapping the letters), 
-after all words are reversed reverse the whole sentence (in place, by swapping the letters) 
-and the first word will be last and in the original form.
-In total, there will be only 2 iterations through the whole string.
+after all words are reversed, reverse the whole sentence (in place, by swapping the letters) 
+and the first word will be last and will be in the original form.
+In Python, the string manipulation operations are too slow (string is immutable), because of that we need to convert the string into array.
+In C/C++, the Space complexity will be O(1).
 	Time Complexity: 	O(N)
-	Space Complexity: 	O(1)
+	Space Complexity: 	O(N)
 '''
 
 
@@ -24,32 +25,36 @@ In total, there will be only 2 iterations through the whole string.
 ############
 
 def reverse_words_in_sentence(sentence):
-    n = len(sentence)
+    arr = [c for c in sentence]
+    n = len(arr)
+    last_idx = n - 1
     start = 0
 
     # reverse all words
     for i in range(n):
-        if sentence[i] == ' ':
-            # in this moment you're sure that the word is complete
-            reverse_word(sentence, start, i)
+        if arr[i] == ' ':
+            # in this moment we're sure that the word is complete
+            reverse_array(arr, start, i - 1)
             start = i + 1
     # reverse the last word
-    reverse_word(sentence, start, n)
-
+    reverse_array(arr, start, last_idx)
     # reverse the whole sentence
-    reverse_sentence(sentence)
+    reverse_array(arr, 0, last_idx)
 
-def reverse_sentence(sentence):
-    reverse_word(sentence, 0, len(sentence))
+    return ''.join(arr)
 
-def reverse_word(sentence, start, end):
-    for i in range((end - start) // 2):
-        local_start = start + i
-        local_end = end - i - 1
-        # swap each char with the pair from the other part of the string
-        temp = sentence[local_start]
-        sentence[local_start] = sentence[local_end]
-        sentence[local_end] = temp
+def reverse_array(arr, start, end):
+    # reverse the array from the start index to the end index
+    while start < end:
+        swap(arr, start, end)
+        start += 1
+        end -= 1
+
+def swap(arr, i, j):
+    # swapping two elements from a same array
+    temp = arr[i]
+    arr[i] = arr[j]
+    arr[j] = temp
 
 
 ###########
@@ -57,13 +62,9 @@ def reverse_word(sentence, start, end):
 ###########
 
 # Test 1
-s = ['i', ' ', 'l', 'i', 'k', 'e', ' ', 't', 'h', 'i', 's', ' ', 'p', 'r', 'o', 'g', 'r', 'a', 'm', ' ', 'v', 'e', 'r', 'y', ' ', 'm', 'u', 'c', 'h']
-reverse_words_in_sentence(s)
-# Correct result => ['m', 'u', 'c', 'h', ' ', 'v', 'e', 'r', 'y', ' ', 'p', 'r', 'o', 'g', 'r', 'a', 'm', ' ', 't', 'h', 'i', 's', ' ', 'l', 'i', 'k', 'e', ' ', 'i']
-print(s)
+# Correct result => 'much very program this like i'
+print(reverse_words_in_sentence('i like this program very much'))
 
 # Test 2
-s = ['h', 'o', 'w', ' ', 'a', 'r', 'e', ' ', 'y', 'o', 'u']
-reverse_words_in_sentence(s)
-# Correct result => ['y', 'o', 'u', ' ', 'a', 'r', 'e', ' ', 'h', 'o', 'w']
-print(s)
+# Correct result => 'you are how'
+print(reverse_words_in_sentence('how are you'))

@@ -15,12 +15,9 @@ Output explanation:
 2, 2
 
 =========================================
-Dynamic Programing
+Dynamic Programing solution.
     Time Complexity:    O(N*S)
     Space Complexity:   O(N)
-If steps are only [1, 2], this problem can be solved using Fibonacci algorithm, because ways(n) = ways(n-1) + ways(n-2).
-    Time Complexity:    O(Fib(N))
-    Space Complexity:   O(1)
 '''
 
 
@@ -36,7 +33,7 @@ def climbing_staircase(steps, height):
         if s <= height:
             dp[s - 1] = 1
 
-    # for each current position look how you can arrive there
+    # for each position look how you can arrive there
     for i in range(height):
         for s in steps:
             if i - s >= 0:
