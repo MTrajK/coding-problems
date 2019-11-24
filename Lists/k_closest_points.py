@@ -1,0 +1,83 @@
+'''
+K Closest Points
+
+Given an array with points, and another one point. Find the closest K points of the array to the given point.
+
+Input: [(0, 1), (2, 1), (3, 3), (1, 2)], (2, 2), 2
+Output: [(2, 1), (1, 2)]
+
+=========================================
+Same solution as the nth_smallest.py, in this case we're looking for the K smallest DISTANCES.
+Based on the quick sort algorithm (pivoting, divide and conquer).
+More precisly in-place quick sort (without using additional space).
+   Time Complexity:     O(N)    , O(N + N/2 + N/4 + N/8 + ... + 1 = 2*N = N)
+   Space Complexity:    O(K)    , length of the output array
+'''
+
+
+############
+# Solution #
+############
+
+def find_k_closes(arr, pt, k):
+    n = len(arr)
+    if k > n:
+        return None
+    if k < 1:
+        return None
+
+    kth_closest(arr, k - 1, 0, n - 1, pt)
+
+    return arr[:k]
+
+def kth_closest(arr, n, left, right, pt):
+    pivot = pivoting(arr, left, right, pt)
+
+    if pivot > n:
+        kth_closest(arr, n, left, pivot - 1, pt)
+    elif pivot < n:
+        kth_closest(arr, n, pivot + 1, right, pt)
+
+def pivoting(arr, left, right, pt):
+    # O(N) pivoting
+    # takes the last element as pivot
+    pivot_dist = sqr_dist(pt, arr[right])
+    new_pivot = left
+
+    # iterate the whole array (without the last element)
+    # and put all elements closer than the pivot (last element) in the first K spots
+    # with the new_pivot we're "counting" how many closer elements are there
+    for j in range(left, right):
+        if sqr_dist(pt, arr[j]) < pivot_dist:
+            swap(arr, new_pivot, j)
+            new_pivot += 1
+
+    # swap the last (pivot) element with the new_pivot position
+    swap(arr, new_pivot, right)
+
+    # return the new pivot
+    return new_pivot
+
+def swap(arr, i, j):
+    # swaps two elements in an array
+    temp = arr[i]
+    arr[i] = arr[j]
+    arr[j] = temp
+
+def sqr_dist(a, b):
+    # no need from the square root
+    return (a[0] - b[0]) ** 2 + (a[1] - b[1]) ** 2
+
+
+
+###########
+# Testing #
+###########
+
+# Test 1
+# Correct result => [(2, 2), (2, 1.5), (2, 1)]
+print(find_k_closes([(0, 1), (3, 3), (1, 2), (2, 1.5), (3, -1), (2, 1), (4, 3), (5, 1), (-1, 2), (2, 2)], (2, 2), 3))
+
+# Test 2
+# Correct result => [(1, 2), (2, 1)]
+print(find_k_closes([(0, 1), (2, 1), (3, 3), (1, 2)], (2, 2), 2))
