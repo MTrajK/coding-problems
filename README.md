@@ -8,7 +8,7 @@ All solutions are written in [Python](https://www.python.org/) (more precisely, 
 
 So, to execute these solutions there is no need from installing any external packages. \
 Coding style and name conventions are described in this file [PEP8](https://www.python.org/dev/peps/pep-0008). \
-These problems are from sites like [LeetCode](https://leetcode.com/) (you can find more than 30 sites like this in the [Training Sites](#Training) section).\
+These problems are from sites like [LeetCode](https://leetcode.com/) (you can find around 35 sites like this in the [Training Sites](#Training) section).\
 Also in this README you can find many resources for learning algorithms: [Courses](#Courses), [Books](#Books), [Training Sites](#Training), [Other Resources](#Other).
 
 
@@ -150,14 +150,19 @@ If the problems from [LeetCode](https://leetcode.com/) are not enough and you ne
 - [LintCode](http://www.lintcode.com/en/)
 - [DevPost](https://devpost.com/)
 - [USA CO](http://www.usaco.org/)
+- [Rosetta Code](http://rosettacode.org/)
+- [Exercism](https://exercism.io/)
 - [CodeFu](https://codefu.mk/)
 - [Mendo](https://mendo.mk/Welcome.do)
+- [Edabit](https://edabit.com/)
+- [Cyber-dojo](https://cyber-dojo.org/)
+- [CodeKata](http://codekata.com/)
+- [Advent of Code](https://adventofcode.com/)
 - [Kattis](http://www.kattis.com/)
-- [AlgoExpert](https://www.algoexpert.io/)
 - [Brilliant](http://brilliant.org/)
-- [Kaggle](http://kaggle.com/)
+- [AlgoExpert](https://www.algoexpert.io/)
 - [Codingame](https://www.codingame.com/)
 - [CheckiO](http://www.checkio.org/)
-- [Rosalind](http://rosalind.info/problems/locations/)
-- [CodeKata](http://codekata.com/)
 - [FightCode](http://fightcodegame.com/)
+- [Kaggle](http://kaggle.com/)
+- [Rosalind](http://rosalind.info/problems/locations/)
