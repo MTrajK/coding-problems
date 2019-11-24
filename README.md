@@ -108,6 +108,13 @@ Collection of free courses from one of the best CS universities.
     - [Data Structures - CS61B](https://inst.eecs.berkeley.edu/~cs61b/archives.html)
     - [Efficient Algorithms and Intractable Problems - CS170](https://cs170.org/)
 
+6. [UC San Diego (Coursera)](https://www.coursera.org/specializations/data-structures-algorithms)
+    - [Algorithmic Toolbox](https://www.coursera.org/learn/algorithmic-toolbox)
+    - [Data Structures](https://www.coursera.org/learn/data-structures)
+    - [Algorithms on Graphs](https://www.coursera.org/learn/algorithms-on-graphs)
+    - [Algorithms on Strings](https://www.coursera.org/learn/algorithms-on-strings)
+    - [Advanced Algorithms and Complexity](https://www.coursera.org/learn/advanced-algorithms-and-complexity)
+
 ## Books
 
 Several books that have made an impression on me:
