@@ -10,7 +10,7 @@ Output: 'Geeks'
 Dynamic Programming Solution.
     Time Complexity:    O(N * M)
     Space Complexity:   O(M)
-* There is a faster solution, using Suffix tree, Time Complexity O(N + M).
+* For this problem exists a faster solution, using Suffix tree, Time Complexity O(N + M).
 '''
 
 

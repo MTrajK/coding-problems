@@ -44,14 +44,17 @@ def longest_common_subsequence(str1, str2):
                 dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
 
     # find the subseqence/string
-    result = ''
+    letters = dp[n][m]
+    # use an array for storing the chars because string manipulation operations are not time and space efficient
+    result = ['' for i in range(letters)]
     i = n
     j = m
 
     while (i != 0) and (j != 0):
         # use the inverse logic from upper code (filling the dp table)
         if str1[i - 1] == str2[j - 1]:
-            result = str1[i - 1] + result
+            letters -= 1
+            result[letters] = str1[i - 1]
             j -= 1
             i -= 1
         elif dp[i - 1][j] < dp[i][j - 1]:
@@ -59,7 +62,7 @@ def longest_common_subsequence(str1, str2):
         else:
             i -= 1
 
-    return result
+    return ''.join(result)
 
 
 ###########
