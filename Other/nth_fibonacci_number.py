@@ -47,8 +47,8 @@ result * start =    | Fn+1 * 1 + Fn * 1    Fn+1 * 1 + Fn * 0 |
                =    | Fn+1 + Fn    Fn+1 |
                     | Fn + Fn-1    Fn   |
 
-               =    | Fn+1 + Fn    Fn+1 |
-                    | Fn+1         Fn   |
+               =    | Fn+2    Fn+1 |
+                    | Fn+1    Fn   |
 According to this, when you're multiplying with this matrix you're getting the next fibonacci number.
     Time Complexity:    O(N)
     Space Complexity:   O(1)
