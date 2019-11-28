@@ -9,22 +9,32 @@ Input: 8
 Output: 34
 
 =========================================
-Many solutions for this problem exist, I'll show 6 different solutions,
-starting from the worst to the best.
+Many solutions for this problem exist, I'll show 7 different solutions,
+starting from the worst, O(2^N) time complexity, and finishg with the best, O(LogN) time complexity.
 
-The simplest recursive solution.
-    Time Complexity:    O(2^N)  , actually ~1.6^N, the golden ratio
+The simplest recursive solution. Direct recursive implementation of this
+mathematical recurrence relation T(N) = T(N-1) + T(N-2).
+Everyone knows this, this is the introductory lesson in recursion.
+    Time Complexity:    O(2^N)  , actually ~1.6^N, the golden ratio number
     Space Complexity:   O(N)    , because of the recursion stack
-Recursion with memoizing. Much faster, 2^N-N less operations.
+
+Recursion with memoization, much faster, less computations.
+For many numbers the recursive function is called more than once (in total ~1.6^N - N times duplicate calls).
+Use hashmap/dictionary to save all computed numbers as values and the positions as keys.
     Time Complexity:    O(N)
     Space Complexity:   O(N)
-Dynamic programming.
+
+Dynamic programming. Implementation of T(N) = T(N-1) + T(N-2) using a loop and dp table/array.
     Time Complexity:    O(N)
     Space Complexity:   O(N)
-Space optimized dynamic programming. (don't need a whole array, only 2 variables are needed)
+
+Space optimized dynamic programming. You can easily notice that you don't need the whole array,
+you need only the last 2 values T(N-1) and T(N-2), and after you compute T(N) you won't need T(N-2) anymore, etc.
     Time Complexity:    O(N)
     Space Complexity:   O(1)
-Matrix power.
+
+Using power of the matrix [[1, 1], [1, 0]]. The 3 next solutions are based on this logic.
+Explanation:
 start matrix:   | 1  1 |
                 | 1  0 |
 
@@ -39,12 +49,17 @@ result * start =    | Fn+1 * 1 + Fn * 1    Fn+1 * 1 + Fn * 0 |
 
                =    | Fn+1 + Fn    Fn+1 |
                     | Fn+1         Fn   |
+According to this, when you're multiplying with this matrix you're getting the next fibonacci number.
     Time Complexity:    O(N)
     Space Complexity:   O(1)
-Time optimized matrix power. (using recursive divide and conquer approach)
+
+Time optimized matrix power. Using a recursive divide and conquer approach.
+From the basic math we know that A^K * A^K = A^2K, the same rule we can use in matrix multiplication.
     Time Complexity:    O(LogN)
     Space Complexity:   O(LogN)     , because of the recursion stack
-Time and space optimized matrix multiplication. (without recursion, just looping)
+
+Time and space optimized matrix multiplication.
+Using a loop (without a recursion) compute the power of N of the matrix.
     Time Complexity:    O(LogN)
     Space Complexity:   O(1)
 '''
@@ -54,25 +69,27 @@ Time and space optimized matrix multiplication. (without recursion, just looping
 # Solution 1 #
 ##############
 
-def fibonacci_1(n):
+def nth_fibonacci_1(n):
     if (n == 0) or (n == 1):
         return n
 
-    return fibonacci_1(n - 1) + fibonacci_1(n - 2)
+    return nth_fibonacci_1(n - 1) + nth_fibonacci_1(n - 2)
 
 
 ##############
 # Solution 2 #
 ##############
 
-# hashmap
+# all found fibonacci numbers and positions
 fib = {0: 0, 1: 1}
 
-def fibonacci_2(n):
+def nth_fibonacci_2(n):
+    # check if the value is already found
     if n in fib:
         return fib[n]
 
-    fib[n] = fibonacci_2(n - 1) + fibonacci_2(n - 2)
+    # save the fibonacci value for N position
+    fib[n] = nth_fibonacci_2(n - 1) + nth_fibonacci_2(n - 2)
 
     return fib[n]
 
@@ -81,7 +98,7 @@ def fibonacci_2(n):
 # Solution 3 #
 ##############
 
-def fibonacci_3(n):
+def nth_fibonacci_3(n):
     dp = [0 for i in range(max(2, n + 1))]
     dp[1] = 1
 
@@ -95,7 +112,7 @@ def fibonacci_3(n):
 # Solution 4 #
 ##############
 
-def fibonacci_4(n):
+def nth_fibonacci_4(n):
     dp0, dp1 = 0, 1
 
     for i in range(n):
@@ -129,36 +146,37 @@ def matrix_mult(a, b):
 # Solution 5 #
 ##############
 
-def fibonacci_5(n):
+def nth_fibonacci_5(n):
     fib = [[1, 1], [1, 0]]
     res = [[1, 1], [1, 0]]
 
     for i in range(n):
         matrix_mult(res, fib)
 
-    return res[1][1] # Fn-1 (or change the range(n-1) and use res[0][1] or res[1][0])
+    return res[1][1] # Fn-1 (or change the range(n-1) and use Fn => res[0][1] or res[1][0])
 
 
 ##############
 # Solution 6 #
 ##############
 
-def fibonacci_6(n):
+def nth_fibonacci_6(n):
     res = [[1, 1], [1, 0]]
 
     matrix_pow(res, n + 1)
 
-    return res[1][1] # return Fn-1
+    return res[1][1]
 
 def matrix_pow(mat, n):
-    # divide and conquer power function
     if (n == 0) or (n == 1):
         return
 
-    # split on 2, because matrix^k = matrix^(k/2) * matrix^(k/2)
+    # first compute the power of n/2
     matrix_pow(mat, n // 2)
 
+    # after that you can compute power of n, mat^(n/2) * mat^(n/2) = mat^n
     matrix_mult(mat, mat)
+
     if n % 2 == 1:
         # multiply by the start matrix if odd power
         matrix_mult(mat, [[1, 1], [1, 0]])
@@ -168,7 +186,7 @@ def matrix_pow(mat, n):
 # Solution 7 #
 ##############
 
-def fibonacci_7(n):
+def nth_fibonacci_7(n):
     fib = [[1, 1], [1, 0]]
     res = [[1, 1], [1, 0]]
 
@@ -188,21 +206,21 @@ def fibonacci_7(n):
 
 # Test 1
 # Correct result => 21
-print(fibonacci_1(8))
-print(fibonacci_2(8))
-print(fibonacci_3(8))
-print(fibonacci_4(8))
-print(fibonacci_5(8))
-print(fibonacci_6(8))
-print(fibonacci_7(8))
+print(nth_fibonacci_1(8))
+print(nth_fibonacci_2(8))
+print(nth_fibonacci_3(8))
+print(nth_fibonacci_4(8))
+print(nth_fibonacci_5(8))
+print(nth_fibonacci_6(8))
+print(nth_fibonacci_7(8))
 
 
 # Test 2
 # Correct result => 10946
-print(fibonacci_1(21))
-print(fibonacci_2(21))
-print(fibonacci_3(21))
-print(fibonacci_4(21))
-print(fibonacci_5(21))
-print(fibonacci_6(21))
-print(fibonacci_7(21))
+print(nth_fibonacci_1(21))
+print(nth_fibonacci_2(21))
+print(nth_fibonacci_3(21))
+print(nth_fibonacci_4(21))
+print(nth_fibonacci_5(21))
+print(nth_fibonacci_6(21))
+print(nth_fibonacci_7(21))
