@@ -42,7 +42,7 @@ Output: XXX
 Output explanation: XXX
 
 =========================================
-Solution explanation
+Solution 1 explanation
     Time Complexity:    O(X)
     Space Complexity:   O(X)
 Solution 2 explanation
@@ -51,11 +51,11 @@ Solution 2 explanation
     Space Complexity:   O(X)
 '''
 
-############
-# Solution #
-############
+##############
+# Solution 1 #
+##############
 
-def name_of_problem(params):
+def name_of_solution_1(params):
     # description of code
     pass
 
@@ -63,7 +63,7 @@ def name_of_problem(params):
 # Solution 2 #
 ##############
 
-def name_of_problem_2(params):
+def name_of_solution_2(params):
     # description of code
     pass
 
@@ -73,12 +73,12 @@ def name_of_problem_2(params):
 ###########
 
 # Test 1
-# Correct result => 'result'
-print(name_of_problem('example'))
+# Correct result => 'result1'
+print(name_of_solution_1('example1'))
 
 # Test 2
 # Correct result => 'result2'
-print(name_of_problem_2('example2'))
+print(name_of_solution_2('example2'))
 ```
 
 ## Courses
