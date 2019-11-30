@@ -15,7 +15,8 @@ Fix the first element (i), move the second element (j) and search into the hashs
     Space Complexity:   O(N)
 Fix the first element (i), and play with 2 pointers from the left (i+1) and right (n-1) side.
 If the current sum is smaller than K then increase the left pointer, otherwise decrease the right pointer.
-*This solution works only for elements in sorted ascending order.
+* This solution works only for elements in sorted ascending order. If the elements aren't sorted, first sort
+them and after that use this algorithm, the time complexity will be same O(NLogN + N^2) = O(N^2).
     Time Complexity:    O(N^2)
     Space Complexity:   O(1)
 '''

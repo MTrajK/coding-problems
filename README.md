@@ -1,7 +1,7 @@
 # Coding Problems
 
 My solutions for many various coding/algorithmic problems (this repo will be updated with new solutions from time to time). \
-All solutions are written in [Python](https://www.python.org/) (more precisely, [Python 3](https://docs.python.org/3)), using the [Built-in Functions](https://docs.python.org/3/library/functions.html) and few modules from the [Python Standard Library](https://docs.python.org/3/library/) like:
+All solutions are written in [Python](https://www.python.org/) (more precisely, [Python 3](https://docs.python.org/3)), using the [Built-in Functions](https://docs.python.org/3/library/functions.html) (print, len, range, sorted, sum, min, max, etc...) and few modules from the [Python Standard Library](https://docs.python.org/3/library/) like:
 - [math](https://docs.python.org/3/library/math.html) (used for constants like math.pi, math.inf and functions like math.ceil, math.floor, math.gcd, math.log, math.pow, math.sqrt, etc)
 - [collections](https://docs.python.org/3/library/collections.html) (used for [collections.deque](https://docs.python.org/3/library/collections.html#collections.deque) when there is a need for [Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)) or [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)) data structures)
 - [heapq](https://docs.python.org/3/library/heapq.html) (used when there is a need for [Priority Queue](https://en.wikipedia.org/wiki/Priority_queue) data structure).
@@ -121,9 +121,9 @@ Collection of free courses from one of the best CS universities.
 Several books that have made an impression on me:
 
 1. [Grokking Algorithms by Aditya Bhargava](https://www.goodreads.com/book/show/22847284-grokking-algorithms-an-illustrated-guide-for-programmers-and-other-curio) - The best book for complete beginners in algorithms! I wish this book existed when I started learning algorithms.
-2. [Introduction to Algorithms by Thomas H. Cormen](https://www.goodreads.com/book/show/6752187-introduction-to-algorithms)
-3. [Algorithms by Robert Sedgewick & Kevin Wayne](https://www.goodreads.com/book/show/10803540-algorithms)
-4. [The Algorithm Design Manual by Steven Skiena](https://www.goodreads.com/book/show/425208.The_Algorithm_Design_Manual)
+2. [Introduction to Algorithms by CLRS](https://www.goodreads.com/book/show/6752187-introduction-to-algorithms) - This book is called "bible textbook of algorithms" by many programmers.
+3. [Algorithms by Robert Sedgewick & Kevin Wayne](https://www.goodreads.com/book/show/10803540-algorithms) - These authors are instructors of the previously mentioned coursera courses: [Algorithms Part 1](https://www.coursera.org/learn/algorithms-part1) and [Algorithms Part 2](https://www.coursera.org/learn/algorithms-part2). Also this book has excellent and free [site](http://algs4.cs.princeton.edu) with exercises, presentations, and examples.
+4. [The Algorithm Design Manual by Steven Skiena](https://www.goodreads.com/book/show/425208.The_Algorithm_Design_Manual) - The book describes many advanced topics and algorithms and it focuses on real life practical examples. This book has one of the best [site](http://www.algorist.com) with resources ([solutions](http://www.algorist.com/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition)), [algorithms and data structures](http://www.algorist.com/algorist.html), [python implementations](http://www.algorist.com/languages/Python.html)).
 
 ## Other Resources
 
