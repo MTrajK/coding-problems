@@ -1,8 +1,8 @@
 '''
 Reverse Vowels
 
-Given a ​text string, create and return a new string constructed by finding all its ​vowels (for
-simplicity, in this problem vowels are the letters in the string ​'aeiouAEIOU' ​) and reversing their
+Given a text string, create and return a new string constructed by finding all its vowels (for
+simplicity, in this problem vowels are the letters in the string 'aeiouAEIOU') and reversing their
 order, while keeping all non-vowel characters exactly as they were in their original positions.
 
 Input: 'Hello world'

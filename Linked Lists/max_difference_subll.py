@@ -1,9 +1,9 @@
 '''
 Maximum Difference Sub-Linked List
 
-Given a linked list of integers, find and return the sub-linked list of ​k consecutive elements where
+Given a linked list of integers, find and return the sub-linked list of k consecutive elements where
 the difference between the smallest element and the largest element is the largest possible.
-If there are several sub-linked lists of ​k elements in ​items so that all these sub-linked list have
+If there are several sub-linked lists of k elements in items so that all these sub-linked list have
 the same largest possible difference, return the sub-linked list that occurs first.
 
 Input: 42 -> 17 -> 99 -> 12 -> 65 -> 77 -> 11 -> 26, 5

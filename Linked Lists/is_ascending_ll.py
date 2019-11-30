@@ -1,9 +1,9 @@
 '''
 Ascending Linked List
 
-Determine whether the sequence of ​items is ​ascending so that its each element is ​strictly larger
-than (and not merely equal to) the element that precedes it. Return ​True if that is the case, and
-return ​False ​ otherwise.
+Determine whether the sequence of items is ascending so that its each element is strictly larger
+than (and not merely equal to) the element that precedes it. Return True if that is the case, and
+return False otherwise.
 
 Input: -5 -> 10 -> 99 -> 123456
 Output: True

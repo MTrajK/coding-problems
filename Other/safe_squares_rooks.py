@@ -1,10 +1,10 @@
 '''
 Safe Squares from Rooks
 
-On a generalized ​n-by-​n chessboard, there are some number of ​rooks ​, each rook represented as a
-two-tuple ​(row, column) of the row and the column that it is in. (The rows and columns are
-numbered from 0 to ​n-1.) A chess rook covers all squares that are in the same row or in the same
-column as that rook. Given the board size ​n and the list of ​rooks on that board, count the number of
+On a generalized n-by-n chessboard, there are some number of rooks, each rook represented as a
+two-tuple (row, column) of the row and the column that it is in. (The rows and columns are
+numbered from 0 to n-1.) A chess rook covers all squares that are in the same row or in the same
+column as that rook. Given the board size n and the list of rooks on that board, count the number of
 empty squares that are safe, that is, are not covered by any rook.
 
 Input: [(1, 1), (3, 5), (7, 0), (7, 6)], 8
