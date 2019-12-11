@@ -25,7 +25,7 @@ In C/C++, the Space complexity will be O(1).
 ############
 
 def reverse_words_in_sentence(sentence):
-    arr = [c for c in sentence]
+    arr = [c for c in sentence] # or just arr = list(sentence)
     n = len(arr)
     last_idx = n - 1
     start = 0

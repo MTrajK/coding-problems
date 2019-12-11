@@ -1,5 +1,5 @@
 '''
-Anagram indices
+Anagram Indices
 
 Given a word and a string S, find all starting indices in S which are anagrams of word.
 (An anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once)

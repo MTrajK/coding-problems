@@ -22,7 +22,7 @@ In C/C++, the Space complexity will be O(1).
 ############
 
 def swap_first_and_last_word(sentence):
-    arr = [c for c in sentence]
+    arr = [c for c in sentence] # or just arr = list(sentence)
     first_idx = 0
     last_idx = len(arr) - 1
 
