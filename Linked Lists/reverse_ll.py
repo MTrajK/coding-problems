@@ -70,15 +70,15 @@ def reverse(node, prev_node):
 # Test 1
 # Correct result => 4 -> 3 -> 2 -> 1
 ll = ListNode(1, ListNode(2, ListNode(3, ListNode(4))))
-kk = reverse_ll(ll)
-while kk is not None:
-    print(kk.val)
-    kk = kk.next
+res = reverse_ll(ll)
+while res is not None:
+    print(res.val)
+    res = res.next
 
 # Test 2
 # Correct result => 4 -> 3 -> 2 -> 1
 ll = ListNode(1, ListNode(2, ListNode(3, ListNode(4))))
-kk = reverse_ll_2(ll)
-while kk is not None:
-    print(kk.val)
-    kk = kk.next
+res = reverse_ll_2(ll)
+while res is not None:
+    print(res.val)
+    res = res.next
