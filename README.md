@@ -51,6 +51,7 @@ Solution 2 explanation
     Space Complexity:   O(X)
 '''
 
+
 ##############
 # Solution 1 #
 ##############
@@ -58,6 +59,7 @@ Solution 2 explanation
 def name_of_solution_1(params):
     # description of code
     pass
+
 
 ##############
 # Solution 2 #
