@@ -1,35 +1,26 @@
 # Coding Problems
 
-My solutions for many various coding/algorithmic problems (this repo will be updated with new solutions from time to time). \
-All solutions are written in [Python](https://www.python.org/) (more precisely, [Python 3](https://docs.python.org/3)), using the [Built-in Functions](https://docs.python.org/3/library/functions.html) (print, len, range, sorted, sum, min, max, etc...) and few modules from the [Python Standard Library](https://docs.python.org/3/library/) like:
+Here you can find [solutions](#Solutions) for various coding/algorithmic problems and many useful [resources](#Learning-Resources) for learning algorithms and data structures.\
+Also, this repo will be updated with new solutions from time to time.
+
+*Note that this repo is meant to be used for learning and researching purposes only and it is **not** meant to be used for production.*
+
+
+## Solutions
+
+All solutions are written in [Python](https://www.python.org/) (more precisely, [Python 3](https://docs.python.org/3)), using the [Built-in Functions](https://docs.python.org/3/library/functions.html) (print, len, range, sorted, sum, min, max, etc...) and a few modules from the [Python Standard Library](https://docs.python.org/3/library/) like:
 - [math](https://docs.python.org/3/library/math.html) (used for constants like math.pi, math.inf and functions like math.ceil, math.floor, math.gcd, math.log, math.pow, math.sqrt, etc)
 - [collections](https://docs.python.org/3/library/collections.html) (used for [collections.deque](https://docs.python.org/3/library/collections.html#collections.deque) when there is a need for [Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)) or [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)) data structures)
 - [heapq](https://docs.python.org/3/library/heapq.html) (used when there is a need for [Priority Queue](https://en.wikipedia.org/wiki/Priority_queue) data structure).
 
 So, to execute these solutions there is no need from installing any external packages. \
 Coding style and name conventions are described in this file [PEP8](https://www.python.org/dev/peps/pep-0008). \
-These problems are from sites like [LeetCode](https://leetcode.com/) (you can find around 35 sites like this in the [Training Sites](#Training-Sites) section).\
-Also in this README you can find many resources for learning algorithms: [Courses](#Courses), [Books](#Books), [Training Sites](#Training-Sites), [Other Resources](#Other-Resources).
+These problems are from sites like [LeetCode](https://leetcode.com/) (you can find around 35 sites like this in the [Training Sites](#Training-Sites) section).
 
 
-## Categories
+### Template
 
-Each solution/problem in this repo belongs to one of these categories:
-
-1. [Strings](/)
-2. [Arrays](/)
-3. [Linked Lists](/)
-4. [Trees](/)
-5. [Dynamic Programming](/)
-6. [Backtracking](/)
-7. [Graphs](/)
-8. [Math](/)
-9. [Other](/)
-
-
-## Template
-
-Each file with solution in this repo will have the following template:
+For easier navigation into the solutions, each file with a solution in this repo will have the following template:
 
 ```python
 '''
@@ -83,7 +74,28 @@ print(name_of_solution_1('example1'))
 print(name_of_solution_2('example2'))
 ```
 
-## Courses
+
+### Categories
+
+Each solution/problem in this repo belongs to one of these categories:
+
+1. [Strings](/)
+2. [Arrays](/)
+3. [Linked Lists](/)
+4. [Trees](/)
+5. [Dynamic Programming](/)
+6. [Backtracking](/)
+7. [Graphs](/)
+8. [Math](/)
+9. [Other](/)
+
+
+## Learning Resources
+
+The learning resources are divided into 4 categories: [Courses](#Courses), [Books](#Books), [Training Sites](#Training-Sites), [Other Resources](#Other-Resources).
+
+
+### Courses
 
 Collection of free courses from one of the best CS universities.
 
@@ -118,25 +130,18 @@ Collection of free courses from one of the best CS universities.
     - [Efficient Algorithms and Intractable Problems - CS170](https://cs170.org/)
 
 
-## Books
+### Books
 
 Several books that have made an impression on me:
 
-1. [Grokking Algorithms by Aditya Bhargava](https://www.goodreads.com/book/show/22847284-grokking-algorithms-an-illustrated-guide-for-programmers-and-other-curio) - The best book for complete beginners in algorithms! I wish this book existed when I started learning algorithms.
+1. [Grokking Algorithms by Aditya Bhargava](https://www.goodreads.com/book/show/22847284-grokking-algorithms-an-illustrated-guide-for-programmers-and-other-curio) - **The best** book for complete beginners in algorithms! I wish this book existed when I started learning algorithms.
 2. [Introduction to Algorithms by CLRS](https://www.goodreads.com/book/show/6752187-introduction-to-algorithms) - This book is called "bible textbook of algorithms" by many programmers.
 3. [Algorithms by Robert Sedgewick & Kevin Wayne](https://www.goodreads.com/book/show/10803540-algorithms) - These authors are instructors of the previously mentioned coursera courses: [Algorithms Part 1](https://www.coursera.org/learn/algorithms-part1) and [Algorithms Part 2](https://www.coursera.org/learn/algorithms-part2). Also this book has excellent and free [site](http://algs4.cs.princeton.edu) with exercises, presentations, and examples.
 4. [The Algorithm Design Manual by Steven Skiena](https://www.goodreads.com/book/show/425208.The_Algorithm_Design_Manual) - The book describes many advanced topics and algorithms and it focuses on real life practical examples. This book has one of the best [site](http://www.algorist.com) with resources ([solutions](http://www.algorist.com/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition)), [algorithms and data structures](http://www.algorist.com/algorist.html), [python implementations](http://www.algorist.com/languages/Python.html)).
+5. [Algorithms by S. Dasgupta, C. Papadimitriou, and U. Vazirani](https://www.goodreads.com/book/show/138563.Algorithms) - This book is an official book for algorithms and data structures classes in several famous universities.
 
-## Other Resources
 
-1. [Geeks For Geeks](https://www.geeksforgeeks.org/) - The site which all interested in algorithms (no matter if beginners or experts) should know!
-2. [The Algorithms - Python](https://github.com/TheAlgorithms/Python) - Great GitHub repo with many algorithms written in Python ([Link](https://github.com/TheAlgorithms) for the rest languages).
-3. [KhanAcademy - Algorithms](https://www.khanacademy.org/computing/computer-science/algorithms) - Good explanations for some basic algorithms.
-4. HackerRank - YouTube tutorials
-    - [Algorithms](https://www.youtube.com/playlist?list=PLI1t_8YX-ApvMthLj56t1Rf-Buio5Y8KL)
-    - [Data Structures](https://www.youtube.com/playlist?list=PLI1t_8YX-Apv-UiRlnZwqqrRT8D1RhriX)
-
-## Training Sites
+### Training Sites
 
 If the problems from [LeetCode](https://leetcode.com/) are not enough and you need more problems like those, you can find much more on these platforms:
 
@@ -176,3 +181,13 @@ If the problems from [LeetCode](https://leetcode.com/) are not enough and you ne
 - [FightCode](http://fightcodegame.com/)
 - [Kaggle](http://kaggle.com/)
 - [Rosalind](http://rosalind.info/problems/locations/)
+
+
+### Other Resources
+
+1. [Geeks For Geeks](https://www.geeksforgeeks.org/) - The site which **all** interested in algorithms (no matter if beginners or experts) should know!
+2. [The Algorithms - Python](https://github.com/TheAlgorithms/Python) - Great GitHub repo with many algorithms written in Python ([Link](https://github.com/TheAlgorithms) from the same repo written in other programming languages).
+3. [KhanAcademy - Algorithms](https://www.khanacademy.org/computing/computer-science/algorithms) - Good explanations for some basic algorithms.
+4. HackerRank - YouTube tutorials
+    - [Algorithms](https://www.youtube.com/playlist?list=PLI1t_8YX-ApvMthLj56t1Rf-Buio5Y8KL)
+    - [Data Structures](https://www.youtube.com/playlist?list=PLI1t_8YX-Apv-UiRlnZwqqrRT8D1RhriX)
