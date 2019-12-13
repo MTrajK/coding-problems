@@ -46,7 +46,7 @@ def kth_smallest(arr, k, left, right):
     return arr[pivot]
 
 def pivoting(arr, left, right):
-    # O(N) pivoting
+    # Linear time complexity pivoting
     # takes the last element as pivot
     pivot = right
     new_pivot = left

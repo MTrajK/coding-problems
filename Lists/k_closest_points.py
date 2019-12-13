@@ -42,7 +42,7 @@ def kth_closest(arr, k, left, right, pt):
         kth_closest(arr, k, pivot + 1, right, pt)
 
 def pivoting(arr, left, right, pt):
-    # O(N) pivoting
+    # Linear time complexity pivoting
     # takes the last element as pivot
     pivot_dist = sqr_dist(pt, arr[right])
     new_pivot = left

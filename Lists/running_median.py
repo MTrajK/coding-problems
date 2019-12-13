@@ -16,7 +16,7 @@ Output:
 2
 
 =========================================
-Using 2 heaps (priority queues) balance the left and right side of the stream.
+Using 2 heaps (max and min Priority Queues) balance the left and right side of the stream.
     Time Complexity:    O(N LogN)
     Space Complexity:   O(N)
 '''
@@ -26,27 +26,27 @@ Using 2 heaps (priority queues) balance the left and right side of the stream.
 # Solution #
 ############
 
-from heapq import heappush, heappop
+import heapq
 
 class PriorityQueue:
-    def __init__(self, isMin=True):
+    def __init__(self, is_min=True):
         self.data = []
-        self.isMin = isMin
+        self.is_min = is_min
 
     def push(self, el):
-        if not self.isMin:
+        if not self.is_min:
             el = -el
-        heappush(self.data, el)
+        heapq.heappush(self.data, el)
 
     def pop(self):
-        el = heappop(self.data)
-        if not self.isMin:
+        el = heapq.heappop(self.data)
+        if not self.is_min:
             el = -el
         return el
 
     def peek(self):
         el = self.data[0]
-        if not self.isMin:
+        if not self.is_min:
             el = -el
         return el
 
@@ -54,8 +54,8 @@ class PriorityQueue:
         return len(self.data)
 
 def running_median(stream):
-    left_heap = PriorityQueue(False)
-    right_heap = PriorityQueue()
+    left_heap = PriorityQueue(False) # Max Priority Queue
+    right_heap = PriorityQueue() # Min Priority Queue
 
     # left_heap will have always same number of elements or 1 element more than right_heap
     for number in stream:

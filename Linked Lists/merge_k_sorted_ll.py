@@ -35,34 +35,33 @@ class PQNode:
         return self.val < other.val
 
 # priority queue
-class MyHeap:
+class PriorityQueue:
     def __init__(self):
         self.data = []
 
     def push(self, node):
-        heapq.heappush(self.data, node)
+        heapq.heappush(self.data, PQNode(node))
 
     def pop(self):
-        return heapq.heappop(self.data)
+        return heapq.heappop(self.data).node
 
     def is_empty(self):
         return len(self.data) == 0
 
 def merge_k_lists_1(lists):
-    heap = MyHeap()
+    heap = PriorityQueue()
 
     # add all linked lists in the heap
     for node in lists:
         if node is not None:
-            heap.push(PQNode(node))
+            heap.push(node)
 
     result = ListNode(-1)
     pointer = result
 
     while not heap.is_empty():
         # in each step remove the min list from the heap
-        el = heap.pop()
-        node = el.node
+        node = heap.pop()
 
         # add the min list to the result
         pointer.next = node
@@ -71,7 +70,7 @@ def merge_k_lists_1(lists):
         node = node.next
         if node is not None:
             # take the next node from the min list and add it in the heap
-            heap.push(PQNode(node))
+            heap.push(node)
 
     return result.next
 
