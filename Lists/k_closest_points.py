@@ -9,34 +9,37 @@ Output: [(2, 1), (1, 2)]
 =========================================
 Same solution as the nth_smallest.py, in this case we're looking for the K smallest DISTANCES.
 Based on the quick sort algorithm (pivoting, divide and conquer).
-More precisly in-place quick sort (without using additional space).
+More precisly in-place quick sort. Recursive solution.
    Time Complexity:     O(N)    , O(N + N/2 + N/4 + N/8 + ... + 1 = 2*N = N)
    Space Complexity:    O(K)    , length of the output array
+Completely the same algorithm as the previous one, but without recursion. This solution is cleaner.
+    Time Complexity:    O(N)
+    Space Complexity:   O(K)
 '''
 
 
-############
-# Solution #
-############
+##############
+# Solution 1 #
+##############
 
-def find_k_closes(arr, pt, k):
+def find_k_closes_recursive(arr, pt, k):
     n = len(arr)
     if k > n:
-        return None
+        return arr
     if k < 1:
-        return None
+        return []
 
     kth_closest(arr, k - 1, 0, n - 1, pt)
 
     return arr[:k]
 
-def kth_closest(arr, n, left, right, pt):
+def kth_closest(arr, k, left, right, pt):
     pivot = pivoting(arr, left, right, pt)
 
-    if pivot > n:
-        kth_closest(arr, n, left, pivot - 1, pt)
-    elif pivot < n:
-        kth_closest(arr, n, pivot + 1, right, pt)
+    if pivot > k:
+        kth_closest(arr, k, left, pivot - 1, pt)
+    elif pivot < k:
+        kth_closest(arr, k, pivot + 1, right, pt)
 
 def pivoting(arr, left, right, pt):
     # O(N) pivoting
@@ -69,6 +72,34 @@ def sqr_dist(a, b):
     return (a[0] - b[0]) ** 2 + (a[1] - b[1]) ** 2
 
 
+##############
+# Solution 2 #
+##############
+
+def find_k_closes(arr, pt, k):
+    n = len(arr)
+    if k > n:
+        return arr
+    if k < 1:
+        return []
+
+    k -= 1
+    left = 0
+    right = n - 1
+
+    while True:
+        pivot = pivoting(arr, left, right, pt) # the same method from the previous solution
+
+        if pivot > k:
+            right = pivot - 1
+        elif pivot < k:
+            left = pivot + 1
+        else:
+            return arr[:k + 1]
+
+    # not possible
+    return None
+
 
 ###########
 # Testing #
@@ -76,8 +107,10 @@ def sqr_dist(a, b):
 
 # Test 1
 # Correct result => [(2, 2), (2, 1.5), (2, 1)]
+print(find_k_closes_recursive([(0, 1), (3, 3), (1, 2), (2, 1.5), (3, -1), (2, 1), (4, 3), (5, 1), (-1, 2), (2, 2)], (2, 2), 3))
 print(find_k_closes([(0, 1), (3, 3), (1, 2), (2, 1.5), (3, -1), (2, 1), (4, 3), (5, 1), (-1, 2), (2, 2)], (2, 2), 3))
 
 # Test 2
 # Correct result => [(1, 2), (2, 1)]
+print(find_k_closes_recursive([(0, 1), (2, 1), (3, 3), (1, 2)], (2, 2), 2))
 print(find_k_closes([(0, 1), (2, 1), (3, 3), (1, 2)], (2, 2), 2))
