@@ -15,7 +15,7 @@ All solutions are written in [Python](https://www.python.org/) (more precisely, 
 
 So, to execute these solutions there is no need from installing any external packages. \
 Coding style and name conventions are described in this file [PEP8](https://www.python.org/dev/peps/pep-0008). \
-These problems are from sites like [LeetCode](https://leetcode.com/) (you can find around 35 sites like this in the [Training Sites](#Training-Sites) section).
+These problems are from sites like [LeetCode](https://leetcode.com/) (you can find more than 40 sites like this in the [Training Sites](#Training-Sites) section).
 
 
 ### Template
@@ -151,21 +151,25 @@ If the problems from [LeetCode](https://leetcode.com/) are not enough and you ne
 - [CodeForces](http://codeforces.com/)
 - [Topcoder](http://topcoder.com/)
 - [Project Euler](https://projecteuler.net/)
+- [SPOJ](http://www.spoj.com/)
+- [A2OJ](https://a2oj.com/)
+- [PEG](https://wcipeg.com/)
+- [Online Judge](https://onlinejudge.org/)
+- [E-Olymp](https://www.e-olymp.com/en/)
+- [USA CO](http://www.usaco.org/)
+- [CodeAbbey](http://codeabbey.com/)
+- [CS Academy](https://csacademy.com/)
+- [CodingBat](http://codingbat.com/)
+- [Wolfram Challenges](https://challenges.wolfram.com/)
+- [Google's Coding Competitions](https://codingcompetitions.withgoogle.com/)
 - [Codility](https://codility.com/)
 - [CoderByte](https://coderbyte.com/)
-- [CodingBat](http://codingbat.com/)
-- [CodeAbbey](http://codeabbey.com/)
-- [Wolfram Challenges](https://challenges.wolfram.com/)
-- [CS Academy](https://csacademy.com/)
+- [Rosetta Code](http://rosettacode.org/)
 - [Daily Coding Problem](https://www.dailycodingproblem.com/)
 - [Daily Interview Pro](http://dailyinterviewpro.com/)
 - [Codewars](http://www.codewars.com/)
-- [SPOJ](http://www.spoj.com/)
-- [Online Judge](https://onlinejudge.org/)
 - [LintCode](http://www.lintcode.com/en/)
 - [DevPost](https://devpost.com/)
-- [USA CO](http://www.usaco.org/)
-- [Rosetta Code](http://rosettacode.org/)
 - [Exercism](https://exercism.io/)
 - [CodeFu](https://codefu.mk/)
 - [Mendo](https://mendo.mk/Welcome.do)
