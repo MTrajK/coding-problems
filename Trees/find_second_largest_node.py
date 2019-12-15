@@ -14,28 +14,26 @@ Traverse tree and compare the current value with the saved 2 values.
 # Solution #
 ############
 
-class TreeNode:
-    def __init__(self, val, left=None, right=None):
-        self.val = val
-        self.left= left
-        self.right = right
+# import TreeNode class from tree_helpers.py
+from tree_helpers import TreeNode
+
+import math
 
 def find_second_largest(root):
-    arr = [None, None]
+    arr = [TreeNode(-math.inf), TreeNode(-math.inf)]
     traverse_tree(root, arr)
+    if arr[1] == -math.inf:
+        # the tree has 0 or 1 elements
+        return None
     return arr[1]
 
 def traverse_tree(node, arr):
     if node == None:
         return
 
-    if arr[0] is None:
-        arr[0] = node
-    elif arr[0].val < node.val:
+    if arr[0].val < node.val:
         arr[1] = arr[0]
         arr[0] = node
-    elif arr[1] is None:
-        arr[1] = node
     elif arr[1].val < node.val:
         arr[1] = node
 

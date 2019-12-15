@@ -25,11 +25,8 @@ Simple tree traversal solution.
 # Solution #
 ############
 
-class TreeNode:
-    def __init__(self, val, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
+# import TreeNode class from tree_helpers.py
+from tree_helpers import TreeNode
 
 def count_unival_trees(tree):
     if tree is None:

@@ -32,11 +32,8 @@ Traverse the tree and in each node compare create a new path where the left and 
 # Solution #
 ############
 
-class TreeNode:
-    def __init__(self, val, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
+# import TreeNode class from tree_helpers.py
+from tree_helpers import TreeNode
 
 def max_path_sum(tree):
     return find_max_path_sum(tree)[0]

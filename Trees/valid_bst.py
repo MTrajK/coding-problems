@@ -22,13 +22,10 @@ When visiting the right child use the value of the parent node like a lower boun
 # Solution #
 ############
 
-import math
+# import TreeNode class from tree_helpers.py
+from tree_helpers import TreeNode
 
-class TreeNode:
-    def __init__(self, val, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
+import math
 
 def is_valid_bst(root):
     return is_valid_sub_bst(root, -math.inf, math.inf)

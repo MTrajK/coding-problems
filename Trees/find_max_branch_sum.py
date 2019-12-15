@@ -23,11 +23,8 @@ Traverse the tree and in each node compare the left and right subbranch sum, and
 # Solution #
 ############
 
-class TreeNode:
-    def __init__(self, val, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
+# import TreeNode class from tree_helpers.py
+from tree_helpers import TreeNode
 
 def max_branch_sum(node):
     if node is None:
