@@ -14,8 +14,9 @@ All solutions are written in [Python](https://www.python.org/) (more precisely, 
 - [heapq](https://docs.python.org/3/library/heapq.html) (used when there is a need for [Priority Queue](https://en.wikipedia.org/wiki/Priority_queue) data structure).
 
 So, to execute these solutions there is no need from installing any external packages. \
-Coding style and name conventions are described in this file [PEP8](https://www.python.org/dev/peps/pep-0008). \
-These problems are from sites like [LeetCode](https://leetcode.com/) (you can find more than 40 sites like this in the [Training Sites](#Training-Sites) section).
+Coding style and name conventions are described in this file [PEP8](https://www.python.org/dev/peps/pep-0008).
+
+*Note that I'm **not** the author of these problems, they are from sites like [LeetCode](https://leetcode.com/) (you can find more than 40 sites like this in the [Training Sites](#Training-Sites) section). **Only** the solutions and explanations are mine.*
 
 
 ### Template
@@ -79,13 +80,13 @@ print(name_of_solution_2('example2'))
 
 Each solution/problem in this repo belongs to one of these categories:
 
-1. [Arrays](/) - Array Manipulations, Sorting, Binary Search, Divide and Conquer, Sliding Window, etc.
-2. [Linked Lists](/) - Linked List Searching, Pointer Manipulations, etc.
-3. [Trees](/) - Binary Search Trees, Tree Traversals: Breadth-First (Level Order) Traversal, Depth-First Traversal (Inorder, Preorder, Postorder), etc.
-4. [Dynamic Programming](/) - 2D and 1D Dynamic Programming, LCS, LIS, Knapsack, etc.
-5. [Strings](/) - String Manipulations, Reversing, Encodings/Decodings, etc.
-6. [Math](/) - GCD, LCM, Prime Factors, Math Formulas, etc.
-7. [Other](/) - Backtracking, BFS, DFS, Queues, Stacks, Matrices, etc.
+1. [Arrays](https://github.com/MTrajK/coding-problems/tree/master/Arrays) - Array Manipulations, Sorting, Binary Search, Divide and Conquer, Sliding Window, etc.
+2. [Linked Lists](https://github.com/MTrajK/coding-problems/tree/master/Linked%20Lists) - Linked List Searching, Pointer Manipulations, etc.
+3. [Trees](https://github.com/MTrajK/coding-problems/tree/master/Trees) - Binary Search Trees, Tree Traversals: Breadth-First (Level Order) Traversal, Depth-First Traversal (Inorder, Preorder, Postorder), etc.
+4. [Dynamic Programming](https://github.com/MTrajK/coding-problems/tree/master/Dynamic%20Programming) - 2D and 1D Dynamic Programming, LCS, LIS, Knapsack, etc.
+5. [Strings](https://github.com/MTrajK/coding-problems/tree/master/Strings) - String Manipulations, Reversing, Encodings/Decodings, etc.
+6. [Math](https://github.com/MTrajK/coding-problems/tree/master/Math) - GCD, LCM, Prime Factors, Math Formulas, etc.
+7. [Other](https://github.com/MTrajK/coding-problems/tree/master/Other) - Backtracking, BFS, DFS, Queues, Stacks, Matrices, etc.
 
 
 ## Learning Resources
