@@ -20,10 +20,8 @@ If the next node is smaller or equal return false.
 # Solution #
 ############
 
-class ListNode:
-    def __init__(self, x, n=None):
-        self.val = x
-        self.next = n
+# import ListNode class from ll_helpers.py
+from ll_helpers import ListNode
 
 def is_ascending_ll(ll):
     while ll.next != None:
@@ -38,10 +36,13 @@ def is_ascending_ll(ll):
 # Testing #
 ###########
 
+# import build_ll method from ll_helpers.py
+from ll_helpers import build_ll
+
 # Test 1
 # Correct result => True
-print(is_ascending_ll(ListNode(-5, ListNode(10, ListNode(99, ListNode(123456))))))
+print(is_ascending_ll(build_ll([-5, 10, 99, 123456])))
 
 # Test 2
-# Correct result => True
-print(is_ascending_ll(ListNode(2, ListNode(3, ListNode(3, ListNode(4, ListNode(5)))))))
+# Correct result => False
+print(is_ascending_ll(build_ll([2, 3, 3, 4, 5])))

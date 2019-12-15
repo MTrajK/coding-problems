@@ -21,10 +21,8 @@ But first, move the end pointer for k places.
 # Solution #
 ############
 
-class ListNode:
-    def __init__(self, x, n = None):
-        self.val = x
-        self.next = n
+# import ListNode class from ll_helpers.py
+from ll_helpers import ListNode
 
 def max_diference_subll(ll, k):
     if ll is None:
@@ -58,16 +56,13 @@ def max_diference_subll(ll, k):
 # Testing #
 ###########
 
+# import build_ll and print_ll methods from ll_helpers.py
+from ll_helpers import build_ll, print_ll
+
 # Test 1
 # Correct result => 99 -> 12 -> 65 -> 77 -> 11
-result = max_diference_subll(ListNode(42, ListNode(17, ListNode(99, ListNode(12, ListNode(65, ListNode(77, ListNode(11, ListNode(26)))))))), 5)
-while result != None:
-    print(result.val)
-    result = result.next
+print_ll(max_diference_subll(build_ll([42, 17, 99, 12, 65, 77, 11, 26]), 5))
 
 # Test 2
 # Correct result => 14 -> 58 -> 11 -> 63 -> 77
-result = max_diference_subll(ListNode(36, ListNode(14, ListNode(58, ListNode(11, ListNode(63, ListNode(77, ListNode(46, ListNode(32, ListNode(87))))))))), 5)
-while result != None:
-    print(result.val)
-    result = result.next
+print_ll(max_diference_subll(build_ll([36, 14, 58, 11, 63, 77, 46, 32, 87]), 5))

@@ -17,14 +17,12 @@ Solution 2: Same approach using recursion.
 '''
 
 
-############
-# Solution #
-############
+##############
+# Solution 1 #
+##############
 
-class ListNode:
-    def __init__(self, v, n=None):
-        self.val = v
-        self.next = n
+# import ListNode class from ll_helpers.py
+from ll_helpers import ListNode
 
 def reverse_ll(ll):
     prev_node = None
@@ -41,6 +39,7 @@ def reverse_ll(ll):
         prev_node = current
 
     return prev_node
+
 
 ##############
 # Solution 2 #
@@ -67,18 +66,10 @@ def reverse(node, prev_node):
 # Testing #
 ###########
 
+# import build_ll and print_ll methods from ll_helpers.py
+from ll_helpers import build_ll, print_ll
+
 # Test 1
 # Correct result => 4 -> 3 -> 2 -> 1
-ll = ListNode(1, ListNode(2, ListNode(3, ListNode(4))))
-res = reverse_ll(ll)
-while res is not None:
-    print(res.val)
-    res = res.next
-
-# Test 2
-# Correct result => 4 -> 3 -> 2 -> 1
-ll = ListNode(1, ListNode(2, ListNode(3, ListNode(4))))
-res = reverse_ll_2(ll)
-while res is not None:
-    print(res.val)
-    res = res.next
+print_ll(reverse_ll(build_ll([1, 2, 3, 4])))
+print_ll(reverse_ll_2(build_ll([1, 2, 3, 4])))

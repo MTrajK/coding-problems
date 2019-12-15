@@ -1,5 +1,5 @@
 '''
-Merge K sorted Linked Lists
+Merge K Sorted Linked Lists
 
 Merge k sorted linked lists and return it as one sorted list. Analyze and describe its complexity.
 
@@ -17,13 +17,10 @@ Using Divide and Conquer, similar to Merge sort.
 # Solution 1 #
 ##############
 
-import heapq
+# import ListNode class from ll_helpers.py
+from ll_helpers import ListNode
 
-# list node class
-class ListNode(object):
-    def __init__(self, x):
-        self.val = x
-        self.next = None
+import heapq
 
 # priority queue comparator class
 class PQNode:

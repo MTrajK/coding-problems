@@ -3,16 +3,16 @@ Remove Nth Node From End of List
 
 Given a linked list, remove the n-th node from the end of list and return its head.
 
-Input: 1->2->3->4->5 and n = 2.
-Output: 1->2->3->5
+Input: 1 -> 2 -> 3 -> 4 -> 5, 2.
+Output: 1 -> 2 -> 3 -> 5
 
 =========================================
-Playing with pointers solution
+Playing with the pointers.
     Time Complexity:    O(N)
     Space Complexity:   O(1)
-Recursive solution
+Recursive solution.
     Time Complexity:    O(N)
-    Space Complexity:   O(N)  (Because of the stack of recursive callings)
+    Space Complexity:   O(N)  (Because of the stack of recursive calls)
 '''
 
 
@@ -20,11 +20,8 @@ Recursive solution
 # Solution 1 #
 ##############
 
-# Definition for singly-linked list (used for both solutions)
-class ListNode:
-    def __init__(self, x):
-        self.val = x
-        self.next = None
+# import ListNode class from ll_helpers.py
+from ll_helpers import ListNode
 
 def remove_nth_from_end_1(head, n):
     helper = ListNode(0)

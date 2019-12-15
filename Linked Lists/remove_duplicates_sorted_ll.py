@@ -11,7 +11,7 @@ Input: 0 -> 0 -> 1 -> 1 -> 1 -> 2 -> 2 -> 3 -> 3 -> 4
 Output: 0 -> 1 -> 2 -> 3 -> 4
 
 =========================================
-Iterate the linked list and jump the neighbouring duplicates (change the next pointer). 
+Iterate the linked list and jump the neighbouring duplicates (change the next pointer).
     Time Complexity:    O(N)
     Space Complexity:   O(1)
 '''
@@ -21,10 +21,8 @@ Iterate the linked list and jump the neighbouring duplicates (change the next po
 # Solution #
 ############
 
-class ListNode:
-    def __init__(self, x, n=None):
-        self.val = x
-        self.next = n
+# import ListNode class from ll_helpers.py
+from ll_helpers import ListNode
 
 def remove_duplicates(nums):
     if nums is None:
@@ -46,18 +44,13 @@ def remove_duplicates(nums):
 # Testing #
 ###########
 
+# import build_ll and print_ll methods from ll_helpers.py
+from ll_helpers import build_ll, print_ll
+
 # Test 1
 # Correct result => 1 -> 2
-ll = ListNode(1, ListNode(1, ListNode(2)))
-res = remove_duplicates(ll)
-while res is not None:
-    print(res.val)
-    res = res.next
+print_ll(remove_duplicates(build_ll([1, 1, 2])))
 
 # Test 2
 # Correct result => 0 -> 1 -> 2 -> 3 -> 4
-ll = ListNode(0, ListNode(0, ListNode(1, ListNode(1, ListNode(1, ListNode(2, ListNode(2, ListNode(3, ListNode(3, ListNode(4))))))))))
-res = remove_duplicates(ll)
-while res is not None:
-    print(res.val)
-    res = res.next
+print_ll(remove_duplicates(build_ll([0, 0, 1, 1, 1, 2, 2, 3, 3, 4])))
