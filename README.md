@@ -79,15 +79,13 @@ print(name_of_solution_2('example2'))
 
 Each solution/problem in this repo belongs to one of these categories:
 
-1. [Strings](/)
-2. [Arrays](/)
-3. [Linked Lists](/)
-4. [Trees](/)
-5. [Dynamic Programming](/)
-6. [Backtracking](/)
-7. [Graphs](/)
-8. [Math](/)
-9. [Other](/)
+1. [Arrays](/) - Array Manipulations, Sorting, Binary Search, Divide and Conquer, Sliding Window, etc.
+2. [Linked Lists](/) - Linked List Searching, Pointer Manipulations, etc.
+3. [Trees](/) - Binary Search Trees, Tree Traversals: Breadth-First (Level Order) Traversal, Depth-First Traversal (Inorder, Preorder, Postorder), etc.
+4. [Dynamic Programming](/) - 2D and 1D Dynamic Programming, LCS, LIS, Knapsack, etc.
+5. [Strings](/) - String Manipulations, Reversing, Encodings/Decodings, etc.
+6. [Math](/) - GCD, LCM, Prime Factors, Math Formulas, etc.
+7. [Other](/) - Backtracking, BFS, DFS, Queues, Stacks, Matrices, etc.
 
 
 ## Learning Resources
