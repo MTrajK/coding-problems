@@ -137,7 +137,8 @@ Several books that have made an impression on me:
 2. [Introduction to Algorithms by CLRS](https://www.goodreads.com/book/show/6752187-introduction-to-algorithms) - This book is called "bible textbook of algorithms" by many programmers.
 3. [Algorithms by Robert Sedgewick & Kevin Wayne](https://www.goodreads.com/book/show/10803540-algorithms) - These authors are instructors of the previously mentioned coursera courses: [Algorithms Part 1](https://www.coursera.org/learn/algorithms-part1) and [Algorithms Part 2](https://www.coursera.org/learn/algorithms-part2). Also this book has excellent and free [site](http://algs4.cs.princeton.edu) with exercises, presentations, and examples.
 4. [The Algorithm Design Manual by Steven Skiena](https://www.goodreads.com/book/show/425208.The_Algorithm_Design_Manual) - The book describes many advanced topics and algorithms and it focuses on real life practical examples. This book has one of the best [site](http://www.algorist.com) with resources ([solutions](http://www.algorist.com/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition)), [algorithms and data structures](http://www.algorist.com/algorist.html), [python implementations](http://www.algorist.com/languages/Python.html)).
-5. [Algorithms by S. Dasgupta, C. Papadimitriou, and U. Vazirani](https://www.goodreads.com/book/show/138563.Algorithms) - This book is an official book for algorithms and data structures classes in several famous universities.
+5. [Algorithms by S. Dasgupta, C. Papadimitriou, and U. Vazirani](https://www.goodreads.com/book/show/138563.Algorithms) - This book is an official book for algorithm and data structure classes in several famous universities.
+6. [Competitive Programming 3 by Steven Halim & Felix Halim](https://www.goodreads.com/book/show/22820968-competitive-programming-3) - A great book that prepares you for competitive programming (not for complete beginners). You can learn many things and tricks about competitive programming.
 
 
 ### Training Sites
@@ -159,6 +160,8 @@ If the problems from [LeetCode](https://leetcode.com/) are not enough and you ne
 - [CodeAbbey](http://codeabbey.com/)
 - [CS Academy](https://csacademy.com/)
 - [CodingBat](http://codingbat.com/)
+- [AtCoder](https://atcoder.jp/)
+- [Russian Code Cup](https://www.russiancodecup.ru/en/)
 - [Wolfram Challenges](https://challenges.wolfram.com/)
 - [Google's Coding Competitions](https://codingcompetitions.withgoogle.com/)
 - [Codility](https://codility.com/)
