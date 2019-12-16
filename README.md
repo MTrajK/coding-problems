@@ -118,15 +118,16 @@ Collection of free courses from one of the best CS universities.
 4. MIT University (YouTube)
     - [Introduction to algorithms 2005](https://www.youtube.com/playlist?list=PL8B24C31197EC371C)
     - [Introduction to algorithms 2011 - 6.006](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-    - [Design and analysis of algorithms - 6.046J](https://www.youtube.com/playlist?list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
-    - [Advanced Data Structures - 6.851](https://www.youtube.com/playlist?list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
+    - [Design and analysis of algorithms - 6.046J](https://www.youtube.com/playlist?list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp) - [Official MIT page with resources](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/index.htm)
+    - [Advanced Data Structures - 6.851](https://www.youtube.com/playlist?list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf) - [Official MIT page with resources](http://courses.csail.mit.edu/6.851/spring14/lectures/)
+    - [Advanced Algorithms 2016 - 6.854](https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c)
 
 5. Harvard University (YouTube)
     - [Advanced algorithms - CS224](https://www.youtube.com/playlist?list=PL2SOU6wwxB0uP4rJgf5ayhHWgw7akUWSf)
 
 6. UC Berkeley
     - [Data Structures - CS61B](https://inst.eecs.berkeley.edu/~cs61b/archives.html)
-    - [Efficient Algorithms and Intractable Problems - CS170](https://cs170.org/)
+    - [Efficient Algorithms and Intractable Problems - CS170](https://cs170.org/) - [YouTube videos](https://www.youtube.com/playlist?list=PLkFD6_40KJIx8lWWbE-Uk069aZ1R-W-VU)
 
 
 ### Books
