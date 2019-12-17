@@ -212,64 +212,63 @@ def nth_fibonacci_7(n):
 # Testing #
 ###########
 
-if __name__ == "__main__":
-    # Test 1
-    # Correct result => 21
-    print(nth_fibonacci_1(8))
-    print(nth_fibonacci_2(8))
-    print(nth_fibonacci_3(8))
-    print(nth_fibonacci_4(8))
-    print(nth_fibonacci_5(8))
-    print(nth_fibonacci_6(8))
-    print(nth_fibonacci_7(8))
+# Test 1
+# Correct result => 21
+print(nth_fibonacci_1(8))
+print(nth_fibonacci_2(8))
+print(nth_fibonacci_3(8))
+print(nth_fibonacci_4(8))
+print(nth_fibonacci_5(8))
+print(nth_fibonacci_6(8))
+print(nth_fibonacci_7(8))
 
 
-    # Test 2
-    # Correct result => 10946
-    print(nth_fibonacci_1(21))
-    print(nth_fibonacci_2(21))
-    print(nth_fibonacci_3(21))
-    print(nth_fibonacci_4(21))
-    print(nth_fibonacci_5(21))
-    print(nth_fibonacci_6(21))
-    print(nth_fibonacci_7(21))
-    
-    from timeit import default_timer
-    # Comparision of how long each method takes:
-    iters = 100
-    num = 25
-    start = default_timer()
-    for _ in range(iters):
-        nth_fibonacci_1(num)
-    end = default_timer() - start
-    print("nth_fibonacci_1 took %fs" % end)
-    start = default_timer()
-    for _ in range(iters):
-        nth_fibonacci_2(num)
-    end = default_timer() - start
-    print("nth_fibonacci_2 took %fs" % end)
-    start = default_timer()
-    for _ in range(iters):
-        nth_fibonacci_3(num)
-    end = default_timer() - start
-    print("nth_fibonacci_3 took %fs" % end)
-    start = default_timer()
-    for _ in range(iters):
-        nth_fibonacci_4(num)
-    end = default_timer() - start
-    print("nth_fibonacci_4 took %fs" % end)
-    start = default_timer()
-    for _ in range(iters):
-        nth_fibonacci_5(num)
-    end = default_timer() - start
-    print("nth_fibonacci_5 took %fs" % end)
-    for _ in range(iters):
-        nth_fibonacci_6(num)
-    end = default_timer() - start
-    print("nth_fibonacci_6 took %fs" % end)
-    start = default_timer()
-    for _ in range(iters):
-        nth_fibonacci_7(num)
-    end = default_timer() - start
-    print("nth_fibonacci_7 took %fs" % end)
+# Test 2
+# Correct result => 10946
+print(nth_fibonacci_1(21))
+print(nth_fibonacci_2(21))
+print(nth_fibonacci_3(21))
+print(nth_fibonacci_4(21))
+print(nth_fibonacci_5(21))
+print(nth_fibonacci_6(21))
+print(nth_fibonacci_7(21))
+
+from timeit import default_timer
+# Comparision of how long each method takes:
+iters = 100
+num = 25
+start = default_timer()
+for _ in range(iters):
+    nth_fibonacci_1(num)
+end = default_timer() - start
+print("nth_fibonacci_1 took %fs" % end)
+start = default_timer()
+for _ in range(iters):
+    nth_fibonacci_2(num)
+end = default_timer() - start
+print("nth_fibonacci_2 took %fs" % end)
+start = default_timer()
+for _ in range(iters):
+    nth_fibonacci_3(num)
+end = default_timer() - start
+print("nth_fibonacci_3 took %fs" % end)
+start = default_timer()
+for _ in range(iters):
+    nth_fibonacci_4(num)
+end = default_timer() - start
+print("nth_fibonacci_4 took %fs" % end)
+start = default_timer()
+for _ in range(iters):
+    nth_fibonacci_5(num)
+end = default_timer() - start
+print("nth_fibonacci_5 took %fs" % end)
+for _ in range(iters):
+    nth_fibonacci_6(num)
+end = default_timer() - start
+print("nth_fibonacci_6 took %fs" % end)
+start = default_timer()
+for _ in range(iters):
+    nth_fibonacci_7(num)
+end = default_timer() - start
+print("nth_fibonacci_7 took %fs" % end)
 
