@@ -6,7 +6,7 @@ Implement pow (a^b , a**b) method
 =========================================
 Using divide and conquer approach.
     Time Complexity:    O(LogB)
-    Space Complexity:   O(LogB)     , because of recursion call stack
+    Space Complexity:   O(LogB)     , because of recursion calls stack
 '''
 
 ############

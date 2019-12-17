@@ -16,7 +16,7 @@ Output: 6
 This solution is based on the quick sort algorithm (pivoting, divide and conquer).
 More precisly in-place quick sort. Recursive solution.
    Time Complexity:     O(N)    , O(N + N/2 + N/4 + N/8 + ... + 1 = 2*N = N)
-   Space Complexity:    O(LogN) , because of the recursion stack (if this doesn't count, then O(1))
+   Space Complexity:    O(LogN) , because of the recursion stack
 Completely the same algorithm as the previous one, but without recursion. This solution is cleaner.
     Time Complexity:    O(N)
     Space Complexity:   O(1)

@@ -12,7 +12,7 @@ Playing with the pointers.
     Space Complexity:   O(1)
 Recursive solution.
     Time Complexity:    O(N)
-    Space Complexity:   O(N)  (Because of the stack of recursive calls)
+    Space Complexity:   O(N)  , because of the recursive calls stack
 '''
 
 

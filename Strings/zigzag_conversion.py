@@ -15,7 +15,7 @@ Output: 'PAHNAPLSIIGYIR'
 Go row by row and using the steps logic build the new string by jumping chars.
 Middle rows have 2 times more elements than the first and last row.
     Time Complexity:    O(N)
-    Space Complexity:   O(1)
+    Space Complexity:   O(N)
 '''
 
 

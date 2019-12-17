@@ -17,7 +17,7 @@ Output: 5
 =========================================
 Simple tree traversal solution.
     Time Complexity:    O(N)
-    Space Complexity:   O(1)
+    Space Complexity:   O(N)    , because of the recursion stack (but this is if the tree is one branch), O(LogN) if the tree is balanced.
 '''
 
 

@@ -4,7 +4,7 @@ Generate Parentheses
 Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
 
 Input: 3
-Output: 
+Output:
         [
             '((()))',
             '(()())',
@@ -16,7 +16,7 @@ Output:
 =========================================
 This problem could be solved in several ways (using stack, queue, or just a simple list - see letter_combinations.py), all of them have the same complexity.
 I'll solve it using simple recursive algorithm.
-    Time Complexity:    O(4^N)      , O(2^(2*N)) = O(2^N)
+    Time Complexity:    O(4^N)      , O(2^(2*N)) = O(4^N)
     Space Complexity:   O(4^N)
 '''
 

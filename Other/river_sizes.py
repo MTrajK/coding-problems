@@ -21,7 +21,7 @@ Output: [2, 1, 3, 1]
 This problem can be solved using DFS or BFS.
 If 1 is found, find all horizontal or vertical neighbours (1s), and mark them as 0.
     Time Complexity:    O(N*M)
-    Space Complexity:   O(R)        , R = num of rivers
+    Space Complexity:   O(N*M)     , because of recursion calls stack
 '''
 
 

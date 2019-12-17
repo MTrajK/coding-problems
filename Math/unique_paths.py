@@ -45,7 +45,7 @@ def unique_paths(n, m):
         comb /= i
         lvl -= 1
 
-    return int(comb + 0.001) # 0.001 just in case because of overflow
+    return int(comb + 0.001) # 0.001 just in case, because of overflow
 
 
 ###########
