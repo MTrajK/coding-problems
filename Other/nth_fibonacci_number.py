@@ -234,6 +234,7 @@ if __name__ == "__main__":
     print(nth_fibonacci_6(21))
     print(nth_fibonacci_7(21))
     
+    from timeit import default_timer
     # Comparision of how long each method takes:
     iters = 100
     num = 25
