@@ -200,7 +200,8 @@ If the problems from [LeetCode](https://leetcode.com/) are not enough and you ne
 
 1. [Geeks For Geeks](https://www.geeksforgeeks.org/) - The site which **all** interested in algorithms (no matter if beginners or experts) should know!
 2. [The Algorithms - Python](https://github.com/TheAlgorithms/Python) - Great GitHub repo with many algorithms written in Python ([Link](https://github.com/TheAlgorithms) from the same repo written in other programming languages).
-3. [KhanAcademy - Algorithms](https://www.khanacademy.org/computing/computer-science/algorithms) - Good explanations for some basic algorithms.
-4. HackerRank - YouTube tutorials
+3. [CP Algorithms](http://cp-algorithms.com/) - Great page with excellent explanations for various algorithms.
+4. [KhanAcademy - Algorithms](https://www.khanacademy.org/computing/computer-science/algorithms) - Good explanations for some basic algorithms.
+5. HackerRank - YouTube tutorials
     - [Algorithms](https://www.youtube.com/playlist?list=PLI1t_8YX-ApvMthLj56t1Rf-Buio5Y8KL)
     - [Data Structures](https://www.youtube.com/playlist?list=PLI1t_8YX-Apv-UiRlnZwqqrRT8D1RhriX)
