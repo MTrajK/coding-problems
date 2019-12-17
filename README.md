@@ -89,7 +89,7 @@ Each solution/problem in this repo belongs to one of these categories:
 3. [Trees](https://github.com/MTrajK/coding-problems/tree/master/Trees) - Binary Search Trees, Tree Traversals: Breadth-First (Level Order) Traversal, Depth-First Traversal (Inorder, Preorder, Postorder), etc.
 4. [Dynamic Programming](https://github.com/MTrajK/coding-problems/tree/master/Dynamic%20Programming) - 2D and 1D Dynamic Programming, LCS, LIS, Knapsack, etc.
 5. [Strings](https://github.com/MTrajK/coding-problems/tree/master/Strings) - String Manipulations, Reversing, Encodings/Decodings, etc.
-6. [Math](https://github.com/MTrajK/coding-problems/tree/master/Math) - GCD, LCM, Prime Factors, Math Formulas, etc.
+6. [Math](https://github.com/MTrajK/coding-problems/tree/master/Math) - GCD, LCM, Factorization, Geometry, Math Formulas, etc.
 7. [Other](https://github.com/MTrajK/coding-problems/tree/master/Other) - Backtracking, BFS, DFS, Queues, Stacks, Matrices, etc.
 
 
