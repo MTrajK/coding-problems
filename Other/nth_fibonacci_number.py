@@ -132,14 +132,20 @@ def matrix_mult(a, b):
     shouldn't be changed, only change the values after all computations are completed
     because 'b' could be the same reference/matrix as 'a').
     '''
-    a00 = a[0][0]
-    a01 = a[0][1]
-    a10 = a[1][0]
-    a11 = a[1][1]
-    a[0][0] = a00*b[0][0] + a01*b[1][0]
-    a[0][1] = a00*b[0][1] + a01*b[1][1]
-    a[1][0] = a10*b[0][0] + a11*b[1][0]
-    a[1][1] = a10*b[0][1] + a11*b[1][1]
+    
+    # We know that a is a 2x2 matrix:
+    # a[0] is equivalent to a[0][0], a[0][1],
+    # so a00, a01 = a[0] is effectively:
+    # a00 = a[0][0]
+    # a01 = a[0][1]
+    a00, a01 = a[0]
+    a10, a11 = a[1]
+    b00, b01 = b[0]
+    b10, b11 = b[1]
+    a[0][0] = a00 * b00 + a01 * b10
+    a[0][1] = a00 * b01 + a01 * b11
+    a[1][0] = a10 * b00 + a11 * b10
+    a[1][1] = a10 * b01 + a11 * b11
 
 
 ##############
@@ -204,23 +210,24 @@ def nth_fibonacci_7(n):
 # Testing #
 ###########
 
-# Test 1
-# Correct result => 21
-print(nth_fibonacci_1(8))
-print(nth_fibonacci_2(8))
-print(nth_fibonacci_3(8))
-print(nth_fibonacci_4(8))
-print(nth_fibonacci_5(8))
-print(nth_fibonacci_6(8))
-print(nth_fibonacci_7(8))
+if __name__ == "__main__":
+    # Test 1
+    # Correct result => 21
+    print(nth_fibonacci_1(8))
+    print(nth_fibonacci_2(8))
+    print(nth_fibonacci_3(8))
+    print(nth_fibonacci_4(8))
+    print(nth_fibonacci_5(8))
+    print(nth_fibonacci_6(8))
+    print(nth_fibonacci_7(8))
 
 
-# Test 2
-# Correct result => 10946
-print(nth_fibonacci_1(21))
-print(nth_fibonacci_2(21))
-print(nth_fibonacci_3(21))
-print(nth_fibonacci_4(21))
-print(nth_fibonacci_5(21))
-print(nth_fibonacci_6(21))
-print(nth_fibonacci_7(21))
+    # Test 2
+    # Correct result => 10946
+    print(nth_fibonacci_1(21))
+    print(nth_fibonacci_2(21))
+    print(nth_fibonacci_3(21))
+    print(nth_fibonacci_4(21))
+    print(nth_fibonacci_5(21))
+    print(nth_fibonacci_6(21))
+    print(nth_fibonacci_7(21))
