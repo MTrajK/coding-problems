@@ -134,10 +134,12 @@ def matrix_mult(a, b):
     '''
     
     # We know that a is a 2x2 matrix:
-    # a[0] is equivalent to a[0][0], a[0][1],
-    # so a00, a01 = a[0] is effectively:
+    # a[0] is the first row of a, which contains a[0][0], a[0][1]
+    # Python "unrolls" a00, a01 = a[0],
+    # which effectively makes it:
     # a00 = a[0][0]
     # a01 = a[0][1]
+    
     a00, a01 = a[0]
     a10, a11 = a[1]
     b00, b01 = b[0]
