@@ -9,7 +9,7 @@ Output: [10, 7, 5, 4, 8, 7, 2, 3, 1]
 Output explanation: 5, 7, 10 => 10, 7, 5 ; 4 => 4; 2, 7, 8 => 8, 7, 2; 1, 3 => 3, 1
 
 =========================================
-Solution explanation
+Find the start and end of each sublist and reverse it in-place.
     Time Complexity:    O(N)
     Space Complexity:   O(1)
 '''

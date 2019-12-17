@@ -99,8 +99,6 @@ def interleaving_strings_2(A, B, C):
 
 # Test 1
 # Correct result => 2
-print(interleaving_strings_1('xy', 'xz', 'xxyz'))
-
-# Test 2
-# Correct result => 2
-print(interleaving_strings_2('xy', 'xz', 'xxyz'))
+a, b, c = 'xy', 'xz', 'xxyz'
+print(interleaving_strings_1(a, b, c))
+print(interleaving_strings_2(a, b, c))

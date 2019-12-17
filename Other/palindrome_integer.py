@@ -69,15 +69,18 @@ def palindrome_integer_2(x):
 
 # Test 1
 # Correct result => True
-print(palindrome_integer_1(121))
-print(palindrome_integer_2(121))
+x = 121
+print(palindrome_integer_1(x))
+print(palindrome_integer_2(x))
 
 # Test 2
 # Correct result => False
-print(palindrome_integer_1(-121))
-print(palindrome_integer_2(-121))
+x = -121
+print(palindrome_integer_1(x))
+print(palindrome_integer_2(x))
 
 # Test 2
 # Correct result => False
-print(palindrome_integer_1(10))
-print(palindrome_integer_2(10))
+x = 10
+print(palindrome_integer_1(x))
+print(palindrome_integer_2(x))

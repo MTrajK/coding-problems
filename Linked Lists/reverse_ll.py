@@ -13,7 +13,6 @@ Iterate LL and change the pointer of the current nodes to point to the previous 
 Solution 2: Same approach using recursion.
     Time Complexity:    O(N)
     Space Complexity:   O(N)        , because of the recursion stack (the stack will be with N depth till the last node of the linked list is reached)
-
 '''
 
 

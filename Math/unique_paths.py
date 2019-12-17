@@ -54,15 +54,18 @@ def unique_paths(n, m):
 
 # Test 1
 # Correct result => 924
-print(unique_paths(7, 7))
-print(unique_paths_dp(7, 7))
+n, m = 7, 7
+print(unique_paths(n, m))
+print(unique_paths_dp(n, m))
 
 # Test 2
 # Correct result => 28
-print(unique_paths(7, 3))
-print(unique_paths_dp(7, 3))
+n, m = 7, 3
+print(unique_paths(n, m))
+print(unique_paths_dp(n, m))
 
 # Test 3
 # Correct result => 28
-print(unique_paths(3, 7))
-print(unique_paths_dp(3, 7))
+n, m = 3, 7
+print(unique_paths(n, m))
+print(unique_paths_dp(n, m))

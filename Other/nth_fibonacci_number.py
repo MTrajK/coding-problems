@@ -209,20 +209,22 @@ def nth_fibonacci_7(n):
 
 # Test 1
 # Correct result => 21
-print(nth_fibonacci_1(8))
-print(nth_fibonacci_2(8))
-print(nth_fibonacci_3(8))
-print(nth_fibonacci_4(8))
-print(nth_fibonacci_5(8))
-print(nth_fibonacci_6(8))
-print(nth_fibonacci_7(8))
+n = 8
+print(nth_fibonacci_1(n))
+print(nth_fibonacci_2(n))
+print(nth_fibonacci_3(n))
+print(nth_fibonacci_4(n))
+print(nth_fibonacci_5(n))
+print(nth_fibonacci_6(n))
+print(nth_fibonacci_7(n))
 
 # Test 2
 # Correct result => 10946
-print(nth_fibonacci_1(21))
-print(nth_fibonacci_2(21))
-print(nth_fibonacci_3(21))
-print(nth_fibonacci_4(21))
-print(nth_fibonacci_5(21))
-print(nth_fibonacci_6(21))
-print(nth_fibonacci_7(21))
+n = 21
+print(nth_fibonacci_1(n))
+print(nth_fibonacci_2(n))
+print(nth_fibonacci_3(n))
+print(nth_fibonacci_4(n))
+print(nth_fibonacci_5(n))
+print(nth_fibonacci_6(n))
+print(nth_fibonacci_7(n))
