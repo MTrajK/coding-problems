@@ -233,3 +233,42 @@ if __name__ == "__main__":
     print(nth_fibonacci_5(21))
     print(nth_fibonacci_6(21))
     print(nth_fibonacci_7(21))
+    
+    # Comparision of how long each method takes:
+    iters = 100
+    num = 25
+    start = default_timer()
+    for _ in range(iters):
+        nth_fibonacci_1(num)
+    end = default_timer() - start
+    print("nth_fibonacci_1 took %fs" % end)
+    start = default_timer()
+    for _ in range(iters):
+        nth_fibonacci_2(num)
+    end = default_timer() - start
+    print("nth_fibonacci_2 took %fs" % end)
+    start = default_timer()
+    for _ in range(iters):
+        nth_fibonacci_3(num)
+    end = default_timer() - start
+    print("nth_fibonacci_3 took %fs" % end)
+    start = default_timer()
+    for _ in range(iters):
+        nth_fibonacci_4(num)
+    end = default_timer() - start
+    print("nth_fibonacci_4 took %fs" % end)
+    start = default_timer()
+    for _ in range(iters):
+        nth_fibonacci_5(num)
+    end = default_timer() - start
+    print("nth_fibonacci_5 took %fs" % end)
+    for _ in range(iters):
+        nth_fibonacci_6(num)
+    end = default_timer() - start
+    print("nth_fibonacci_6 took %fs" % end)
+    start = default_timer()
+    for _ in range(iters):
+        nth_fibonacci_7(num)
+    end = default_timer() - start
+    print("nth_fibonacci_7 took %fs" % end)
+
