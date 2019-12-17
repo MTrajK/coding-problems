@@ -8,6 +8,10 @@ Output: [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
 
 =========================================
 Reverse the whole array by swapping pair letters in-place (first with last, second with second from the end, etc).
+Exist 2 more "Pythonic" ways of reversing strings/arrays:
+- reversed_str = reversed(str)
+- reversed_str = str[::-1]
+But I wanted to show how to implement a reverse algorithm step by step so someone will know how to implement it in other languages.
     Time Complexity:    O(N)
     Space Complexity:   O(1)
 '''

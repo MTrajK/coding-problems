@@ -131,15 +131,10 @@ def matrix_mult(a, b):
     The result of multiplication is saved in 'a' (because of that, the reference
     shouldn't be changed, only change the values after all computations are completed
     because 'b' could be the same reference/matrix as 'a').
+    a[0] is the first row of a, which contains a[0][0], a[0][1]
+    Python "unrolls" a00, a01 = a[0], which effectively makes it:
+    a00 = a[0][0] and a01 = a[0][1]
     '''
-    
-    # We know that a is a 2x2 matrix:
-    # a[0] is the first row of a, which contains a[0][0], a[0][1]
-    # Python "unrolls" a00, a01 = a[0],
-    # which effectively makes it:
-    # a00 = a[0][0]
-    # a01 = a[0][1]
-    
     a00, a01 = a[0]
     a10, a11 = a[1]
     b00, b01 = b[0]
@@ -222,7 +217,6 @@ print(nth_fibonacci_5(8))
 print(nth_fibonacci_6(8))
 print(nth_fibonacci_7(8))
 
-
 # Test 2
 # Correct result => 10946
 print(nth_fibonacci_1(21))
@@ -232,43 +226,3 @@ print(nth_fibonacci_4(21))
 print(nth_fibonacci_5(21))
 print(nth_fibonacci_6(21))
 print(nth_fibonacci_7(21))
-
-from timeit import default_timer
-# Comparision of how long each method takes:
-iters = 100
-num = 25
-start = default_timer()
-for _ in range(iters):
-    nth_fibonacci_1(num)
-end = default_timer() - start
-print("nth_fibonacci_1 took %fs" % end)
-start = default_timer()
-for _ in range(iters):
-    nth_fibonacci_2(num)
-end = default_timer() - start
-print("nth_fibonacci_2 took %fs" % end)
-start = default_timer()
-for _ in range(iters):
-    nth_fibonacci_3(num)
-end = default_timer() - start
-print("nth_fibonacci_3 took %fs" % end)
-start = default_timer()
-for _ in range(iters):
-    nth_fibonacci_4(num)
-end = default_timer() - start
-print("nth_fibonacci_4 took %fs" % end)
-start = default_timer()
-for _ in range(iters):
-    nth_fibonacci_5(num)
-end = default_timer() - start
-print("nth_fibonacci_5 took %fs" % end)
-for _ in range(iters):
-    nth_fibonacci_6(num)
-end = default_timer() - start
-print("nth_fibonacci_6 took %fs" % end)
-start = default_timer()
-for _ in range(iters):
-    nth_fibonacci_7(num)
-end = default_timer() - start
-print("nth_fibonacci_7 took %fs" % end)
-

@@ -12,7 +12,11 @@ Output: 'uoy era woh'
 =========================================
 Reverse the whole sentence by swapping pair letters in-place (first with last, second with second from the end, etc).
 In Python, the string manipulation operations are too slow (string is immutable), because of that we need to convert the string into array.
-In C/C++, the Space complexity will be O(1).
+In C/C++, the Space complexity will be O(1) (because the strings are just arrays with chars).
+Exist 2 more "Pythonic" ways of reversing strings/arrays:
+- reversed_str = reversed(str)
+- reversed_str = str[::-1]
+But I wanted to show how to implement a reverse algorithm step by step so someone will know how to implement it in other languages.
     Time Complexity:    O(N)
     Space Complexity:   O(N)
 '''
