@@ -12,8 +12,8 @@ Input: [3,2,1,0,4]
 Output: False
 
 =========================================
-Just iterate array and in each step save the farthest reachable position.
-If the current position is smaller thant the farthest position, then the end isn't reachable.
+Just iterate the array and in each step save the farthest reachable position.
+If the current position is smaller than the farthest position, then the end isn't reachable.
     Time Complexity:    O(N)
     Space Complexity:   O(1)
 '''
