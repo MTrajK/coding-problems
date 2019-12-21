@@ -17,7 +17,8 @@ Output: [0, 7]
 
 =========================================
 The simplest solution is to sort the array, that's O(N LogN) time complexity.
-This solution is faster and uses a dictionary (HashMap).
+
+But this solution is faster, it uses a dictionary (HashMap).
 For each number tries to find the smaller and the bigger consequence numbers, and marks them as visited.
     Time Complexity:    O(N)
     Space Complexity:   O(N)

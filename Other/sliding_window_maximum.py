@@ -1,5 +1,5 @@
 '''
-Maximum of all subarrays of size k
+Maximum of All Subarrays of Size K
 
 Given an array and an integer k, find the maximum for each and every contiguous subarray of size k.
 O(n) time and O(k) space!
@@ -12,7 +12,7 @@ For example, given array = [10, 5, 2, 7, 8, 7] and k = 3, we should get: [10, 7,
 
 =========================================
 Sliding window solution using deque or linked lists
-(only needs to be able to remove from both sides and to add on both sides in constant time).
+(only need to be able to remove from both sides and to add on both sides in constant time).
     Time Complexity:    O(N)
     Space Complexity:   O(K)
 '''

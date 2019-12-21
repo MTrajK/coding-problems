@@ -14,7 +14,7 @@ All solutions are written in [Python](https://www.python.org/) (more precisely, 
 - [heapq](https://docs.python.org/3/library/heapq.html) (used when there is a need for [Priority Queue](https://en.wikipedia.org/wiki/Priority_queue) data structure).
 
 So, to execute these solutions there is no need from installing any external packages. \
-Coding style and name conventions are described in this file [PEP8](https://www.python.org/dev/peps/pep-0008).
+Coding style and name conventions are described in the official [PEP8](https://www.python.org/dev/peps/pep-0008) page.
 
 *Note that I'm **not** the author of these problems, they are from sites like [LeetCode](https://leetcode.com/) (you can find more than 40 sites like this in the [Training Sites](#Training-Sites) section). **Only** the solutions and explanations are mine.*
 
@@ -90,7 +90,7 @@ Each solution/problem in this repo belongs to one of these categories:
 4. [Dynamic Programming](https://github.com/MTrajK/coding-problems/tree/master/Dynamic%20Programming) - 2D and 1D Dynamic Programming, LCS, LIS, Knapsack, etc.
 5. [Strings](https://github.com/MTrajK/coding-problems/tree/master/Strings) - String Manipulations, Reversing, Encodings/Decodings, etc.
 6. [Math](https://github.com/MTrajK/coding-problems/tree/master/Math) - GCD, LCM, Factorization, Geometry, Math Formulas, etc.
-7. [Other](https://github.com/MTrajK/coding-problems/tree/master/Other) - Backtracking, BFS, DFS, Queues, Stacks, Matrices, etc.
+7. [Other](https://github.com/MTrajK/coding-problems/tree/master/Other) - Backtracking, BFS, DFS, HashSets/Sets, HashMaps/Dictionaries, Stacks, Queues, Deques, Priority Queues (Heaps), Matrices, etc.
 
 
 ## Learning Resources
@@ -142,7 +142,7 @@ Several books that have made an impression on me:
 2. [Introduction to Algorithms by CLRS](https://www.goodreads.com/book/show/6752187-introduction-to-algorithms) - This book is called "bible textbook of algorithms" by many programmers.
 3. [Algorithms by Robert Sedgewick & Kevin Wayne](https://www.goodreads.com/book/show/10803540-algorithms) - These authors are instructors of the previously mentioned coursera courses: [Algorithms Part 1](https://www.coursera.org/learn/algorithms-part1) and [Algorithms Part 2](https://www.coursera.org/learn/algorithms-part2). Also this book has excellent and free [site](http://algs4.cs.princeton.edu) with exercises, presentations, and examples.
 4. [The Algorithm Design Manual by Steven Skiena](https://www.goodreads.com/book/show/425208.The_Algorithm_Design_Manual) - The book describes many advanced topics and algorithms and it focuses on real life practical examples. This book has one of the best [site](http://www.algorist.com) with resources ([solutions](http://www.algorist.com/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition)), [algorithms and data structures](http://www.algorist.com/algorist.html), [python implementations](http://www.algorist.com/languages/Python.html)).
-5. [Algorithms by S. Dasgupta, C. Papadimitriou, and U. Vazirani](https://www.goodreads.com/book/show/138563.Algorithms) - This book is an official book for algorithm and data structure classes in several famous universities.
+5. [Algorithms by S. Dasgupta, C. Papadimitriou, and U. Vazirani](https://www.goodreads.com/book/show/138563.Algorithms) - This book is an official book for algorithms and data structures classes in several famous universities.
 6. [Competitive Programming 3 by Steven Halim & Felix Halim](https://www.goodreads.com/book/show/22820968-competitive-programming-3) - A great book that prepares you for competitive programming (not for complete beginners). You can learn many things and tricks about competitive programming.
 
 

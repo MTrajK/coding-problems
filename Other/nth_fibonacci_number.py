@@ -62,6 +62,10 @@ Time and space optimized matrix multiplication.
 Using a loop (without a recursion) compute the power of N of the matrix.
     Time Complexity:    O(LogN)
     Space Complexity:   O(1)
+
+Using the golden ratio (Binet's formula) = (1+sqrt(5))/2 ~ 1.6183...
+    Time Complexity:    O(1)
+    Space Complexity:   O(1)
 '''
 
 
@@ -203,6 +207,20 @@ def nth_fibonacci_7(n):
     return res[1][1]
 
 
+##############
+# Solution 8 #
+##############
+
+import math
+
+def nth_fibonacci_8(n):
+    golden_ratio = (1 + math.sqrt(5)) / 2
+    return int((1 + math.pow(golden_ratio, n)) / math.sqrt(5))
+    # without math module, using ** operator
+    # golden_ratio = (1 + 5 ** 0.5) / 2
+    # return int((1 + golden_ratio ** n) / (5 ** 0.5))
+
+
 ###########
 # Testing #
 ###########
@@ -217,6 +235,7 @@ print(nth_fibonacci_4(n))
 print(nth_fibonacci_5(n))
 print(nth_fibonacci_6(n))
 print(nth_fibonacci_7(n))
+print(nth_fibonacci_8(n))
 
 # Test 2
 # Correct result => 10946
@@ -228,3 +247,4 @@ print(nth_fibonacci_4(n))
 print(nth_fibonacci_5(n))
 print(nth_fibonacci_6(n))
 print(nth_fibonacci_7(n))
+print(nth_fibonacci_8(n))
