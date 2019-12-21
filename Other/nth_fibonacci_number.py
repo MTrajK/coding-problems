@@ -64,6 +64,7 @@ Using a loop (without a recursion) compute the power of N of the matrix.
     Space Complexity:   O(1)
 
 Using the golden ratio (Binet's formula) = (1+sqrt(5))/2 ~ 1.6183...
+More info about this solution: https://demonstrations.wolfram.com/GeneralizedFibonacciSequenceAndTheGoldenRatio/
     Time Complexity:    O(1)
     Space Complexity:   O(1)
 '''

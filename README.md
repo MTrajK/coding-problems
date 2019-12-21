@@ -87,10 +87,11 @@ Each solution/problem in this repo belongs to one of these categories:
 1. [Arrays](https://github.com/MTrajK/coding-problems/tree/master/Arrays) - Array Manipulations, Sorting, Binary Search, Divide and Conquer, Sliding Window, etc.
 2. [Linked Lists](https://github.com/MTrajK/coding-problems/tree/master/Linked%20Lists) - Linked List Searching, Pointer Manipulations, etc.
 3. [Trees](https://github.com/MTrajK/coding-problems/tree/master/Trees) - Binary Search Trees, Tree Traversals: Breadth-First (Level Order) Traversal, Depth-First Traversal (Inorder, Preorder, Postorder), etc.
-4. [Dynamic Programming](https://github.com/MTrajK/coding-problems/tree/master/Dynamic%20Programming) - 2D and 1D Dynamic Programming, LCS, LIS, Knapsack, etc.
-5. [Strings](https://github.com/MTrajK/coding-problems/tree/master/Strings) - String Manipulations, Reversing, Encodings/Decodings, etc.
-6. [Math](https://github.com/MTrajK/coding-problems/tree/master/Math) - GCD, LCM, Factorization, Geometry, Math Formulas, etc.
-7. [Other](https://github.com/MTrajK/coding-problems/tree/master/Other) - Backtracking, BFS, DFS, HashSets/Sets, HashMaps/Dictionaries, Stacks, Queues, Deques, Priority Queues (Heaps), Matrices, etc.
+4. [Hashing DS](https://github.com/MTrajK/coding-problems/tree/master/Hashing%20DS) - Hashing Data Structures: Sets/HashSets and Dictionaries/HashMaps.
+5. [Dynamic Programming](https://github.com/MTrajK/coding-problems/tree/master/Dynamic%20Programming) - 2D and 1D Dynamic Programming, LCS, LIS, Knapsack, etc.
+6. [Strings](https://github.com/MTrajK/coding-problems/tree/master/Strings) - String Manipulations, Reversing, Encodings/Decodings, etc.
+7. [Math](https://github.com/MTrajK/coding-problems/tree/master/Math) - GCD, LCM, Factorization, Geometry, Math Formulas, etc.
+8. [Other](https://github.com/MTrajK/coding-problems/tree/master/Other) - Backtracking, BFS, DFS, Stacks, Queues, Deques, Priority Queues (Heaps), Matrices, etc.
 
 
 ## Learning Resources
