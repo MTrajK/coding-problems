@@ -31,7 +31,8 @@ def total_divisible_numbers(arr, S):
 
 def gcd(a, b):
     while a != 0:
-        a, b = b % a, a
+        a, b = b % a, a # "Pythonic way"
+        # or temp = a; a = b % a; b = temp; in the other languages
     return b
 
 

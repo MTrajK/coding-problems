@@ -33,9 +33,10 @@ def min_swaps(a):
     for i in range(n):
         # swap the elements till the right element isn't found
         while a[i] - 1 != i:
+            swap = a[i] - 1
             # swap the elements
-            tmp = a[a[i] - 1]
-            a[a[i] - 1] = a[i]
+            tmp = a[swap]
+            a[swap] = a[i]
             a[i] = tmp
 
             swaps += 1

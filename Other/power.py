@@ -16,7 +16,7 @@ Using divide and conquer approach.
 def power(a, b):
     if b < 0:
         # negative power
-        return 1/power_recursive(a, -b)
+        return 1 / power_recursive(a, -b)
 
     return power_recursive(a, b)
 

@@ -121,7 +121,8 @@ def nth_fibonacci_4(n):
     dp0, dp1 = 0, 1
 
     for i in range(n):
-        dp0, dp1 = dp1, dp0 + dp1
+        dp0, dp1 = dp1, dp0 + dp1 # "Pythonic way"
+        # or dp1 += dp0; dp0 = dp1 - dp0; in other languages
 
     return dp0
 
