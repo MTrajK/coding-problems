@@ -5,10 +5,10 @@ Given an array of non-negative integers, you are initially positioned at the fir
 Each element in the array represents your maximum jump length at that position.
 Determine if you are able to reach the last index.
 
-Input: [2,3,1,1,4]
+Input: [2, 3, 1, 1, 4]
 Output: True
 
-Input: [3,2,1,0,4]
+Input: [3, 2, 1, 0, 4]
 Output: False
 
 =========================================
@@ -28,17 +28,17 @@ def can_jump(nums):
     if n == 0:
         return False
 
-    last = 0
+    max_jump = 0
     for i in range(n):
         # if this field isn't reachable return False
-        if last < i:
+        if max_jump < i:
             return False
 
-        max_jump = i + nums[i]
-        last = max(last, max_jump)
+        this_jump = i + nums[i]
+        max_jump = max(max_jump, this_jump)
 
         # if the jump is greater or equal to the last element return True
-        if last >= n - 1:
+        if max_jump >= n - 1:
             return True
 
 
@@ -48,8 +48,8 @@ def can_jump(nums):
 
 # Test 1
 # Correct result => True
-print(can_jump([2,3,1,1,4]))
+print(can_jump([2, 3, 1, 1, 4]))
 
 # Test 2
 # Correct result => False
-print(can_jump([3,2,1,0,4]))
+print(can_jump([3, 2, 1, 0, 4]))
