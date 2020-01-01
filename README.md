@@ -103,11 +103,13 @@ The learning resources are divided into 4 categories: [Courses](#Courses), [Book
 
 Collection of free courses from one of the best CS universities.
 
-1. [Standford University (Coursera)](https://www.coursera.org/specializations/algorithms)
-    - [Divide and Conquer, Sorting and Searching, and Randomized Algorithms](https://www.coursera.org/learn/algorithms-divide-conquer)
-    - [Graph Search, Shortest Paths, and Data Structures](https://www.coursera.org/learn/algorithms-graphs-data-structures)
-    - [Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming](https://www.coursera.org/learn/algorithms-greedy)
-    - [Shortest Paths Revisited, NP-Complete Problems and What To Do About Them](https://www.coursera.org/learn/algorithms-npcomplete)
+1. Standford University
+    - [Algorithms Specialization (Coursera)](https://www.coursera.org/specializations/algorithms)
+        * [Divide and Conquer, Sorting and Searching, and Randomized Algorithms](https://www.coursera.org/learn/algorithms-divide-conquer)
+        * [Graph Search, Shortest Paths, and Data Structures](https://www.coursera.org/learn/algorithms-graphs-data-structures)
+        * [Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming](https://www.coursera.org/learn/algorithms-greedy)
+        * [Shortest Paths Revisited, NP-Complete Problems and What To Do About Them](https://www.coursera.org/learn/algorithms-npcomplete)
+    - [Introduction to Programming Contests - CS 97SI](http://web.stanford.edu/class/cs97si/)
 
 2.  Princeton University (Coursera)
     - [Algorithms Part 1](https://www.coursera.org/learn/algorithms-part1)
@@ -121,7 +123,7 @@ Collection of free courses from one of the best CS universities.
     - [Advanced Algorithms and Complexity](https://www.coursera.org/learn/advanced-algorithms-and-complexity)
 
 4. MIT University (YouTube)
-    - [Introduction to algorithms 2005](https://www.youtube.com/playlist?list=PL8B24C31197EC371C)
+    - [Introduction to algorithms 2005](https://www.youtube.com/playlist?list=PL8B24C31197EC371C) - [Official MIT page with resources](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/). Note: this course is the old 6.046J course (the new name is ***Design and analysis of algorithms***, you can find it below).
     - [Introduction to algorithms 2011 - 6.006](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [Design and analysis of algorithms - 6.046J](https://www.youtube.com/playlist?list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp) - [Official MIT page with resources](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/index.htm)
     - [Advanced Data Structures - 6.851](https://www.youtube.com/playlist?list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf) - [Official MIT page with resources](http://courses.csail.mit.edu/6.851/spring14/lectures/)
@@ -199,10 +201,11 @@ If the problems from [LeetCode](https://leetcode.com/) are not enough and you ne
 
 ### Other Resources
 
-1. [Geeks For Geeks](https://www.geeksforgeeks.org/) - The site which **all** interested in algorithms (no matter if beginners or experts) should know!
+1. [Geeks For Geeks](https://www.geeksforgeeks.org/) - The site which **all** interested in algorithms (no matter if beginners or experts) should know! [YouTube channel](https://www.youtube.com/channel/UC0RhatS1pyxInC00YKjjBqQ) with many useful videos.
 2. [The Algorithms - Python](https://github.com/TheAlgorithms/Python) - Great GitHub repo with many algorithms written in Python ([Link](https://github.com/TheAlgorithms) from the same repo written in other programming languages).
 3. [CP Algorithms](http://cp-algorithms.com/) - Great page with excellent explanations for various algorithms.
 4. [KhanAcademy - Algorithms](https://www.khanacademy.org/computing/computer-science/algorithms) - Good explanations for some basic algorithms.
-5. HackerRank - YouTube tutorials
+5. [HackerEarth - Tutorials and Practice](https://www.hackerearth.com/practice/) - Practice problems and learn about many algorithms and data structures needed for competitive programming.
+6. HackerRank - YouTube tutorials
     - [Algorithms](https://www.youtube.com/playlist?list=PLI1t_8YX-ApvMthLj56t1Rf-Buio5Y8KL)
     - [Data Structures](https://www.youtube.com/playlist?list=PLI1t_8YX-Apv-UiRlnZwqqrRT8D1RhriX)
