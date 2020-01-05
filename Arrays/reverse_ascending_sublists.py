@@ -41,17 +41,11 @@ def reverse_arr(arr, start, end):
     while start < end:
         # reverse the array from the start index to the end index by
         # swaping each element with the pair from the other part of the array
-        swap(arr, start, end)
+        arr[start], arr[end] = arr[end], arr[start]
         start += 1
         end -= 1
 
     return arr
-
-def swap(arr, i, j):
-    # swapping two elements from a same array
-    temp = arr[i]
-    arr[i] = arr[j]
-    arr[j] = temp
 
 
 ###########

@@ -33,9 +33,7 @@ def sort_rgb_array(arr):
     for i in range(n):
         # swap the element and move the pointer
         if arr[i] == 'R':
-            temp = arr[i]
-            arr[i] = arr[r]
-            arr[r] = temp
+            swap(arr, i, r)
             r += 1
 
         # move pointer
@@ -44,9 +42,7 @@ def sort_rgb_array(arr):
 
         # swap the element and move the pointer
         if arr[i] == 'G':
-            temp = arr[i]
-            arr[i] = arr[g]
-            arr[g] = temp
+            swap(arr, i, g)
             g += 1
 
         # move pointer
@@ -55,12 +51,14 @@ def sort_rgb_array(arr):
 
         # swap the element and move the pointer
         if arr[i] == 'B':
-            temp = arr[i]
-            arr[i] = arr[b]
-            arr[b] = temp
+            swap(arr, i, b)
             b += 1
 
     return arr
+
+def swap(arr, i, j):
+    # swaps two elements in an array
+    arr[i], arr[j] = arr[j], arr[i]
 
 
 ##############

@@ -38,9 +38,7 @@ def find_first_missing_1(a):
                 break
 
             # swap elements
-            temp = a[i]
-            a[i] = a[swap]
-            a[swap] = temp
+            a[i], a[swap] = a[swap], a[i]
 
     for i in range(n):
         if a[i] - 1 != i:
@@ -107,19 +105,19 @@ print(find_first_missing_1(list(test)))
 print(find_first_missing_2(list(test)))
 
 # Test 5
-# Correct result => 5
+# Correct result => 1
 test = [-4, -1, -3, -1]
 print(find_first_missing_1(list(test)))
 print(find_first_missing_2(list(test)))
 
 # Test 6
-# Correct result => 6
+# Correct result => 3
 test = [2, 1, 2, -1, 0, 20]
 print(find_first_missing_1(list(test)))
 print(find_first_missing_2(list(test)))
 
 # Test 7
-# Correct result => 7
+# Correct result => 3
 test = [1, 2, 5, 5, 1, 2]
 print(find_first_missing_1(list(test)))
 print(find_first_missing_2(list(test)))

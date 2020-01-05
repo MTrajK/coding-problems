@@ -54,9 +54,7 @@ def reverse_vowels(sentence):
             break
 
         # swap the vowels
-        temp = arr[left]
-        arr[left] = arr[right]
-        arr[right] = temp
+        arr[left], arr[right] = arr[right], arr[left]
 
         left += 1
         right -= 1

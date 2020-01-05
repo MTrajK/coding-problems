@@ -63,9 +63,7 @@ def pivoting(arr, left, right, pt):
 
 def swap(arr, i, j):
     # swaps two elements in an array
-    temp = arr[i]
-    arr[i] = arr[j]
-    arr[j] = temp
+    arr[i], arr[j] = arr[j], arr[i]
 
 def sqr_dist(a, b):
     # no need from the square root

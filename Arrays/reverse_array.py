@@ -36,9 +36,12 @@ def reverse_arr(arr):
 
 def swap(arr, i, j):
     # swapping two elements from a same array
+    arr[i], arr[j] = arr[j], arr[i]
+    '''same as
     temp = arr[i]
     arr[i] = arr[j]
     arr[j] = temp
+    '''
 
 
 ###########

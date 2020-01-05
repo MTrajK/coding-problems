@@ -11,11 +11,11 @@ Input: [1], 1
 Output: [1]
 
 =========================================
-Using Min Priority Queue, in each step add an element with its frequency and remove the element with the smallest frequency 
-if there are more than K elements inside the Priority Queue. This solution isn't much faster than sorting the frequencies. 
+Using Min Priority Queue, in each step add an element with its frequency and remove the element with the smallest frequency
+if there are more than K elements inside the Priority Queue. This solution isn't much faster than sorting the frequencies.
     Time Complexity:    O(U LogK)   , U in this case is the number of unique elements (but all elements from the array could be unique, so because of that U can be equal to N)
     Space Complexity:   O(N)
-Using pivoting, this solution is based on the quick sort algorithm (divide and conquer). 
+Using pivoting, this solution is based on the quick sort algorithm (divide and conquer).
 Same pivoting solution as the nth_smallest.py.
     Time Complexity:    O(U)
     Space Complexity:   O(N)
@@ -30,7 +30,7 @@ import heapq
 
 # priority queue comparator class
 # acctualy in this case you don't need a comparator class, because the elements are tuples
-# and comparison operator can work with tuples 
+# and comparison operator can work with tuples
 # (The comparison starts with a first element of each tuple. If they do not compare to =,< or > then it proceed to the second element and so on.)
 class PQElement:
     def __init__(self, el):
@@ -146,9 +146,7 @@ def pivoting(arr, left, right):
 
 def swap(arr, i, j):
     # swaps two elements in an array
-    temp = arr[i]
-    arr[i] = arr[j]
-    arr[j] = temp
+    arr[i], arr[j] = arr[j], arr[i]
 
 
 ###########

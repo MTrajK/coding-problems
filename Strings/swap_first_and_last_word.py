@@ -50,15 +50,9 @@ def swap_first_and_last_word(sentence):
 def reverse_array(arr, start, end):
     # reverse the array from the start index to the end index
     while start < end:
-        swap(arr, start, end)
+        arr[start], arr[end] = arr[end], arr[start] # swap
         start += 1
         end -= 1
-
-def swap(arr, i, j):
-    # swapping two elements from a same array
-    temp = arr[i]
-    arr[i] = arr[j]
-    arr[j] = temp
 
 
 ###########
