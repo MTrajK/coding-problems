@@ -166,6 +166,7 @@ If the problems from [LeetCode](https://leetcode.com/) are not enough and you ne
 - [Online Judge](https://onlinejudge.org/)
 - [E-Olymp](https://www.e-olymp.com/en/)
 - [VJudge](https://vjudge.net/)
+- [DMOJ](https://dmoj.ca/)
 - [USA CO](http://www.usaco.org/)
 - [CodeAbbey](http://codeabbey.com/)
 - [CS Academy](https://csacademy.com/)
