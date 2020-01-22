@@ -65,9 +65,12 @@ def rotate_array_2(arr, k, right = True):
             j += 1
 
             # add the previous element on this position
+            curr, arr[idx] = arr[idx], curr
+            '''same as
             temp = curr
             curr = arr[idx]
             arr[idx] = temp
+            '''
 
         i += 1
 
