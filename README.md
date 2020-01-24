@@ -1,7 +1,7 @@
 # Coding Problems
 
 Here you can find [solutions](#Solutions) for various coding/algorithmic problems and many useful [resources](#Learning-Resources) for learning algorithms and data structures.\
-Also, this repo will be updated with new solutions from time to time.
+Also, this repo will be updated with new solutions and resources from time to time.
 
 *Note that this repo is meant to be used for learning and researching purposes only and it is **not** meant to be used for production.*
 
@@ -12,7 +12,7 @@ All solutions are written in [Python](https://www.python.org/) (more precisely, 
 - [math](https://docs.python.org/3/library/math.html) (used for constants like math.pi, math.inf and functions like math.ceil, math.floor, math.gcd, math.log, math.pow, math.sqrt, etc)
 - [collections](https://docs.python.org/3/library/collections.html) (used for [collections.deque](https://docs.python.org/3/library/collections.html#collections.deque) when there is a need for [Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)) or [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)) data structures)
 - [heapq](https://docs.python.org/3/library/heapq.html) (used when there is a need for [Priority Queue](https://en.wikipedia.org/wiki/Priority_queue) data structure).
-- [random](https://docs.python.org/3/library/random.html) (used for [nondeterministic algorithms](https://en.wikipedia.org/wiki/Nondeterministic_algorithm), like shuffling arrays and Monte Carlo methods).
+- [random](https://docs.python.org/3/library/random.html) (used for [nondeterministic algorithms](https://en.wikipedia.org/wiki/Nondeterministic_algorithm), like shuffling arrays and [Monte Carlo methods](https://en.wikipedia.org/wiki/Monte_Carlo_method)).
 
 So, to execute these solutions there is no need from installing any external packages. \
 Coding style and name conventions are described in the official [PEP8](https://www.python.org/dev/peps/pep-0008) page.
@@ -80,7 +80,7 @@ print(name_of_solution_1(test_val))
 print(name_of_solution_2(test_val))
 ```
 
-*Note that here I'm using the **simplest** way of testing, printing the results using the [print](https://docs.python.org/3/library/functions.html#print) method. Why? Because I think that the bigger part of the users of this repo isn't familiar with [unit testing](https://en.wikipedia.org/wiki/Unit_testing) and I wanted this part to be intuitive. Btw, I'm strongly recommending to use some unit testing framework for this kind of testing. The Python Standard Library contains a **great** framework for unit testing called [unittest](https://docs.python.org/3/library/unittest.html), or you can install some third-party unit testing framework like [pytest](https://docs.pytest.org/en/latest/).*
+*Note that here I'm using the **simplest** way of testing, printing the results using the [print](https://docs.python.org/3/library/functions.html#print) method. Why? Because I think that the bigger part of the users of this repo isn't familiar with [unit testing](https://en.wikipedia.org/wiki/Unit_testing) and I wanted this part to be intuitive. Btw, I'm strongly recommend using some unit testing framework for this kind of testing. The Python Standard Library contains a **great** framework for unit testing called [unittest](https://docs.python.org/3/library/unittest.html), or you can install some third-party unit testing framework like [pytest](https://docs.pytest.org/en/latest/).*
 
 ### Categories
 
@@ -117,12 +117,17 @@ Collection of free courses from one of the best CS universities.
     - [Algorithms Part 1](https://www.coursera.org/learn/algorithms-part1)
     - [Algorithms Part 2](https://www.coursera.org/learn/algorithms-part2)
 
-3. [UC San Diego (Coursera)](https://www.coursera.org/specializations/data-structures-algorithms)
-    - [Algorithmic Toolbox](https://www.coursera.org/learn/algorithmic-toolbox)
-    - [Data Structures](https://www.coursera.org/learn/data-structures)
-    - [Algorithms on Graphs](https://www.coursera.org/learn/algorithms-on-graphs)
-    - [Algorithms on Strings](https://www.coursera.org/learn/algorithms-on-strings)
-    - [Advanced Algorithms and Complexity](https://www.coursera.org/learn/advanced-algorithms-and-complexity)
+3. UC San Diego
+    - [Data Structures and Algorithms Specialization (Coursera)](https://www.coursera.org/specializations/data-structures-algorithms)
+        * [Algorithmic Toolbox](https://www.coursera.org/learn/algorithmic-toolbox)
+        * [Data Structures](https://www.coursera.org/learn/data-structures)
+        * [Algorithms on Graphs](https://www.coursera.org/learn/algorithms-on-graphs)
+        * [Algorithms on Strings](https://www.coursera.org/learn/algorithms-on-strings)
+        * [Advanced Algorithms and Complexity](https://www.coursera.org/learn/advanced-algorithms-and-complexity)
+    - [edX](https://www.edx.org/school/uc-san-diegox)
+        * [Data Structures Fundamentals](https://www.edx.org/course/data-structures-fundamentals)
+        * [Algorithmic Design and Techniques](https://www.edx.org/course/algorithmic-design-and-techniques)
+        * [Graph Algorithms](https://www.edx.org/course/graph-algorithms)
 
 4. MIT University (YouTube)
     - [Introduction to algorithms 2005](https://www.youtube.com/playlist?list=PL8B24C31197EC371C) - [Official MIT page with resources](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/). Note: this course is the old 6.046J course (the new name is ***Design and analysis of algorithms***, you can find it below).
@@ -207,12 +212,15 @@ If the problems from [LeetCode](https://leetcode.com/) are not enough and you ne
 1. [Geeks For Geeks](https://www.geeksforgeeks.org/) - The site which **all** interested in algorithms (no matter if beginners or experts) should know! [YouTube channel](https://www.youtube.com/channel/UC0RhatS1pyxInC00YKjjBqQ) with many useful videos.
 2. [The Algorithms - Python](https://github.com/TheAlgorithms/Python) - Great GitHub repo with many algorithms written in Python ([Link](https://github.com/TheAlgorithms) from the same repo written in other programming languages).
 3. [CP Algorithms](http://cp-algorithms.com/) - Great page with excellent explanations for various algorithms.
-4. [HackerEarth - Tutorials and Practice](https://www.hackerearth.com/practice/) - Practice problems and learn about many algorithms and data structures needed for competitive programming.
-5. [Google - Intro to Data Structures and Algorithms](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513) - Free course on Udacity offered by Google (maybe this resource should belong into the [Courses](#Courses) section).
-6. [KhanAcademy - Algorithms](https://www.khanacademy.org/computing/computer-science/algorithms) - Good explanations for some basic algorithms.
-7. [USFCA Visualization Tool](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html) - Great tool for visualizing data structures and algorithms, created by the University of San Francisco.
-8. [VisuAlgo](https://visualgo.net/en) - Another great tool for visualizing data structures and algorithms through animation.
-9. YouTube playlists with tutorials:
+4. [USFCA Visualization Tool](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html) - Great tool for visualizing data structures and algorithms, created by the University of San Francisco.
+5. [VisuAlgo](https://visualgo.net/en) - Another great tool for visualizing data structures and algorithms through animation.
+6. [Google - Intro to Data Structures and Algorithms](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513) - Free course on Udacity offered by Google.
+7. [Microsoft - Algorithms and Data Structures](https://www.edx.org/course/algorithms-and-data-structures) - Free course on edX offered by Microsoft (maybe these 2 resources, from Google and Microsoft, should belong into the [Courses](#Courses) section).
+8. [HackerEarth - Tutorials and Practice](https://www.hackerearth.com/practice/) - Practice problems and learn about many algorithms and data structures needed for competitive programming.
+9. [KhanAcademy - Algorithms](https://www.khanacademy.org/computing/computer-science/algorithms) - Good explanations for some basic algorithms.
+10. [Tutorialspoint - Data Structures and Algorithms](https://www.tutorialspoint.com/data_structures_algorithms/index.htm) - Another platform with good explanations, also Tutorialspoint has free tutorials for almost everything related to CS!
+11. [hackr.io - Data Structures and Algorithms Tutorials and Courses](https://hackr.io/tutorials/learn-data-structures-algorithms) - Big collection of tutorials and courses.
+12. YouTube playlists with tutorials:
     - [Data Structures by mycodeschool](https://www.youtube.com/playlist?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
     - [Data Structures by HackerRank](https://www.youtube.com/playlist?list=PLI1t_8YX-Apv-UiRlnZwqqrRT8D1RhriX)
     - [Algorithms by HackerRank](https://www.youtube.com/playlist?list=PLI1t_8YX-ApvMthLj56t1Rf-Buio5Y8KL)
