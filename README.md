@@ -8,7 +8,9 @@ Also, this repo will be updated with new solutions and resources from time to ti
 
 ## Solutions
 
-All solutions are written in [Python](https://www.python.org/) (more precisely, [Python 3](https://docs.python.org/3)), using the [Built-in Functions](https://docs.python.org/3/library/functions.html) (print, len, range, sorted, sum, min, max, etc...) and a few modules from the [Python Standard Library](https://docs.python.org/3/library/) like:
+Algorithms and data structures are not language-specific (it's true that some languages are faster, and some are easier to use), but if you are good with the logic and pseudocode, any language would be good.\
+So I've decided to use [Python](https://en.wikipedia.org/wiki/Python_(programming_language)) because I think it's very close to pseudocode and it's easily readable (so it'll be easy for someone from another environment to implement the same solutions).\
+As I said previously, all solutions are written in [Python](https://www.python.org/) (more precisely, [Python 3](https://docs.python.org/3)), using the [Built-in Functions](https://docs.python.org/3/library/functions.html) (print, len, range, sorted, sum, min, max, etc...) and a few modules from the [Python Standard Library](https://docs.python.org/3/library/) like:
 - [math](https://docs.python.org/3/library/math.html) (used for constants like math.pi, math.inf and functions like math.ceil, math.floor, math.gcd, math.log, math.pow, math.sqrt, etc)
 - [collections](https://docs.python.org/3/library/collections.html) (used for [collections.deque](https://docs.python.org/3/library/collections.html#collections.deque) when there is a need for [Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)) or [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)) data structures)
 - [heapq](https://docs.python.org/3/library/heapq.html) (used when there is a need for [Priority Queue](https://en.wikipedia.org/wiki/Priority_queue) data structure).
@@ -135,6 +137,7 @@ Collection of free courses from one of the best CS universities.
     - [Design and analysis of algorithms - 6.046J](https://www.youtube.com/playlist?list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp) - [Official MIT page with resources](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/index.htm)
     - [Advanced Data Structures - 6.851](https://www.youtube.com/playlist?list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf) - [Official MIT page with resources](http://courses.csail.mit.edu/6.851/spring14/lectures/)
     - [Advanced Algorithms 2016 - 6.854](https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c)
+    - [Programming for the Puzzled 2018 - 6.S095](https://www.youtube.com/playlist?list=PLUl4u3cNGP62QumaaZtCCjkID-NgqrleA) - [Official MIT page with resources](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s095-programming-for-the-puzzled-january-iap-2018/)
 
 5. Harvard University (YouTube)
     - [Advanced algorithms - CS224](https://www.youtube.com/playlist?list=PL2SOU6wwxB0uP4rJgf5ayhHWgw7akUWSf)
@@ -154,6 +157,7 @@ Several books that have made an impression on me:
 4. [The Algorithm Design Manual by Steven Skiena](https://www.goodreads.com/book/show/425208.The_Algorithm_Design_Manual) - The book describes many advanced topics and algorithms and it focuses on real life practical examples. This book has one of the best [site](http://www.algorist.com) with resources ([solutions](http://www.algorist.com/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition)), [algorithms and data structures](http://www.algorist.com/algorist.html), [python implementations](http://www.algorist.com/languages/Python.html)).
 5. [Algorithms by S. Dasgupta, C. Papadimitriou, and U. Vazirani](https://www.goodreads.com/book/show/138563.Algorithms) - This book is an official book for algorithms and data structures classes in several famous universities.
 6. [Competitive Programming 3 by Steven Halim & Felix Halim](https://www.goodreads.com/book/show/22820968-competitive-programming-3) - A great book that prepares you for competitive programming (not for complete beginners). You can learn many things and tricks about competitive programming. *But if your goal is to prepare for competitive programming then choose a faster language than Python, **C/C++** (or Java, it's faster than Python but not like C/C++).*
+7. [Cracking the Coding Interview by Gayle Laakmann McDowell](https://www.goodreads.com/book/show/29350585-cracking-the-coding-interview) - A bit different from the previous books. Prepares you for coding interviews using great coding problems.
 
 
 ### Training Sites
@@ -186,6 +190,7 @@ If the problems from [LeetCode](https://leetcode.com/) are not enough and you ne
 - [CodeFu](https://codefu.mk/)
 - [Mendo](https://mendo.mk/Welcome.do)
 - [Z-Training](http://www.codah.club/)
+- [Codewars](http://www.codewars.com/)
 - [Wolfram Challenges](https://challenges.wolfram.com/)
 - [Google's Coding Competitions](https://codingcompetitions.withgoogle.com/)
 - [Cyber-dojo](https://cyber-dojo.org/)
@@ -195,7 +200,6 @@ If the problems from [LeetCode](https://leetcode.com/) are not enough and you ne
 - [Daily Interview Pro](http://dailyinterviewpro.com/)
 - [Codility](https://codility.com/)
 - [CoderByte](https://coderbyte.com/)
-- [Codewars](http://www.codewars.com/)
 - [AlgoExpert](https://www.algoexpert.io/)
 - [Edabit](https://edabit.com/)
 - [DevPost](https://devpost.com/)
@@ -215,7 +219,7 @@ If the problems from [LeetCode](https://leetcode.com/) are not enough and you ne
 4. [USFCA Visualization Tool](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html) - Great tool for visualizing data structures and algorithms, created by the University of San Francisco.
 5. [VisuAlgo](https://visualgo.net/en) - Another great tool for visualizing data structures and algorithms through animation.
 6. [Google - Intro to Data Structures and Algorithms](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513) - Free course on Udacity offered by Google.
-7. [Microsoft - Algorithms and Data Structures](https://www.edx.org/course/algorithms-and-data-structures) - Free course on edX offered by Microsoft (maybe these 2 resources, from Google and Microsoft, should belong into the [Courses](#Courses) section).
+7. [Microsoft - Algorithms and Data Structures](https://www.edx.org/course/algorithms-and-data-structures) - Free course on edX offered by Microsoft (maybe these 2 resources, from Google and Microsoft, should belong in the [Courses](#Courses) section).
 8. [HackerEarth - Tutorials and Practice](https://www.hackerearth.com/practice/) - Practice problems and learn about many algorithms and data structures needed for competitive programming.
 9. [KhanAcademy - Algorithms](https://www.khanacademy.org/computing/computer-science/algorithms) - Good explanations for some basic algorithms.
 10. [Tutorialspoint - Data Structures and Algorithms](https://www.tutorialspoint.com/data_structures_algorithms/index.htm) - Another platform with good explanations, also Tutorialspoint has free tutorials for almost everything related to CS!
