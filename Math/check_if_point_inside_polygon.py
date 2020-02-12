@@ -35,18 +35,27 @@ def check_if_point_inside_polygon(polygon, p):
 
 def intersect(a, b, p):
     # Y coordinate of p should be between Y coordinates
-    # this can be written like (a[1] > p[1]) != (b[1] > p[1])
-    if p[1] < max(a[1], b[1]) and p[1] >= min(a[1], b[1]):
+    # the following check is a short form from (p[1] < max(a[1], b[1]) and p[1] >= min(a[1], b[1]))
+    if (a[1] > p[1]) != (b[1] > p[1]):
         '''
         Equation of line:
         y = (x - x0) * ((y1 - y0) / (x1 - x0)) + y0
-        This formula is computed using the gradients (slopes, changes in the coordinates)
-        Modify this formula to find X instead Y (because you already have Y)
+        This formula is computed using the gradients (slopes, changes in the coordinates).
+        The following formula differs from the previous in that it finds X instead of Y (because Y is known).
         '''
         x_intersect = (p[1] - a[1]) * ((b[0] - a[0]) / (b[1] - a[1])) + a[0]
 
         # check if the point is on the left of the intersection (because in this case you're drawing a line to the right)
         return x_intersect <= p[1]
+        '''
+        There exists a more complicated solution. (just in case if you're trying to compare X coordinates and find an intersection)
+        Compare X coordinates, if both line X coordinates are bigger than point X then there is an intersection.
+        If both line X coordinates are bigger than point X then there is no intersection.
+        Else compute the angle between point-lineA and point-lineB (using math.atan2),
+        if the angle is smaller or equal than 180 (Pi) there is an interesection else there is no intersection.
+        '''
+
+    return False
 
 
 ###########

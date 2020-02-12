@@ -82,7 +82,7 @@ print(name_of_solution_1(test_val))
 print(name_of_solution_2(test_val))
 ```
 
-*Note that here I'm using the **simplest** way of testing, printing the results using the [print](https://docs.python.org/3/library/functions.html#print) method. Why? Because I think that the bigger part of the users of this repo isn't familiar with [unit testing](https://en.wikipedia.org/wiki/Unit_testing) and I wanted this part to be intuitive. Btw, I'm strongly recommend using some unit testing framework for this kind of testing. The Python Standard Library contains a **great** framework for unit testing called [unittest](https://docs.python.org/3/library/unittest.html), or you can install some third-party unit testing framework like [pytest](https://docs.pytest.org/en/latest/).*
+*Note that here I'm using the **simplest** way of testing, printing the results using the [print](https://docs.python.org/3/library/functions.html#print) method. Why? Because I think that the bigger part of the users of this repo isn't familiar with [unit testing](https://en.wikipedia.org/wiki/Unit_testing) and I wanted this part to be intuitive. Btw, I strongly recommend using some unit testing framework for this kind of testing. The Python Standard Library contains a **great** framework for unit testing called [unittest](https://docs.python.org/3/library/unittest.html), or you can install some third-party unit testing framework like [pytest](https://docs.pytest.org/en/latest/).*
 
 ### Categories
 
@@ -115,9 +115,9 @@ Collection of free courses from one of the best CS universities.
         * [Shortest Paths Revisited, NP-Complete Problems and What To Do About Them](https://www.coursera.org/learn/algorithms-npcomplete)
     - [Introduction to Programming Contests - CS 97SI](http://web.stanford.edu/class/cs97si/)
 
-2.  Princeton University (Coursera)
-    - [Algorithms Part 1](https://www.coursera.org/learn/algorithms-part1)
-    - [Algorithms Part 2](https://www.coursera.org/learn/algorithms-part2)
+2.  Princeton University
+    - [Algorithms Part 1 - Coursera](https://www.coursera.org/learn/algorithms-part1)
+    - [Algorithms Part 2 - Coursera](https://www.coursera.org/learn/algorithms-part2)
 
 3. UC San Diego
     - [Data Structures and Algorithms Specialization (Coursera)](https://www.coursera.org/specializations/data-structures-algorithms)
@@ -131,20 +131,20 @@ Collection of free courses from one of the best CS universities.
         * [Algorithmic Design and Techniques](https://www.edx.org/course/algorithmic-design-and-techniques)
         * [Graph Algorithms](https://www.edx.org/course/graph-algorithms)
 
-4. MIT University (YouTube)
-    - [Introduction to algorithms 2005](https://www.youtube.com/playlist?list=PL8B24C31197EC371C) - [Official MIT page with resources](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/). Note: this course is the old 6.046J course (the new name is ***Design and analysis of algorithms***, you can find it below).
-    - [Introduction to algorithms 2011 - 6.006](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-    - [Design and analysis of algorithms - 6.046J](https://www.youtube.com/playlist?list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp) - [Official MIT page with resources](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/index.htm)
-    - [Advanced Data Structures - 6.851](https://www.youtube.com/playlist?list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf) - [Official MIT page with resources](http://courses.csail.mit.edu/6.851/spring14/lectures/)
-    - [Advanced Algorithms 2016 - 6.854](https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c)
-    - [Programming for the Puzzled 2018 - 6.S095](https://www.youtube.com/playlist?list=PLUl4u3cNGP62QumaaZtCCjkID-NgqrleA) - [Official MIT page with resources](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s095-programming-for-the-puzzled-january-iap-2018/)
+4. MIT University
+    - [Introduction to algorithms 2005](https://www.youtube.com/playlist?list=PL8B24C31197EC371C) - *[Official MIT page with resources](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/)*. Note: this course is the old 6.046J course (the new name is ***Design and analysis of algorithms***, you can find it below).
+    - [Introduction to algorithms 2011 - 6.006](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb) - *[Official MIT page with resources](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/)*
+    - [Design and analysis of algorithms - 6.046J](https://www.youtube.com/playlist?list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp) - *[Official MIT page with resources](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/index.htm)*
+    - [Advanced Data Structures - 6.851](https://www.youtube.com/playlist?list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf) - *[Official MIT page with resources](http://courses.csail.mit.edu/6.851/spring14/lectures/)*
+    - [Advanced Algorithms 2016 - 6.854](https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c) - *[Official MIT page with resources](http://people.csail.mit.edu/moitra/854.html)*
+    - [Programming for the Puzzled 2018 - 6.S095](https://www.youtube.com/playlist?list=PLUl4u3cNGP62QumaaZtCCjkID-NgqrleA) - *[Official MIT page with resources](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s095-programming-for-the-puzzled-january-iap-2018/)*
 
-5. Harvard University (YouTube)
+5. Harvard University
     - [Advanced algorithms - CS224](https://www.youtube.com/playlist?list=PL2SOU6wwxB0uP4rJgf5ayhHWgw7akUWSf)
 
 6. UC Berkeley
     - [Data Structures - CS61B](https://inst.eecs.berkeley.edu/~cs61b/archives.html)
-    - [Efficient Algorithms and Intractable Problems - CS170](https://cs170.org/) - [YouTube videos](https://www.youtube.com/playlist?list=PLkFD6_40KJIx8lWWbE-Uk069aZ1R-W-VU)
+    - [Efficient Algorithms and Intractable Problems - CS170](https://cs170.org/) - *[YouTube videos](https://www.youtube.com/playlist?list=PLkFD6_40KJIx8lWWbE-Uk069aZ1R-W-VU)*
 
 
 ### Books
