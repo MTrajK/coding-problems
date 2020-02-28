@@ -196,6 +196,7 @@ If the problems from [LeetCode](https://leetcode.com/) are not enough and you ne
 - [Cyber-dojo](https://cyber-dojo.org/)
 - [CodingBat](http://codingbat.com/)
 - [CodeKata](http://codekata.com/)
+- [BinarySearch](https://binarysearch.io/)
 - [Daily Coding Problem](https://www.dailycodingproblem.com/)
 - [Daily Interview Pro](http://dailyinterviewpro.com/)
 - [Codility](https://codility.com/)
