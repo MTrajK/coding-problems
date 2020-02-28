@@ -14,7 +14,7 @@ As I said previously, all solutions are written in [Python](https://www.python.o
 - [math](https://docs.python.org/3/library/math.html) (used for constants like math.pi, math.inf and functions like math.ceil, math.floor, math.gcd, math.log, math.pow, math.sqrt, etc)
 - [collections](https://docs.python.org/3/library/collections.html) (used for [collections.deque](https://docs.python.org/3/library/collections.html#collections.deque) when there is a need for [Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)) or [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)) data structures)
 - [heapq](https://docs.python.org/3/library/heapq.html) (used when there is a need for [Priority Queue](https://en.wikipedia.org/wiki/Priority_queue) data structure).
-- [random](https://docs.python.org/3/library/random.html) (used for [nondeterministic algorithms](https://en.wikipedia.org/wiki/Nondeterministic_algorithm), like shuffling arrays and [Monte Carlo methods](https://en.wikipedia.org/wiki/Monte_Carlo_method)).
+- [random](https://docs.python.org/3/library/random.html) (used for [nondeterministic algorithms](https://en.wikipedia.org/wiki/Nondeterministic_algorithm), like shuffling arrays ([Fisher–Yates shuffle](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle)), sampling arrays ([Reservoir sampling](https://en.wikipedia.org/wiki/Reservoir_sampling)) and [Monte Carlo methods](https://en.wikipedia.org/wiki/Monte_Carlo_method)).
 
 So, to execute these solutions there is no need from installing any external packages. \
 Coding style and name conventions are described in the official [PEP8](https://www.python.org/dev/peps/pep-0008) page.
