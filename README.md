@@ -116,8 +116,9 @@ Collection of free courses from one of the best CS universities.
     - [Introduction to Programming Contests - CS 97SI](http://web.stanford.edu/class/cs97si/)
 
 2.  Princeton University
-    - [Algorithms Part 1 - Coursera](https://www.coursera.org/learn/algorithms-part1)
-    - [Algorithms Part 2 - Coursera](https://www.coursera.org/learn/algorithms-part2)
+    - [Algorithms Part 1 (Coursera)](https://www.coursera.org/learn/algorithms-part1)
+    - [Algorithms Part 2 (Coursera)](https://www.coursera.org/learn/algorithms-part2)
+    - [Analysis of Algorithms (Coursera)](https://www.coursera.org/learn/analysis-of-algorithms)
 
 3. UC San Diego
     - [Data Structures and Algorithms Specialization (Coursera)](https://www.coursera.org/specializations/data-structures-algorithms)
@@ -126,10 +127,12 @@ Collection of free courses from one of the best CS universities.
         * [Algorithms on Graphs](https://www.coursera.org/learn/algorithms-on-graphs)
         * [Algorithms on Strings](https://www.coursera.org/learn/algorithms-on-strings)
         * [Advanced Algorithms and Complexity](https://www.coursera.org/learn/advanced-algorithms-and-complexity)
+    - [Data Structures and Performance (Coursera)](https://www.coursera.org/learn/data-structures-optimizing-performance)
     - [edX](https://www.edx.org/school/uc-san-diegox)
         * [Data Structures Fundamentals](https://www.edx.org/course/data-structures-fundamentals)
         * [Algorithmic Design and Techniques](https://www.edx.org/course/algorithmic-design-and-techniques)
         * [Graph Algorithms](https://www.edx.org/course/graph-algorithms)
+        * [Data Structures: An Active Learning Approach](https://www.edx.org/course/data-structures-an-active-learning-approach)
 
 4. MIT University
     - [Introduction to algorithms 2005](https://www.youtube.com/playlist?list=PL8B24C31197EC371C) - *[Official MIT page with resources](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/)*. Note: this course is the old 6.046J course (the new name is ***Design and analysis of algorithms***, you can find it below).
