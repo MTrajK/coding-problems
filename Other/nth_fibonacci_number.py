@@ -216,37 +216,23 @@ def nth_fibonacci_7(n):
 import math
 
 def nth_fibonacci_8(n):
-    golden_ratio = (1 + math.sqrt(5)) / 2
-    return int((1 + math.pow(golden_ratio, n)) / math.sqrt(5))
+    # golden_ratio = (1 + math.sqrt(5)) / 2
+    # return int((1 + math.pow(golden_ratio, n)) / math.sqrt(5))
     # without math module, using ** operator
-    # golden_ratio = (1 + 5 ** 0.5) / 2
-    # return int((1 + golden_ratio ** n) / (5 ** 0.5))
+    golden_ratio = (1 + 5 ** 0.5) / 2
+    return (1 + golden_ratio ** n) // (5 ** 0.5)
 
 
 ###########
 # Testing #
 ###########
 
-# Test 1
-# Correct result => 21
-n = 8
-print(nth_fibonacci_1(n))
-print(nth_fibonacci_2(n))
-print(nth_fibonacci_3(n))
-print(nth_fibonacci_4(n))
-print(nth_fibonacci_5(n))
-print(nth_fibonacci_6(n))
-print(nth_fibonacci_7(n))
-print(nth_fibonacci_8(n))
-
-# Test 2
-# Correct result => 10946
-n = 21
-print(nth_fibonacci_1(n))
-print(nth_fibonacci_2(n))
-print(nth_fibonacci_3(n))
-print(nth_fibonacci_4(n))
-print(nth_fibonacci_5(n))
-print(nth_fibonacci_6(n))
-print(nth_fibonacci_7(n))
-print(nth_fibonacci_8(n))
+for i in range(1, 100):
+    a = nth_fibonacci_7(i)
+    b = nth_fibonacci_8(i)
+    eq = a == b
+    if eq:
+        print(a)
+    else:
+        print('error')
+        print(i, a, b)
