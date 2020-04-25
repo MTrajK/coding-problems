@@ -220,15 +220,18 @@ If the problems from [LeetCode](https://leetcode.com/) are not enough and you ne
 1. [Geeks For Geeks](https://www.geeksforgeeks.org/) - The site which **all** interested in algorithms (no matter if beginners or experts) should know! [YouTube channel](https://www.youtube.com/channel/UC0RhatS1pyxInC00YKjjBqQ) with many useful videos.
 2. [The Algorithms - Python](https://github.com/TheAlgorithms/Python) - Great GitHub repo with many algorithms written in Python ([Link](https://github.com/TheAlgorithms) from the same repo written in other programming languages).
 3. [CP Algorithms](http://cp-algorithms.com/) - Great page with excellent explanations for various algorithms.
-4. [USFCA Visualization Tool](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html) - Great tool for visualizing data structures and algorithms, created by the University of San Francisco.
-5. [VisuAlgo](https://visualgo.net/en) - Another great tool for visualizing data structures and algorithms through animation.
-6. [Google - Intro to Data Structures and Algorithms](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513) - Free course on Udacity offered by Google.
-7. [Microsoft - Algorithms and Data Structures](https://www.edx.org/course/algorithms-and-data-structures) - Free course on edX offered by Microsoft (maybe these 2 resources, from Google and Microsoft, should belong in the [Courses](#Courses) section).
-8. [HackerEarth - Tutorials and Practice](https://www.hackerearth.com/practice/) - Practice problems and learn about many algorithms and data structures needed for competitive programming.
-9. [KhanAcademy - Algorithms](https://www.khanacademy.org/computing/computer-science/algorithms) - Good explanations for some basic algorithms.
-10. [Tutorialspoint - Data Structures and Algorithms](https://www.tutorialspoint.com/data_structures_algorithms/index.htm) - Another platform with good explanations, also Tutorialspoint has free tutorials for almost everything related to CS!
-11. [hackr.io - Data Structures and Algorithms Tutorials and Courses](https://hackr.io/tutorials/learn-data-structures-algorithms) - Big collection of tutorials and courses.
-12. YouTube playlists with tutorials:
+4. Visualizers:
+    - [USFCA Visualization Tool](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html) - Great tool for visualizing data structures and algorithms, created by the University of San Francisco.
+    - [VisuAlgo](https://visualgo.net/en) - Another great tool for visualizing data structures and algorithms through animation.
+    - [Algorithm Visualizer](https://algorithm-visualizer.org/) - Interactive online platform that visualizes algorithms from code. This platform is an open-source project, [here](https://github.com/algorithm-visualizer/algorithm-visualizer) you can find the source code.
+5. Courses and tutorials (but not from universities like the [Courses](#Courses) section):
+    - [Google - Intro to Data Structures and Algorithms](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513) - Free course on Udacity offered by Google.
+    - [Microsoft - Algorithms and Data Structures](https://www.edx.org/course/algorithms-and-data-structures) - Free course on edX offered by Microsoft.
+    - [HackerEarth - Tutorials and Practice](https://www.hackerearth.com/practice/) - Practice problems and learn about many algorithms and data structures needed for competitive programming.
+    - [KhanAcademy - Algorithms](https://www.khanacademy.org/computing/computer-science/algorithms) - Good explanations for some basic algorithms.
+    - [Tutorialspoint - Data Structures and Algorithms](https://www.tutorialspoint.com/data_structures_algorithms/index.htm) - Another platform with good explanations, also Tutorialspoint has free tutorials for almost everything related to CS!
+    - [hackr.io - Data Structures and Algorithms Tutorials and Courses](https://hackr.io/tutorials/learn-data-structures-algorithms) - Big collection of tutorials and courses.
+6. YouTube playlists with tutorials:
     - [Data Structures by mycodeschool](https://www.youtube.com/playlist?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
     - [Data Structures by HackerRank](https://www.youtube.com/playlist?list=PLI1t_8YX-Apv-UiRlnZwqqrRT8D1RhriX)
     - [Algorithms by HackerRank](https://www.youtube.com/playlist?list=PLI1t_8YX-ApvMthLj56t1Rf-Buio5Y8KL)
