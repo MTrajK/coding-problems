@@ -202,6 +202,7 @@ If the problems from [LeetCode](https://leetcode.com/) are not enough and you ne
 - [BinarySearch](https://binarysearch.io/)
 - [Daily Coding Problem](https://www.dailycodingproblem.com/)
 - [Daily Interview Pro](http://dailyinterviewpro.com/)
+- [AlgoDaily](https://algodaily.com/)
 - [Codility](https://codility.com/)
 - [CoderByte](https://coderbyte.com/)
 - [AlgoExpert](https://www.algoexpert.io/)
