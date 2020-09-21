@@ -206,6 +206,7 @@ If the problems from [LeetCode](https://leetcode.com/) are not enough and you ne
 - [Codility](https://codility.com/)
 - [CoderByte](https://coderbyte.com/)
 - [AlgoExpert](https://www.algoexpert.io/)
+- [CodeSignal](https://codesignal.com/)
 - [Edabit](https://edabit.com/)
 - [DevPost](https://devpost.com/)
 - [Brilliant](http://brilliant.org/)
