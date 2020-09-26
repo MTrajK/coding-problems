@@ -19,7 +19,7 @@ As I said previously, all solutions are written in [Python](https://www.python.o
 So, to execute these solutions there is no need from installing any external packages. \
 Coding style and name conventions are described in the official [PEP8](https://www.python.org/dev/peps/pep-0008) page.
 
-*Note that I'm **not** the author of these problems, they are from sites like [LeetCode](https://leetcode.com/) (you can find more than 40 sites like this in the [Training Sites](#Training-Sites) section). **Only** the solutions and explanations are mine.*
+*Note that I'm **not** the author of these problems, they are from sites like [LeetCode](https://leetcode.com/) (you can find more than 40 sites like this in the [Training Sites](#Training-Sites) section). **Only** the solutions and explanations are mine. If you find any **bug** or incorrect implementation (or faster/better implementation) in this repo, please let me know by opening an issue or pull request.*
 
 
 ### Template
@@ -232,6 +232,7 @@ If the problems from [LeetCode](https://leetcode.com/) are not enough and you ne
     - [HackerEarth - Tutorials and Practice](https://www.hackerearth.com/practice/) - Practice problems and learn about many algorithms and data structures needed for competitive programming.
     - [KhanAcademy - Algorithms](https://www.khanacademy.org/computing/computer-science/algorithms) - Good explanations for some basic algorithms.
     - [Tutorialspoint - Data Structures and Algorithms](https://www.tutorialspoint.com/data_structures_algorithms/index.htm) - Another platform with good explanations, also Tutorialspoint has free tutorials for almost everything related to CS!
+    - [Programiz - Data Structures and Algorithms](https://www.programiz.com/dsa) - One more platform which explains the data structures and algorithms in a simple and interesting way.
     - [Hackr.io - Data Structures and Algorithms Tutorials and Courses](https://hackr.io/tutorials/learn-data-structures-algorithms) - Big collection of tutorials and courses.
     - [Classpert - Data Structures and Algorithms Courses](https://classpert.com/data-structures-and-algorithms) - List of over 80 Online Courses (free and paid).
 6. YouTube playlists with tutorials:
