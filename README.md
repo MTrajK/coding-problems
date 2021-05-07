@@ -107,7 +107,7 @@ The learning resources are divided into 4 categories: [Courses](#Courses), [Book
 
 Collection of free courses from one of the best CS universities.
 
-1. Standford University
+1. Stanford University
     - [Algorithms Specialization (Coursera)](https://www.coursera.org/specializations/algorithms)
         * [Divide and Conquer, Sorting and Searching, and Randomized Algorithms](https://www.coursera.org/learn/algorithms-divide-conquer)
         * [Graph Search, Shortest Paths, and Data Structures](https://www.coursera.org/learn/algorithms-graphs-data-structures)
