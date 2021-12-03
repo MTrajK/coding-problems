@@ -215,6 +215,7 @@ If the problems from [LeetCode](https://leetcode.com/) are not enough and you ne
 - [FightCode](http://fightcodegame.com/)
 - [Kaggle](http://kaggle.com/)
 - [Rosalind](http://rosalind.info/problems/locations/)
+- [workat.tech](https://workat.tech/problem-solving/practice/)
 
 
 ### Other Resources
