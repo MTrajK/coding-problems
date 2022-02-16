@@ -148,7 +148,9 @@ Collection of free courses from one of the best CS universities.
 6. UC Berkeley
     - [Data Structures - CS61B](https://inst.eecs.berkeley.edu/~cs61b/archives.html)
     - [Efficient Algorithms and Intractable Problems - CS170](https://cs170.org/) - *[YouTube videos](https://www.youtube.com/playlist?list=PLkFD6_40KJIx8lWWbE-Uk069aZ1R-W-VU)*
-
+7. Scaler
+    - [Data Structures and Algorithms](https://www.scaler.com/courses/data-structures-and-algorithms)
+    - [DSA Hub](https://scaler.com/topics/data-structures/)
 
 ### Books
 
