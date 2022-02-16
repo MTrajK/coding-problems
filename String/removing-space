@@ -1,0 +1,4 @@
+string = "  anjani dubey   "
+print("left striped: ", string.lstrip())
+print("right striped: ", string.rstrip())
+print("whole striped: ", string.strip())
