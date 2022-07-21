@@ -236,6 +236,7 @@ If the problems from [LeetCode](https://leetcode.com/) are not enough and you ne
     - [Programiz - Data Structures and Algorithms](https://www.programiz.com/dsa) - One more platform which explains the data structures and algorithms in a simple and interesting way.
     - [Hackr.io - Data Structures and Algorithms Tutorials and Courses](https://hackr.io/tutorials/learn-data-structures-algorithms) - Big collection of tutorials and courses.
     - [Classpert - Data Structures and Algorithms Courses](https://classpert.com/data-structures-and-algorithms) - List of over 80 Online Courses (free and paid).
+    - [Scaler - Data Structures Tutorial](https://www.scaler.com/topics/data-structures/) - Learn in-depth about the need & applications of data structures.
 6. YouTube playlists with tutorials:
     - [Data Structures by mycodeschool](https://www.youtube.com/playlist?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
     - [Data Structures by HackerRank](https://www.youtube.com/playlist?list=PLI1t_8YX-Apv-UiRlnZwqqrRT8D1RhriX)
