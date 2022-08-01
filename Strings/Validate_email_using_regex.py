@@ -12,7 +12,10 @@ Output:
 DEXTER <dexter@hotmail.com>
 
 =================================================================
-
+    Time Complexity:    O(N)
+    Space Complexity:   O(N)
+    
+ 
 '''
 
 ############
