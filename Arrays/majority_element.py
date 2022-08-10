@@ -7,12 +7,11 @@ You may assume that the array is non-empty and the majority element always exist
 
 Input: [3, 2, 3]
 Output: 3
-
 Input: [2, 2, 1, 1, 1, 2, 2]
 Output: 2
 
 =========================================
-Sort the array and the result will the middle element.
+Sort the array and the result will be the middle element.
     Time Complexity:    O(N LogN)
     Space Complexity:   O(1)
 Use dictionary (hash map) and count the occurrences.

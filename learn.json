@@ -1,0 +1,29 @@
+{
+  "dirPath": "./.learn",
+  "configPath": "./learn.json",
+  "outputPath": "./.learn/dist",
+  "publicPath": "/preview",
+  "publicUrl": null,
+  "contact": "https://github.com/learnpack/learnpack/issues/new",
+  "language": "auto",
+  "autoPlay": true,
+  "grading": "isolated",
+  "exercisesPath": "./exercises",
+  "webpackTemplate": null,
+  "disableGrading": true,
+  "disabledActions": [],
+  "actions": [],
+  "entries": {
+    "html": "index.html",
+    "vanillajs": "index.js",
+    "react": "app.jsx",
+    "node": "app.js",
+    "python3": "app.py",
+    "java": "app.java"
+  },
+  "difficulty": "intermediate",
+  "duration": 50,
+  "description": "Here you can find [solutions](#Solutions) for various coding/algorithmic problems and many useful [resources](#Learning-Resources) for learning algorithms and data structures.\\Also, this repo will be updated with new solutions and resources from time to time.",
+  "title": "Coding Problems",
+  "slug": "coding-problems"
+}

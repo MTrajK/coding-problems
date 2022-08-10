@@ -1,0 +1,5 @@
+{
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 700,
+    "editor.minimap.enabled": false
+}

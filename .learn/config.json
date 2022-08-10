@@ -1,0 +1,398 @@
+{
+    "config": {
+        "port": 3000,
+        "editor": {
+            "mode": "preview",
+            "agent": "vscode",
+            "version": "1.0.72"
+        },
+        "dirPath": "./.learn",
+        "configPath": "learn.json",
+        "outputPath": ".learn/dist",
+        "publicPath": "/preview",
+        "publicUrl": "https://3000-dsilva06-codingproblems-4bdl7932j4q.ws-us59.gitpod.io",
+        "contact": "https://github.com/learnpack/learnpack/issues/new",
+        "language": "auto",
+        "autoPlay": true,
+        "grading": "isolated",
+        "exercisesPath": "./exercises",
+        "webpackTemplate": null,
+        "disableGrading": true,
+        "disabledActions": [],
+        "actions": [],
+        "entries": {
+            "html": "index.html",
+            "vanillajs": "index.js",
+            "react": "app.jsx",
+            "node": "app.js",
+            "python3": "app.py",
+            "java": "app.java"
+        },
+        "difficulty": "intermediate",
+        "duration": 50,
+        "description": "Here you can find [solutions](#Solutions) for various coding/algorithmic problems and many useful [resources](#Learning-Resources) for learning algorithms and data structures.\\Also, this repo will be updated with new solutions and resources from time to time.",
+        "title": "Coding Problems",
+        "slug": "coding-problems",
+        "translations": []
+    },
+    "address": "https://dsilva06-codingproblems-4bdl7932j4q.ws-us59.gitpod.io",
+    "currentExercise": null,
+    "exercises": [
+        {
+            "position": 0,
+            "path": "exercises/01-hello-world",
+            "slug": "01-hello-world",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": null,
+            "entry": null,
+            "title": "01-hello-world",
+            "graded": false,
+            "files": [
+                {
+                    "path": "exercises/01-hello-world/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/01-hello-world/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 1,
+            "path": "exercises/02-container_with_most_water",
+            "slug": "02-container_with_most_water",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "python3",
+            "entry": "exercises/02-container_with_most_water/app.py",
+            "title": "02-container_with_most_water",
+            "graded": false,
+            "files": [
+                {
+                    "path": "exercises/02-container_with_most_water/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/02-container_with_most_water/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/02-container_with_most_water/app.py",
+                    "name": "app.py",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/02-container_with_most_water/solution.hide.py",
+                    "name": "solution.hide.py",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 2,
+            "path": "exercises/03-count_triplets_with_sum_k",
+            "slug": "03-count_triplets_with_sum_k",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "python3",
+            "entry": "exercises/03-count_triplets_with_sum_k/app.py",
+            "title": "03-count_triplets_with_sum_k",
+            "graded": false,
+            "files": [
+                {
+                    "path": "exercises/03-count_triplets_with_sum_k/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/03-count_triplets_with_sum_k/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/03-count_triplets_with_sum_k/app.py",
+                    "name": "app.py",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/03-count_triplets_with_sum_k/solution.hide.py",
+                    "name": "solution.hide.py",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 3,
+            "path": "exercises/04-find_busiest_interval",
+            "slug": "04-find_busiest_interval",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "python3",
+            "entry": "exercises/04-find_busiest_interval/app.py",
+            "title": "04-find_busiest_interval",
+            "graded": false,
+            "files": [
+                {
+                    "path": "exercises/04-find_busiest_interval/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/04-find_busiest_interval/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/04-find_busiest_interval/app.py",
+                    "name": "app.py",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/04-find_busiest_interval/solution.hide.py",
+                    "name": "solution.hide.py",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 4,
+            "path": "exercises/05.1-find_el_smaller_left_bigger_right",
+            "slug": "05.1-find_el_smaller_left_bigger_right",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "python3",
+            "entry": "exercises/05.1-find_el_smaller_left_bigger_right/app.py",
+            "title": "05.1-find_el_smaller_left_bigger_right",
+            "graded": false,
+            "files": [
+                {
+                    "path": "exercises/05.1-find_el_smaller_left_bigger_right/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/05.1-find_el_smaller_left_bigger_right/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/05.1-find_el_smaller_left_bigger_right/app.py",
+                    "name": "app.py",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/05.1-find_el_smaller_left_bigger_right/solution.hide.py",
+                    "name": "solution.hide.py",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 5,
+            "path": "exercises/05.2-find_el_where_k_greater_or_equal",
+            "slug": "05.2-find_el_where_k_greater_or_equal",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "python3",
+            "entry": "exercises/05.2-find_el_where_k_greater_or_equal/app.py",
+            "title": "05.2-find_el_where_k_greater_or_equal",
+            "graded": false,
+            "files": [
+                {
+                    "path": "exercises/05.2-find_el_where_k_greater_or_equal/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/05.2-find_el_where_k_greater_or_equal/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/05.2-find_el_where_k_greater_or_equal/app.py",
+                    "name": "app.py",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/05.2-find_el_where_k_greater_or_equal/solution.hide.py",
+                    "name": "solution.hide.py",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 6,
+            "path": "exercises/06-find_element_range_sorted_array",
+            "slug": "06-find_element_range_sorted_array",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "python3",
+            "entry": "exercises/06-find_element_range_sorted_array/app.py",
+            "title": "06-find_element_range_sorted_array",
+            "graded": false,
+            "files": [
+                {
+                    "path": "exercises/06-find_element_range_sorted_array/06.2",
+                    "name": "06.2",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/06-find_element_range_sorted_array/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/06-find_element_range_sorted_array/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/06-find_element_range_sorted_array/app.py",
+                    "name": "app.py",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/06-find_element_range_sorted_array/solution.hide.py",
+                    "name": "solution.hide.py",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 7,
+            "path": "exercises/07.1-find_first_missing_positive",
+            "slug": "07.1-find_first_missing_positive",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "python3",
+            "entry": "exercises/07.1-find_first_missing_positive/app.py",
+            "title": "07.1-find_first_missing_positive",
+            "graded": false,
+            "files": [
+                {
+                    "path": "exercises/07.1-find_first_missing_positive/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/07.1-find_first_missing_positive/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/07.1-find_first_missing_positive/app.py",
+                    "name": "app.py",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/07.1-find_first_missing_positive/solution.hide.py",
+                    "name": "solution.hide.py",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 8,
+            "path": "exercises/07.2-Find_missing_number_in_second_array",
+            "slug": "07.2-Find_missing_number_in_second_array",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "python3",
+            "entry": "exercises/07.2-Find_missing_number_in_second_array/app.py",
+            "title": "07.2-Find_missing_number_in_second_array",
+            "graded": false,
+            "files": [
+                {
+                    "path": "exercises/07.2-Find_missing_number_in_second_array/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/07.2-Find_missing_number_in_second_array/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/07.2-Find_missing_number_in_second_array/app.py",
+                    "name": "app.py",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/07.2-Find_missing_number_in_second_array/solution.hide.py",
+                    "name": "solution.hide.py",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 9,
+            "path": "exercises/07.3-Find_one_missing_number",
+            "slug": "07.3-Find_one_missing_number",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "python3",
+            "entry": "exercises/07.3-Find_one_missing_number/app.py",
+            "title": "07.3-Find_one_missing_number",
+            "graded": false,
+            "files": [
+                {
+                    "path": "exercises/07.3-Find_one_missing_number/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/07.3-Find_one_missing_number/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/07.3-Find_one_missing_number/app.py",
+                    "name": "app.py",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/07.3-Find_one_missing_number/solution.hide.py",
+                    "name": "solution.hide.py",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        }
+    ],
+    "session": 5135385120415745000
+}
