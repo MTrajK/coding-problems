@@ -196,6 +196,7 @@ If the problems from [LeetCode](https://leetcode.com/) are not enough and you ne
 - [Codewars](http://www.codewars.com/)
 - [Wolfram Challenges](https://challenges.wolfram.com/)
 - [Google's Coding Competitions](https://codingcompetitions.withgoogle.com/)
+- [Google Foobar](https://foobar.withgoogle.com/)
 - [Cyber-dojo](https://cyber-dojo.org/)
 - [CodingBat](http://codingbat.com/)
 - [CodeKata](http://codekata.com/)

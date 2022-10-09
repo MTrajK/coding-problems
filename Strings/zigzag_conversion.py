@@ -16,12 +16,15 @@ Go row by row and using the steps logic build the new string by jumping chars.
 Middle rows have 2 times more elements than the first and last row.
     Time Complexity:    O(N)
     Space Complexity:   O(N)
+Collect all parts in separate bucket, in the end merge these buckets.
+    Time Complexity:    O(N)
+    Space Complexity:   O(N)
 '''
 
 
-############
-# Solution #
-############
+##############
+# Solution 1 #
+##############
 
 def convert(s, num_rows):
     if num_rows == 1:
@@ -48,6 +51,32 @@ def convert(s, num_rows):
     return res
 
 
+##############
+# Solution 2 #
+##############
+
+def convert_2(word, numRows):
+    numLetters = len(word)
+    bucket = [""] * numRows
+    fullCycle = 2 * (numRows - 1)
+    if numRows == 1:
+        fullCycle = 1
+
+    for pos in range(0, numLetters):
+        posCycle = pos % fullCycle
+
+        if posCycle >= numRows:
+            posCycle = fullCycle - posCycle
+
+        bucket[posCycle] += word[pos]
+
+    result = ""
+    for part in bucket:
+        result += part
+
+    return result
+
+
 ###########
 # Testing #
 ###########
@@ -55,7 +84,9 @@ def convert(s, num_rows):
 # Test 1
 # Correct result => 'PAHNAPLSIIGYIR'
 print(convert('PAYPALISHIRING', 3))
+print(convert_2('PAYPALISHIRING', 3))
 
 # Test 2
 # Correct result => 'PINALSIGYAHRPI'
 print(convert('PAYPALISHIRING', 4))
+print(convert_2('PAYPALISHIRING', 4))
