@@ -16,7 +16,9 @@ if there are more than K elements inside the Priority Queue. This solution isn't
     Time Complexity:    O(U LogK)   , U in this case is the number of unique elements (but all elements from the array could be unique, so because of that U can be equal to N)
     Space Complexity:   O(N)
 Using pivoting, this solution is based on the quick sort algorithm (divide and conquer).
-Same pivoting solution as the nth_smallest.py.
+This algorithm is called: QucikSelect - The quicksort pivoting logic but for searching kth smallest (not sorting the whole array) - O(n) complexity (n + n/2 + n/4 + ... + 1 = 2n)
+https://en.wikipedia.org/wiki/Quickselect
+Same solution as kth_smallest.py.
     Time Complexity:    O(U)
     Space Complexity:   O(N)
 '''

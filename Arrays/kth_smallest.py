@@ -18,6 +18,8 @@ More precisly in-place quick sort. Recursive solution.
    Time Complexity:     O(N)    , O(N + N/2 + N/4 + N/8 + ... + 1 = 2*N = N)
    Space Complexity:    O(LogN) , because of the recursion stack
 Completely the same algorithm as the previous one, but without recursion. This solution is cleaner.
+This algorithm is called: QucikSelect - The quicksort pivoting logic but for searching kth smallest (not sorting the whole array) - O(n) complexity (n + n/2 + n/4 + ... + 1 = 2n)
+https://en.wikipedia.org/wiki/Quickselect
     Time Complexity:    O(N)
     Space Complexity:   O(1)
 '''

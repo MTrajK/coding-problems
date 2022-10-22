@@ -174,7 +174,6 @@ If the problems from [LeetCode](https://leetcode.com/) are not enough and you ne
 - [Topcoder](http://topcoder.com/)
 - [Project Euler](https://projecteuler.net/)
 - [SPOJ](http://www.spoj.com/)
-- [A2OJ](https://a2oj.com/)
 - [PEG](https://wcipeg.com/)
 - [Online Judge](https://onlinejudge.org/)
 - [E-Olymp](https://www.e-olymp.com/en/)
@@ -183,7 +182,6 @@ If the problems from [LeetCode](https://leetcode.com/) are not enough and you ne
 - [USA CO](http://www.usaco.org/)
 - [Rosetta Code](http://rosettacode.org/)
 - [AtCoder](https://atcoder.jp/)
-- [Russian Code Cup](https://www.russiancodecup.ru/en/)
 - [LintCode](http://www.lintcode.com/en/)
 - [Kattis](https://www.kattis.com/developers)
 - [CodeAbbey](http://codeabbey.com/)
@@ -196,11 +194,9 @@ If the problems from [LeetCode](https://leetcode.com/) are not enough and you ne
 - [Codewars](http://www.codewars.com/)
 - [Wolfram Challenges](https://challenges.wolfram.com/)
 - [Google's Coding Competitions](https://codingcompetitions.withgoogle.com/)
-- [Google Foobar](https://foobar.withgoogle.com/)
 - [Cyber-dojo](https://cyber-dojo.org/)
 - [CodingBat](http://codingbat.com/)
 - [CodeKata](http://codekata.com/)
-- [BinarySearch](https://binarysearch.io/)
 - [Daily Coding Problem](https://www.dailycodingproblem.com/)
 - [Daily Interview Pro](http://dailyinterviewpro.com/)
 - [AlgoDaily](https://algodaily.com/)
@@ -213,7 +209,6 @@ If the problems from [LeetCode](https://leetcode.com/) are not enough and you ne
 - [Brilliant](http://brilliant.org/)
 - [Codingame](https://www.codingame.com/)
 - [CheckiO](http://www.checkio.org/)
-- [FightCode](http://fightcodegame.com/)
 - [Kaggle](http://kaggle.com/)
 - [Rosalind](http://rosalind.info/problems/locations/)
 - [workat.tech](https://workat.tech/problem-solving/practice/)
@@ -230,13 +225,12 @@ If the problems from [LeetCode](https://leetcode.com/) are not enough and you ne
     - [Algorithm Visualizer](https://algorithm-visualizer.org/) - Interactive online platform that visualizes algorithms from code. This platform is an open-source project, [here](https://github.com/algorithm-visualizer/algorithm-visualizer) you can find the source code.
 5. Courses and tutorials (but not from universities like the [Courses](#Courses) section):
     - [Google - Intro to Data Structures and Algorithms](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513) - Free course on Udacity offered by Google.
-    - [Microsoft - Algorithms and Data Structures](https://www.edx.org/course/algorithms-and-data-structures) - Free course on edX offered by Microsoft.
     - [HackerEarth - Tutorials and Practice](https://www.hackerearth.com/practice/) - Practice problems and learn about many algorithms and data structures needed for competitive programming.
     - [KhanAcademy - Algorithms](https://www.khanacademy.org/computing/computer-science/algorithms) - Good explanations for some basic algorithms.
     - [Tutorialspoint - Data Structures and Algorithms](https://www.tutorialspoint.com/data_structures_algorithms/index.htm) - Another platform with good explanations, also Tutorialspoint has free tutorials for almost everything related to CS!
     - [Programiz - Data Structures and Algorithms](https://www.programiz.com/dsa) - One more platform which explains the data structures and algorithms in a simple and interesting way.
     - [Hackr.io - Data Structures and Algorithms Tutorials and Courses](https://hackr.io/tutorials/learn-data-structures-algorithms) - Big collection of tutorials and courses.
-    - [Scaler - Data Structures Tutorial](https://www.scaler.com/topics/data-structures/) - Learn in-depth about the need & applications of data structures.
+    - [Scaler - Data Structures Tutorial](https://www.scaler.com/topics/data-structures/) - Interesting and interactive explanations of some basic data structures.
 6. YouTube playlists with tutorials:
     - [Data Structures by mycodeschool](https://www.youtube.com/playlist?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
     - [Data Structures by HackerRank](https://www.youtube.com/playlist?list=PLI1t_8YX-Apv-UiRlnZwqqrRT8D1RhriX)

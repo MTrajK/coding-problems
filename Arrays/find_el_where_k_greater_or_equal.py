@@ -7,11 +7,15 @@ If there is no such X, return (-1).
 
 Input: [3,8,5,1,10,3,20,24], 2
 Output: 11
-Output explanation: Only 20 and 24 are greater or smaller from 11 (11 is the smallest solution, also 12, 13...20 are solutions).
+Output explanation: Only 20 and 24 are equal or smaller from 11 (11 is the smallest solution, also 12, 13...20 are solutions).
 
 =========================================
 Sort the array and check the Kth element from the end.
     Time Complexity:    O(NLogN)
+    Space Complexity:   O(1)
+QuickSelect can be used (find the K+1th number + 1). https://en.wikipedia.org/wiki/Quickselect
+See kth_smallest.py, very similar solution.
+    Time Complexity:    O(N)
     Space Complexity:   O(1)
 '''
 
