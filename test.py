@@ -1,6 +1,6 @@
 import requests
 
-url = "Math/odd_sum.py"
+url = "https://github.com/faizaashraf28/coding-problems/blob/master/Math/odd_sum.py"
 response = requests.get(url)
 filename = response.content
 
