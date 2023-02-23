@@ -1,2 +1,2 @@
-from Strings.reverse_string import reverse_sentence,swap
-assert reverse_sentence("we are the owners rida and faiza")=="aziaf dna adir srenwo eht era ew"
+from Strings.reverse_vowels import reverse_vowels
+assert reverse_vowels("aeiou")=="uoiea"
