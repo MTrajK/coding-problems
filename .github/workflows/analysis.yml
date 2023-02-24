@@ -30,7 +30,7 @@ jobs:
       with:
         # Path to the main CodeQL query file for your analysis
         # Replace the example query path with your own query path.
-        query: .github/codeql/myquery.ql
+        query: codeql/myquery.ql
 
         # Path to the CodeQL database that the analysis should use
         # By default, the database is stored in the workspace directory.
