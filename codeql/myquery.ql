@@ -1,6 +1,6 @@
 import python
 
-from Function f, Parameter p
-where p.is_variadic() and
-      p.getDeclaringFunction() = f
-select f, p
+from CallExpr call, Function f
+where call.getTarget().toString() = "odd_sum" and
+      call.getEnclosingFunction() = f
+select f, call
