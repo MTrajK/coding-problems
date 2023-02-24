@@ -1,0 +1,34 @@
+name: "CodeQL Analysis"
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  analyze:
+    name: Analyze
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Initialize CodeQL
+      uses: github/codeql-action/init@v1
+      with:
+        languages: python
+
+    - name: Autobuild
+      uses: github/codeql-action/autobuild@v1
+
+    - name: Perform analysis
+      uses: github/codeql-action/analyze@v1
+      with:
+        # Path to the SARIF file that contains the analysis results
+        # This should match the output file specified in your CodeQL query.
+        # Replace the example SARIF path with your own SARIF path.
+        sarif_file: codeql-results.sarif
