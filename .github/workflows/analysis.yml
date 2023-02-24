@@ -28,6 +28,22 @@ jobs:
     - name: Perform analysis
       uses: github/codeql-action/analyze@v1
       with:
+        # Path to the main CodeQL query file for your analysis
+        # Replace the example query path with your own query path.
+        query: .github/codeql/myquery.ql
+
+        # Path to the CodeQL database that the analysis should use
+        # By default, the database is stored in the workspace directory.
+        # If you specify a different path, make sure the directory exists.
+        database: ${{ github.workspace }}/codeql-database
+
+        # Path to the CodeQL CLI executable (optional)
+        # If not specified, the default CodeQL CLI executable will be used.
+        #cli: /path/to/codeql-cli
+
+    - name: Upload SARIF results
+      uses: github/codeql-action/upload-sarif@v1
+      with:
         # Path to the SARIF file that contains the analysis results
         # This should match the output file specified in your CodeQL query.
         # Replace the example SARIF path with your own SARIF path.
