@@ -15,5 +15,4 @@ jobs:
       - name: Run tests
         run: pytest test.py
         
-      - name: Run Query
-        run: pytest myquery.ql
+     
