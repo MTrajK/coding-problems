@@ -232,6 +232,7 @@ If the problems from [LeetCode](https://leetcode.com/) are not enough and you ne
     - [Programiz - Data Structures and Algorithms](https://www.programiz.com/dsa) - One more platform which explains the data structures and algorithms in a simple and interesting way.
     - [Hackr.io - Data Structures and Algorithms Tutorials and Courses](https://hackr.io/tutorials/learn-data-structures-algorithms) - Big collection of tutorials and courses.
     - [Scaler - Data Structures Tutorial](https://www.scaler.com/topics/data-structures/) - Interesting and interactive explanations of some basic data structures.
+    - [Python Tutorial: A Comprehensive Guide for Beginners](https://wiingy.com/learn/python/python-tutorial/) - A complete guide for beginners on learning Python programming language is provided in this tutorial. It covers all the essential topics and concepts of Python.
 6. YouTube playlists with tutorials:
     - [Data Structures by mycodeschool](https://www.youtube.com/playlist?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
     - [Data Structures by HackerRank](https://www.youtube.com/playlist?list=PLI1t_8YX-Apv-UiRlnZwqqrRT8D1RhriX)
