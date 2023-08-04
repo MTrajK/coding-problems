@@ -54,5 +54,5 @@ print(reverse_array_in_groups([1, 2, 3, 4, 5], 3))
 print(reverse_array_in_groups([5, 4, 3, 2, 1], 4))
 
 # Test 3
-# Correct result => [10, 7, 5, 7, 2, 4, 3, 1, 8c]
+# Correct result => [10, 7, 5, 7, 2, 4, 3, 1, 8]
 print(reverse_array_in_groups([5, 7, 10, 4, 2, 7, 8, 1, 3], 3))
